@@ -81,13 +81,6 @@ ul.nav.nav-tabs.fl li .fa-user-plus:before {
     to {
         color: #FFF
     }
-.dots {
-    display: inline-block;
-    white-space: initial;
-    overflow: hidden !important;
-    text-overflow: ellipsis;
-    max-width: 100%;
-}
 
 a#ahmed {
     color: #fff!important;
@@ -166,6 +159,9 @@ div#asim1 {
     position: absolute;
     top: 173px;
     right: 0
+}
+    .fl.dots.mini.u-msg {
+    white-space: initial;
 }
 
 a#asim2 {
