@@ -22,9 +22,6 @@
     font-family: 'jazeera',FontAwesome
 }
 
-.fa-remove:before,.fa-close:before,.fa-times:before {
-    color: #f0f2f400
-}
 
 .fa-save:before.fa-remove:before,.fa-close:before,.fa-times:before {
     display: none
@@ -84,9 +81,15 @@ ul.nav.nav-tabs.fl li .fa-user-plus:before {
     to {
         color: #FFF
     }
+.dots {
+    display: inline-block;
+    white-space: initial;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    max-width: 100%;
 }
 
-a#Ø¹Ø§ØµÙ… {
+a#ahmed {
     color: #fff!important;
     position: absolute;
     right: 1px
@@ -247,45 +250,17 @@ button.fa.fa-send.sndpm.fl.btn.btn-primary {
     display: none
 }
 
-.fa-user-times {
-    margin: 0!important;
-    background-color: #FFF;
-    top: 58px!important;
-    transform: rotate(-90deg);
-    width: 123px!important;
-    position: absolute;
-    left: -41px
-}
-
 .btn.hand.borderg.corner {
     width: 32px;
     height: 33px
 }
 
-.ukick {
-    margin: 0!important;
-    width: 60px!important;
-    background-color: #FFF!important;
-    margin-top: 14px!important;
-    margin-left: -60px!important;
-    position: absolute;
-    top: 1px
-}
 
 img.fr {
     width: 30px!important;
     height: 30px!important
 }
 
-.uban {
-    margin: 0!important;
-    width: 60px!important;
-    background-color: #FFF;
-    margin-top: 73px!important;
-    margin-left: -61px!important;
-    position: absolute;
-    top: 1px
-}
 
 .emoi {
     width: auto;
@@ -759,7 +734,7 @@ textarea.as2020 {
 }
 
 div#chats {
-    background-image: url(https://blog.iraqna.net/IQ/01.png);
+    background-image: url();
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50% 50%
@@ -989,8 +964,6 @@ label.asim.ae.fa.label.label-primary {
 .tbox {
     padding: 3px;
     min-height: 28px!important;
-    border-right: 5px solid;
-    border-left: 5px solid;
     border-color: #d2d2d2;
     border-left-style: groove;
     border-right-style: ridge;
