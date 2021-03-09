@@ -1,79 +1,77 @@
 input[type="iraq"] {
-    font-size: 14px!important;
     width: 59%;
     text-align: center;
     border-radius: 15%;
     margin-bottom: 6px;
     margin-top: 6px;
     margin-left: 5px;
+    font-size: 14px !important;
 }
+
 a.fl.mini.fa.fa-bullhorn.btn.label-primary {
-    font-size: 14px!important;
     width: 38%;
-    background-color: hsl(190,38%,37%)!important;
-    color: hsl(0,0%,100%);
+    color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 15%;
     margin-bottom: 6px;
     margin-top: 7px;
     height: 24px;
-    padding: 3px 0;
+    padding: 3px 0px;
     margin-left: 2px;
+    font-size: 14px !important;
+    background-color: rgb(58, 118, 130) !important;
 }
-h3.popover-title, .fa-gear:before, .fa-cog:before, .fa-commenting-o:before, .fa-group:before, .fa-users:before, span.border, .fl.fa.fa-comment.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.upm.borderg.fa-comment:before, .fa-envelope-o:before, .fa-diamond:before, .fa-search:before, .fa-ban:before, .fa-ban:before, .fa-user-times:before {
+
+h3.popover-title, .fa-gear::before, .fa-cog::before, .fa-commenting-o::before, .fa-group::before, .fa-users::before, span.border, .fl.fa.fa-comment.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.upm.borderg.fa-comment::before, .fa-envelope-o::before, .fa-diamond::before, .fa-search::before, .fa-ban::before, .fa-ban::before, .fa-user-times::before {
     display: none;
 }
+
 label.fl.nosel.label.pnhead {
-    color: #fff;
+    color: rgb(255, 255, 255);
     padding: 8px;
     width: 85%;
     display: block;
-    background-color: #295a86;
-    font-size: 15.8px!important;
+    background-color: rgb(41, 90, 134);
+    font-size: 15.8px !important;
 }
 
 button.btn {
-    padding: 5px 5px;
+    padding: 5px;
 }
 
 .fl.mini.fa.fa-microphone.btn.btnn-default, .fl.mini.fa.fa-phone.btn.btnn-default {
-    font-size: 14px!important;
     width: 49%;
-    background-color: hsl(134,46%,46%)!important;
-    color: hsl(0,0%,100%);
+    color: rgb(255, 255, 255);
     text-align: center;
     border-radius: 15%;
+    font-size: 14px !important;
+    background-color: rgb(63, 171, 89) !important;
 }
 
 i.fa.fa-smile-o {
     float: left;
-    color: #fffeec;
-    margin: 0 3px 0 6px;
+    color: rgb(255, 254, 236);
+    margin: 0px 3px 0px 6px;
     padding: 1px 3px;
-    font-size: 24px!important;
     border-radius: 16px;
-    background: #008e90;
-    border: 1px solid #ddd
+    background: rgb(0, 142, 144);
+    border: 1px solid rgb(221, 221, 221);
+    font-size: 24px !important;
 }
 
-a.fl.emobc:focus,i.fa.fa-smile-o:focus,.primaryborder:focus,.btn.btn-success:focus,.btn.btn-primary:focus,.dots:focus,.bg:focus,textarea.fl.filw.corner.tbox:focus,input#pass1:focus,input#u1:focus,input#u3:focus,input#pass2:focus,input#u2:focus {
-    outline: 0;
-    border-color: none;
-    outline: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none
-}
-
-@font-face {
-    font-family: 'fanni';
-    src: url(https://www.fontstatic.com/fonts/fanni/Fanni.eot?#iefix);
-    src: local(U?U†U?),local(fanni),url(https://www.fontstatic.com/fonts/fanni/Fanni.woff) format("woff")
+a.fl.emobc:focus, i.fa.fa-smile-o:focus, .primaryborder:focus, .btn.btn-success:focus, .btn.btn-primary:focus, .dots:focus, .bg:focus, textarea.fl.filw.corner.tbox:focus, input#pass1:focus, input#u1:focus, input#u3:focus, input#pass2:focus, input#u2:focus {
+    outline: 0px;
+    box-shadow: none;
 }
 
 @font-face {
-    font-family: 'jazeera';
-    src: url(https://www.fontstatic.com/fonts/jazeera/jazeera.eot?#iefix);
-    src: local(?§U„?¬?²U??±?©),local(jazeera),url(https://www.fontstatic.com/fonts/jazeera/jazeera.woff) format("woff")
+    font-family: fanni;
+    src: url("https://www.fontstatic.com/fonts/fanni/Fanni.eot?#iefix");
+}
+
+@font-face {
+    font-family: jazeera;
+    src: url("https://www.fontstatic.com/fonts/jazeera/jazeera.eot?#iefix");
 }
 
 button.btn.btn-primary.hand.borderg.corner.fa.fa-ban {
@@ -81,658 +79,642 @@ button.btn.btn-primary.hand.borderg.corner.fa.fa-ban {
     border-radius: 6px;
     height: 27px;
     background-repeat: repeat-x;
-    border-color: #b92c28;
-    background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
-    background-color: #c12e2a!important
+    border-color: rgb(185, 44, 40);
+    background-image: linear-gradient(rgb(217, 83, 79) 0px, rgb(193, 46, 42) 100%);
+    background-color: rgb(193, 46, 42) !important;
 }
 
 a.btn.minix.fa.fa-comment.fr {
-    color: #fff!important;
     border-radius: 4px;
     padding: 1px 4px 2px 5px;
     margin-top: 6px;
     background-repeat: repeat-x;
-    border-color: #28a4c9;
-    background-image: linear-gradient(to bottom,#5bc0de 0,#2aabd2 100%)
+    border-color: rgb(40, 164, 201);
+    background-image: linear-gradient(rgb(91, 192, 222) 0px, rgb(42, 171, 210) 100%);
+    color: rgb(255, 255, 255) !important;
 }
 
 a.btn.minix.fa.fa-thumbs-up.fr {
-    color: #fff!important;
     border-radius: 4px;
     padding: 1px 4px 2px 5px;
     margin-top: 6px;
     background-repeat: repeat-x;
-    border-color: #b92c28;
-    background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
-    margin-left: 3px
+    border-color: rgb(185, 44, 40);
+    background-image: linear-gradient(rgb(217, 83, 79) 0px, rgb(193, 46, 42) 100%);
+    margin-left: 3px;
+    color: rgb(255, 255, 255) !important;
 }
 
 a.btn.minix.fa.fa-times.fr {
-    color: #fff!important;
     border-radius: 4px;
     padding: 1px 4px 2px 5px;
     margin-top: 6px;
     background-repeat: repeat-x;
-    border-color: #b92c28;
-    background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
-    margin-left: 3px
+    border-color: rgb(185, 44, 40);
+    background-image: linear-gradient(rgb(217, 83, 79) 0px, rgb(193, 46, 42) 100%);
+    margin-left: 3px;
+    color: rgb(255, 255, 255) !important;
 }
 
-a.btn.minix.fa.fa-times.fr,a.btn.minix.fa.fa-thumbs-up.fr,a.btn.minix.fa.fa-comment.fr {
-    border-left: 1px solid #d3d3d3;
-    border-top: 1px solid #d3d3d3;
-    border-right: 1px solid #a6a6a6;
-    border-bottom: 1px solid #a6a6a6;
-    border-radius: 3px
+a.btn.minix.fa.fa-times.fr, a.btn.minix.fa.fa-thumbs-up.fr, a.btn.minix.fa.fa-comment.fr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(211, 211, 211) rgb(166, 166, 166) rgb(166, 166, 166) rgb(211, 211, 211);
+    border-radius: 3px;
 }
 
-.fa-save:before,.fa-floppy-o:before {
-    margin-right: 1px
+.fa-save::before, .fa-floppy-o::before {
+    margin-right: 1px;
 }
 
 .checkbox {
-    margin: 0!important;
-    position: absolute!important;
-    background-color: #295a86!important;
-    color: #fcf8e3;
+    color: rgb(252, 248, 227);
     width: 85px;
-    padding: 5px 0 0 17px;
+    padding: 5px 0px 0px 17px;
     font-family: fanni;
     top: 264px;
     right: 25px;
     height: 33px;
-    border-radius: 0 4% 4% 0!important;
-    border-left: 0 solid#47c0cf!important;
-    border-right: 4px solid#a6a6a6!important;
-    border-top: 2px solid#d3d3d3;
-    border-bottom: 2px solid#d3d3d3;
+    border-top: 2px solid rgb(211, 211, 211);
+    border-bottom: 2px solid rgb(211, 211, 211);
+    margin: 0px !important;
+    position: absolute !important;
+    background-color: rgb(41, 90, 134) !important;
+    border-radius: 0px 4% 4% 0px !important;
+    border-left: 0px solid rgb(71, 192, 207) !important;
+    border-right: 4px solid rgb(166, 166, 166) !important;
 }
 
 input#u1 {
-    color: #ff0808;
-    border-radius: 4% 0 0 4%;
+    color: rgb(255, 8, 8);
+    border-radius: 4% 0px 0px 4%;
     width: 74%;
     margin-top: 16px;
     text-align: center;
     height: 33px;
-    margin-left: 1px!important;
-    border-left: 4px solid#a6a6a6!important;
-    border-right: 0 solid#47c0cf!important;
-    border-top: 2px solid#d3d3d3!important;
-    border-bottom: 2px solid#d3d3d3!important;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075)
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 1px 0px inset, rgba(0, 0, 0, 0.075) 0px 1px 1px;
+    margin-left: 1px !important;
+    border-width: 2px 0px 2px 4px !important;
+    border-style: solid !important;
+    border-color: rgb(211, 211, 211) rgb(71, 192, 207) rgb(211, 211, 211) rgb(166, 166, 166) !important;
 }
 
 div#l1 button.btn.btn-primary {
     top: 243px;
     right: 25px;
     height: 33px;
-    background-color: #5cb85c!important;
-    color: #fff;
-    font-family: 'jazeera',FontAwesome;
-    border-radius: 0 4% 4% 0!important;
-    border-left: 0 solid#47c0cf!important;
-    border-right: 4px solid#a6a6a6!important;
-    border-top: 2px solid#d3d3d3;
-    border-bottom: 2px solid#d3d3d3;
+    color: rgb(255, 255, 255);
+    font-family: jazeera, FontAwesome;
+    border-top: 2px solid rgb(211, 211, 211);
+    border-bottom: 2px solid rgb(211, 211, 211);
     width: 85px;
     position: absolute;
-    margin-bottom: 0;
-    padding: 0 0 3px
+    margin-bottom: 0px;
+    padding: 0px 0px 3px;
+    background-color: rgb(92, 184, 92) !important;
+    border-radius: 0px 4% 4% 0px !important;
+    border-left: 0px solid rgb(71, 192, 207) !important;
+    border-right: 4px solid rgb(166, 166, 166) !important;
 }
 
-div#l3,div#l2,div#l1 {
-    padding: 10px!important;
+div#l3, div#l2, div#l1 {
     height: 90px;
-    margin-top: 0;
-    background-color: #f5f8fa;
-    border-radius: 0;
-    border-left: 1px solid#ffc107!important;
-    border-right: 1px solid#ffc107!important;
+    margin-top: 0px;
+    background-color: rgb(245, 248, 250);
+    border-radius: 0px;
     margin-left: 10px;
-    width: 95%!important;
     margin-bottom: 87px;
-    box-shadow: 0 0 7px #ccc,0 0 0 0 #d8d8d8;
-    background-image: url(https://www.iraqiichat.com/z1cfl2bmhl10.png)
+    box-shadow: rgb(204, 204, 204) 0px 0px 7px, rgb(216, 216, 216) 0px 0px 0px 0px;
+    background-image: url("https://www.iraqiichat.com/z1cfl2bmhl10.png");
+    padding: 10px !important;
+    border-left: 1px solid rgb(255, 193, 7) !important;
+    border-right: 1px solid rgb(255, 193, 7) !important;
+    width: 95% !important;
 }
 
 div#iraq1 {
     text-align: center;
-    padding: 0;
+    padding: 6px 0px 0px;
     margin-top: 134px;
-    padding-top: 6px;
     height: 56px;
-    border-radius: 0 0 5% 5%;
+    border-radius: 0px 0px 5% 5%;
     width: 95%;
     margin-left: 10px;
     margin-bottom: 5px;
     position: absolute;
-    background-color: #f6f6f6;
-    border-top: 1px solid#ccc!important;
-    border-left: 1px solid#ffc107!important;
-    border-right: 1px solid#ffc107!important;
-    border-bottom: 2px solid#1a90a5!important;
+    background-color: rgb(246, 246, 246);
     top: auto;
-    box-shadow: 0 1px 7px #ccc,0 0 0 0 #d8d8d8
+    box-shadow: rgb(204, 204, 204) 0px 1px 7px, rgb(216, 216, 216) 0px 0px 0px 0px;
+    border-width: 1px 1px 2px !important;
+    border-style: solid !important;
+    border-color: rgb(204, 204, 204) rgb(255, 193, 7) rgb(26, 144, 165) !important;
 }
 
 div#tlogins marquee {
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    border-left: 3px solid #1c4262;
-    border-right: 3px solid #1b4365;
+    border-width: 1px 3px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204) rgb(27, 67, 101) rgb(204, 204, 204) rgb(28, 66, 98);
     position: absolute;
     width: 120px;
     right: 127px;
     font-family: fanni;
-    height: 21px!important;
     padding: 2px;
-    color: #5cb85c;
-    background-color: #295a86;
-    font-size: 12px!important;
+    color: rgb(92, 184, 92);
+    background-color: rgb(41, 90, 134);
     top: 374px;
     pointer-events: fill;
-    border-radius: 0;
-
+    border-radius: 0px;
+    height: 21px !important;
+    font-size: 12px !important;
 }
 
 label.label.label-primary.mini.fl {
-font-family: 'fanni';
+    font-family: fanni;
     text-align: center;
-    text-align: center;
-    border-top: 1px dotted #fff!important;
     top: 373px;
     position: absolute;
-    width: 66%!important;
     height: 22px;
     padding: 4px 4px 4px 170px;
-    border-radius: 0!important;
     right: 2px;
-    font-size: 14px!important;
-    border: 1px solid #fff0;
-    width: 100%;
-    border-radius: 4px;
+    border-right: 1px solid rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    border-left: 1px solid rgba(255, 255, 255, 0);
+    border-image: initial;
+    border-top: 1px dotted rgb(255, 255, 255) !important;
+    width: 66% !important;
+    border-radius: 0px !important;
+    font-size: 14px !important;
 }
 
 input#pass2 {
-    border-radius: 4% 4% 4% 4%!important;
-    border-right: 4px solid#a6a6a6!important
+    border-radius: 4% !important;
+    border-right: 4px solid rgb(166, 166, 166) !important;
 }
 
-input#u2,input#pass1,input#u3,input#pass2 {
-    color: #ff0808!important;
+input#u2, input#pass1, input#u3, input#pass2 {
     width: 73%;
     text-align: center;
     height: 33px;
-    margin-left: 4px!important;
-    border-left: 4px solid#a6a6a6!important;
-    border-right: 0 solid#47c0cf;
-    border-top: 2px solid#d3d3d3!important;
-    border-bottom: 2px solid#d3d3d3!important;
-    box-shadow: inset 0 1px 0 rgba(255,255,255,.15),0 1px 1px rgba(0,0,0,.075);
-    border-radius: 4% 0 0 4%
+    border-right: 0px solid rgb(71, 192, 207);
+    box-shadow: rgba(255, 255, 255, 0.15) 0px 1px 0px inset, rgba(0, 0, 0, 0.075) 0px 1px 1px;
+    border-radius: 4% 0px 0px 4%;
+    color: rgb(255, 8, 8) !important;
+    margin-left: 4px !important;
+    border-left: 4px solid rgb(166, 166, 166) !important;
+    border-top: 2px solid rgb(211, 211, 211) !important;
+    border-bottom: 2px solid rgb(211, 211, 211) !important;
 }
 
-div#l2 button.btn.btn-primary,div#l3 button.btn.btn-primary {
+div#l2 button.btn.btn-primary, div#l3 button.btn.btn-primary {
     width: 85px;
     position: absolute;
     margin-bottom: 4px;
-    padding: 0;
+    padding: 0px;
     top: 227px;
     right: 25px;
     height: 33px;
-    border-radius: 0 4% 4% 0!important;
-    border-left: 0 solid#47c0cf!important;
-    border-right: 4px solid#a6a6a6!important;
-    border-top: 2px solid#d3d3d3;
-    border-bottom: 2px solid#d3d3d3;
-    background-color: #5cb85c!important;
-    color: #fff;
-    font-family: 'jazeera',FontAwesome
+    border-top: 2px solid rgb(211, 211, 211);
+    border-bottom: 2px solid rgb(211, 211, 211);
+    color: rgb(255, 255, 255);
+    font-family: jazeera, FontAwesome;
+    border-radius: 0px 4% 4% 0px !important;
+    border-left: 0px solid rgb(71, 192, 207) !important;
+    border-right: 4px solid rgb(166, 166, 166) !important;
+    background-color: rgb(92, 184, 92) !important;
 }
 
 label.label.fr.label-primary {
-    border-radius: 3px!important;
-    height: 28px!important;
-    width: 14%!important;
-    padding: 9px 0!important;
-    font-size: 13px!important
+    border-radius: 3px !important;
+    height: 28px !important;
+    width: 14% !important;
+    padding: 9px 0px !important;
+    font-size: 13px !important;
 }
 
 .fa-save {
-    border-radius: 3px!important;
-    height: 28px!important;
-    width: 12%!important;
-    padding: 7px 2px!important;
-    font-size: 12px!important;
-    background-image: linear-gradient(to bottom,#d9534f 0,#c12e2a 100%);
-    background-color: #d9534f!important;
-    color: #fff
+    background-image: linear-gradient(rgb(217, 83, 79) 0px, rgb(193, 46, 42) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 3px !important;
+    height: 28px !important;
+    width: 12% !important;
+    padding: 7px 2px !important;
+    font-size: 12px !important;
+    background-color: rgb(217, 83, 79) !important;
 }
 
 textarea.form-control {
-    border-radius: 3px!important;
-    height: 28px!important;
-    width: 72%!important;
-    padding: 4px 0!important;
-    font-size: 13px!important
+    border-radius: 3px !important;
+    height: 28px !important;
+    width: 72% !important;
+    padding: 4px 0px !important;
+    font-size: 13px !important;
 }
 
 select.primaryborder.form-control.userRoom.selbox.fr.form-control {
-    border-radius: 3px!important;
-    height: 28px!important;
-    width: 72%!important;
-    padding: 4px 0!important;
-    font-size: 13px!important
+    border-radius: 3px !important;
+    height: 28px !important;
+    width: 72% !important;
+    padding: 4px 0px !important;
+    font-size: 13px !important;
 }
 
 .primaryborder {
-    border-color: #008E91!important;
-    border-radius: 0!important
+    border-color: rgb(0, 142, 145) !important;
+    border-radius: 0px !important;
 }
 
 button.fa.fa-sign-out.fl.btn.btn-primary {
-    margin-top: 0!important
+    margin-top: 0px !important;
 }
 
 button.fa.fa-send.fl.btn.btn-primary {
-    margin-top: 0!important
+    margin-top: 0px !important;
 }
 
 button.fa.fa-send.sndpm.fl.btn.btn-primary {
-    margin-top: 0!important
+    margin-top: 0px !important;
 }
 
-.ae,button.btn {
-    border-left: 1px solid #d3d3d3;
-    border-top: 1px solid #d3d3d3;
-    border-right: 1px solid #a6a6a6;
-    border-bottom: 1px solid #a6a6a6;
-    border-radius: 0
+.ae, button.btn {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(211, 211, 211) rgb(166, 166, 166) rgb(166, 166, 166) rgb(211, 211, 211);
+    border-radius: 0px;
 }
 
 ul.nav.nav-tabs.fl {
-    border-radius: 7px 7px 0 0;
-    border: 0;
-    border-left: 1px solid#ffc107!important;
-    border-right: 1px solid#ffc107!important;
-    border-top: 4px solid#295a86!important;
-    padding: 4px 0 4px 8px;
-    background-color: #f6f6f6!important;
-    border-bottom: 1px solid#cccccc!important;
+    border-radius: 7px 7px 0px 0px;
+    border-image: initial;
+    padding: 4px 0px 4px 8px;
     margin-left: 10px;
-    width: 95%!important;
     margin-top: 7px;
-    margin-bottom: -1px!important;
     text-align: center;
-    box-shadow: 0 -2px 5px #ccc,0 0 0 0 #d8d8d8;
+    box-shadow: rgb(204, 204, 204) 0px -2px 5px, rgb(216, 216, 216) 0px 0px 0px 0px;
+    border-width: 4px 1px 1px !important;
+    border-style: solid !important;
+    border-color: rgb(41, 90, 134) rgb(255, 193, 7) rgb(204, 204, 204) !important;
+    background-color: rgb(246, 246, 246) !important;
+    width: 95% !important;
+    margin-bottom: -1px !important;
 }
 
 a#iraq10 {
-    width: 25%!important;
-    border: 1px solid #f0ad4e;
+    border: 1px solid rgb(240, 173, 78);
     margin-right: 5px;
     float: right;
     margin-top: -3px;
-    padding: 2px!important;
-    height: 23px!important;
-    color: #fff!important;
-    font-family: 'jazeera',FontAwesome!important;
-    background-color: #295a86!important;
     margin-left: -8px;
+    width: 25% !important;
+    padding: 2px !important;
+    height: 23px !important;
+    color: rgb(255, 255, 255) !important;
+    font-family: jazeera, FontAwesome !important;
+    background-color: rgb(41, 90, 134) !important;
 }
 
 div#tlogins .fr.borderg a {
-    color: #fff;
-    font-family: 'fanni';
-    padding: 2px!important;
-    font-size: 12px!important
+    color: rgb(255, 255, 255);
+    font-family: fanni;
+    padding: 2px !important;
+    font-size: 12px !important;
 }
 
 div#tlogins .fr.borderg {
-color: #fff;
-    font-size: 12px!important;
-    padding: 0 0 0 2px !important;
-    color: #fff;
-    border-top: 1px dotted #fff!important;
-    margin-right: 0!important;
+    color: rgb(255, 255, 255);
     top: 373px;
-    background-color: #295a86!important;
-    border: none;
     float: left;
-    left: 0;
+    left: 0px;
     position: absolute;
-    width: 81.4%!important;
     height: 22px;
-    border-radius: 0!important;
-    border: 1px solid #fff0;
+    border-right: 1px solid rgba(255, 255, 255, 0);
+    border-bottom: 1px solid rgba(255, 255, 255, 0);
+    border-left: 1px solid rgba(255, 255, 255, 0);
+    border-image: initial;
+    font-size: 12px !important;
+    padding: 0px 0px 0px 2px !important;
+    border-top: 1px dotted rgb(255, 255, 255) !important;
+    margin-right: 0px !important;
+    background-color: rgb(41, 90, 134) !important;
+    width: 81.4% !important;
+    border-radius: 0px !important;
 }
 
 div#tlogins .fl.mini.u-msg {
-    display: none
+    display: none;
 }
 
 div#tlogins img.fl.u-ico {
-    margin-top: 8px!important;
-    padding: 0;
-    margin-left: 0;
-    border-radius: 0
+    padding: 0px;
+    margin-left: 0px;
+    border-radius: 0px;
+    margin-top: 8px !important;
 }
 
 div#tlogins span.corner.u-topic.dots {
-    margin-top: 8px!important;
-    margin-left: 5px!important
+    margin-top: 8px !important;
+    margin-left: 5px !important;
 }
 
-.fr.co,.fl.mini.u-co {
-    display: none
+.fr.co, .fl.mini.u-co {
+    display: none;
 }
 
 a.label.label-primary.fl {
     position: absolute;
     top: 1px;
-    background-color: #10363a00!important;
-    color: #fff!important;
-    width: 127px!important;
-    font-family: 'jazeera',FontAwesome!important
+    background-color: rgba(16, 54, 58, 0) !important;
+    color: rgb(255, 255, 255) !important;
+    width: 127px !important;
+    font-family: jazeera, FontAwesome !important;
 }
 
 div#tlogins img.fitimg.fl.u-pic {
     background-size: cover;
-    border-radius: 3px!important;
     padding: 18px;
-    border: 1px solid#e8e8e8;
-    margin-top: -1px!important
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 3px !important;
+    margin-top: -1px !important;
 }
 
 .badge {
-    display: inline!important;
-    background-color: #7770;
+    background-color: rgba(119, 119, 119, 0);
     border-radius: 33%;
-    border: #1f95a208 solid 1px!important;
     margin-left: -5px;
-    vertical-align: top
+    vertical-align: top;
+    display: inline !important;
+    border: 1px solid rgba(31, 149, 162, 0.03) !important;
 }
 
 span.busers.minix.badge.border {
     margin-left: 2px;
-    margin-right: -5px
+    margin-right: -5px;
 }
 
 span.s1.fa.fa-user.label.badgex.label-as-badge.label-success {
-height: 20px!important;
-    font-size: 14px!important;
-    border: 0 solid;
-    padding: 3px 0 0;
+    border: 0px solid;
+    padding: 3px 0px 0px;
     border-radius: 4px;
     width: 33px;
     text-align: center;
-    background-color: #5cb85c;
-    color: #fff;
+    background-color: rgb(92, 184, 92);
+    color: rgb(255, 255, 255);
     position: absolute;
-    top: 0;
-    left: 133px;   
+    top: 0px;
+    left: 133px;
+    height: 20px !important;
+    font-size: 14px !important;
 }
 
 div#tlogins .hand.nosel.fl.uzr.border {
-    width: 99%!important;
-    margin-top: 1px!important;
-    border-radius: 3px!important;
-    background: #fafdffa3!important;
-    border: 1px solid#277c8629
+    border: 1px solid rgba(39, 124, 134, 0.16);
+    width: 99% !important;
+    margin-top: 1px !important;
+    border-radius: 3px !important;
+    background: rgba(250, 253, 255, 0.64) !important;
 }
 
 a#iraq2 {
-    width: 25%!important;
-    border: 1px solid #f0ad4e;
+    border: 1px solid rgb(240, 173, 78);
     margin-right: 5px;
     float: right;
     margin-top: -2px;
-    padding: 2px!important;
-    height: 24px!important;
-    color: #fff!important;
-    font-family: 'jazeera',FontAwesome!important;
-    background-color: #295a86!important;
     margin-left: -8px;
+    width: 25% !important;
+    padding: 2px !important;
+    height: 24px !important;
+    color: rgb(255, 255, 255) !important;
+    font-family: jazeera, FontAwesome !important;
+    background-color: rgb(41, 90, 134) !important;
 }
 
 .loginstat {
-    background-color: #6bb422;
+    background-color: rgb(107, 180, 34);
     position: absolute;
     top: 7px;
-    color: #fff;
-    border-radius: 5px!important;
+    color: rgb(255, 255, 255);
     left: -6px;
     width: auto;
     padding: 2px 8px;
-    font-family: 'fanni'
+    font-family: fanni;
+    border-radius: 5px !important;
 }
 
-ul.nav.nav-tabs>li>.fa-user-plus:before,ul.nav.nav-tabs>li>.fa-user:before,ul.nav.nav-tabs>li>.fa-user:before {
-    display: none
+ul.nav.nav-tabs > li > .fa-user-plus::before, ul.nav.nav-tabs > li > .fa-user::before, ul.nav.nav-tabs > li > .fa-user::before {
+    display: none;
 }
 
 div#tlogins {
-    width: auto!important;
-    height: auto!important;
-    border: .4px solid #4cc3d2
+    border: 0.4px solid rgb(76, 195, 210);
+    width: auto !important;
+    height: auto !important;
 }
 
 div#tlogins .fade {
-    opacity: 1!important;
-    -webkit-transition: none!important;
-    -o-transition: none!important;
-    transition: none!important
+    opacity: 1 !important;
+    transition: none 0s ease 0s !important;
 }
 
 img.fl.iraq.hand.u-pic {
     width: 36px;
     height: 38px;
     margin-left: 1px;
-    background-image: url();
-    border-radius: 10%!important;
-    margin-top: 4px!important;
-    margin-right: 4px!important;
+    background-image: url("");
     padding: 18px;
-    border: 1px solid#e8e8e8;
-    background-size: cover
+    border: 1px solid rgb(232, 232, 232);
+    background-size: cover;
+    border-radius: 10% !important;
+    margin-top: 4px !important;
+    margin-right: 4px !important;
 }
 
 .uzr.fl.iraq.borderg.mm {
-    margin-left: 0!important;
-    border-radius: 0!important;
-    width: 100%!important;
-    border-top: .7px solid #eee!important;
-    border-bottom: .7px solid #eee!important;
-    margin-bottom: 0!important;
     line-height: 26px;
-    padding: 0;
-    background-color: #fff
+    padding: 0px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 0px !important;
+    border-radius: 0px !important;
+    width: 100% !important;
+    border-top: 0.7px solid rgb(238, 238, 238) !important;
+    border-bottom: 0.7px solid rgb(238, 238, 238) !important;
+    margin-bottom: 0px !important;
 }
 
 .u-iraq.break.fl {
-    padding: 0;
+    padding: 0px;
     width: 100%;
-    color: #017b7d;
+    color: rgb(1, 123, 125);
     display: block;
     margin-top: -17px;
-    text-align: center
+    text-align: center;
 }
 
 img.fl.iraq.u-pic {
     width: 300px;
     height: 156px;
-    background-image: url();
-    border-radius: 15px 15px 4px 4px!important;
-    margin-top: 13px!important;
+    background-image: url("");
     background-size: cover;
-    border-left: 1px solid #d3d3d3;
-    border-right: 1px solid #a6a6a6;
-    border-bottom: 1px solid #a6a6a6
+    border-left: 1px solid rgb(211, 211, 211);
+    border-right: 1px solid rgb(166, 166, 166);
+    border-bottom: 1px solid rgb(166, 166, 166);
+    border-radius: 15px 15px 4px 4px !important;
+    margin-top: 13px !important;
 }
 
 span.iraq.nosel.u-topic.dots.fl.hand {
     text-align: center;
-    border-radius: 0;
-    margin-top: 0;
-    font-family: 'jazeera',FontAwesome;
-    border-right: 3px solid#dee2e1!important;
-    border-left: 3px solid#dee2e1!important;
-    background-color: #21a205;
-    color: #fff;
+    border-radius: 0px;
+    margin-top: 0px;
+    font-family: jazeera, FontAwesome;
+    background-color: rgb(33, 162, 5);
+    color: rgb(255, 255, 255);
     width: 169px;
-    padding: 1px!important;
-    border-top: 1px solid#1a90a5!important;
     margin-left: 57px;
-    margin-bottom: 0
+    margin-bottom: 0px;
+    border-right: 3px solid rgb(222, 226, 225) !important;
+    border-left: 3px solid rgb(222, 226, 225) !important;
+    padding: 1px !important;
+    border-top: 1px solid rgb(26, 144, 165) !important;
 }
 
 span.iraq2.nosel.u-topic.dots.fl.hand {
     text-align: center;
-    border-radius: 0;
-    margin-top: 0;
-    font-family: 'jazeera',FontAwesome;
-    border-right: 3px solid#dee2e1!important;
-    border-left: 3px solid#dee2e1!important;
-    background-color: #21a205;
-    color: #fff;
+    border-radius: 0px;
+    margin-top: 0px;
+    font-family: jazeera, FontAwesome;
+    background-color: rgb(33, 162, 5);
+    color: rgb(255, 255, 255);
     width: 169px;
-    padding: 1px!important;
-    border-top: 1px solid#1a90a5!important;
-    margin-bottom: 0;
-    border-bottom: 1px solid#1a90a5!important
+    margin-bottom: 0px;
+    border-width: 1px 3px !important;
+    border-style: solid !important;
+    border-color: rgb(26, 144, 165) rgb(222, 226, 225) !important;
+    padding: 1px !important;
 }
 
-.nav-tabs>li.active>a,.nav-tabs>li.active>a:focus,.nav-tabs>li.active>a:hover {
-    color: #fff;
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    color: rgb(255, 255, 255);
     cursor: default;
-    background-color: #0a8d9d;
-    border: 1px solid #f0ad4e;
-    border-bottom-color: none
+    background-color: rgb(10, 141, 157);
+    border: 1px solid rgb(240, 173, 78);
 }
 
-input#u2,input#u3,in {
-    margin-bottom: 4px
+input#u2, input#u3, in {
+    margin-bottom: 4px;
 }
 
-.nav-tabs>li>a:hover {
-    background-color: #0a8d9d;
-    border: 1px solid #f0ad4e;
-    border-color: none!important
+.nav-tabs > li > a:hover {
+    background-color: rgb(10, 141, 157);
+    border: 1px solid rgb(240, 173, 78);
 }
 
-.nav-tabs>li>a {
+.nav-tabs > li > a {
     margin-right: 7px;
     line-height: 19px;
-    background: 0;
+    background-position: 0px center;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
     text-align: center;
     border-radius: 3% 3% 11% 11%;
     margin-top: -4px;
-    font-family: 'jazeera',FontAwesome;
-    border-right: 3px solid#dee2e1!important;
-    border-left: 3px solid#dee2e1!important;
-    background-color: #295a86;
-    color: #fff;
+    font-family: jazeera, FontAwesome;
+    background-color: rgb(41, 90, 134);
+    color: rgb(255, 255, 255);
     width: 112px;
-    padding: 4px 0!important;
-    background-image: radial-gradient(circle,#295a86,#295a86,#295a86)!important;
-    border-bottom: 2px solid#a6a6a6!important;
-    border-top: 1px solid#295a86!important;
+    border-width: 1px 3px 2px !important;
+    border-style: solid !important;
+    border-color: rgb(41, 90, 134) rgb(222, 226, 225) rgb(166, 166, 166) !important;
+    padding: 4px 0px !important;
+    background-image: radial-gradient(circle, rgb(41, 90, 134), rgb(41, 90, 134), rgb(41, 90, 134)) !important;
 }
 
 button.btn.fr.btn-success.fa.fa-refresh {
     border-radius: 100%;
     padding: 3px 4px;
-    background-image: linear-gradient(to bottom,#103438 0,#287c86 100%)!important;
-    border-color: #24717a!important;
-    margin-top: -4px!important;
     position: absolute;
     right: -257px;
-    top: 7px
+    top: 7px;
+    background-image: linear-gradient(rgb(16, 52, 56) 0px, rgb(40, 124, 134) 100%) !important;
+    border-color: rgb(36, 113, 122) !important;
+    margin-top: -4px !important;
 }
 
-.ae.fa.chats.label.fa-comment.label-warning.fa-comment:before,.ae.fa.chats.label.fa-comment.label-primary.fa-comment:before {
-    content: "الخاص"   
+.ae.fa.chats.label.fa-comment.label-warning.fa-comment::before, .ae.fa.chats.label.fa-comment.label-primary.fa-comment::before {
+    content: "الخاص";
 }
 
-
-
-h3.popover-title,.fa-gear:before,.fa-cog:before,.fa-commenting-o:before,.fa-group:before,.fa-users:before,span.border,.fl.fa.fa-comment.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.upm.borderg.fa-comment:before,.fa-envelope-o:before,.fa-diamond:before,.fa-search:before,.fa-ban:before,.fa-ban:before,.fa-user-times:before {
-    display: none
+h3.popover-title, .fa-gear::before, .fa-cog::before, .fa-commenting-o::before, .fa-group::before, .fa-users::before, span.border, .fl.fa.fa-comment.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.upm.borderg.fa-comment::before, .fa-envelope-o::before, .fa-diamond::before, .fa-search::before, .fa-ban::before, .fa-ban::before, .fa-user-times::before {
+    display: none;
 }
 
 .btn-primary:hover {
-    border-left: 1px solid #5290AC;
-    border-top: 1px solid #5290AC;
-    border-right: 1px solid #376B87;
-    border-bottom: 1px solid #376B87
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(82, 144, 172) rgb(55, 107, 135) rgb(55, 107, 135) rgb(82, 144, 172);
 }
 
 .tbox {
-    border-top: 1px solid #ccc;
-    border-bottom: 1px solid #ccc;
-    border-left: 3px solid #559cdc;
-    border-right: 3px solid #559cdc;
-    min-height: 28px!important;
+    border-width: 1px 3px;
+    border-style: solid;
+    border-color: rgb(204, 204, 204) rgb(85, 156, 220);
+    min-height: 28px !important;
 }
 
 .fr.rating-box {
-    display: none
+    display: none;
 }
 
 .fa-user-times {
-    margin: 0!important;
-    background-color: #FFF;
-    top: 58px!important;
+    background-color: rgb(255, 255, 255);
     transform: rotate(-90deg);
-    width: 123px!important;
     position: absolute;
-    left: -41px
+    left: -41px;
+    margin: 0px !important;
+    top: 58px !important;
+    width: 123px !important;
 }
 
 .btn.hand.borderg.corner {
     width: 32px;
-    height: 33px
+    height: 33px;
 }
 
 .ukick {
-    margin: 0!important;
-    width: 60px!important;
-    background-color: #FFF!important;
-    margin-top: 14px!important;
-    margin-left: -60px!important;
     position: absolute;
-    top: 1px
+    top: 1px;
+    margin: 14px 0px 0px -60px !important;
+    width: 60px !important;
+    background-color: rgb(255, 255, 255) !important;
 }
 
 .uban {
-    margin: 0!important;
-    width: 60px!important;
-    background-color: #FFF;
-    margin-top: 73px!important;
-    margin-left: -61px!important;
+    background-color: rgb(255, 255, 255);
     position: absolute;
-    top: 1px
+    top: 1px;
+    margin: 73px 0px 0px -61px !important;
+    width: 60px !important;
 }
 
 .emoi {
     width: auto;
-    max-width: -webkit-fill-available
+    max-width: -webkit-fill-available;
 }
 
 .uzr.fl.corner.borderg.hmsg.mm {
-    background-color: #fff!important
+    background-color: rgb(255, 255, 255) !important;
 }
 
 .bgg.border.corner {
-    right: 1px
+    right: 1px;
 }
 
 .callnot {
-    position: absolute!important;
-    top: 1px!important;
-    margin-left: 0!important;
-    left: 1px
+    left: 1px;
+    position: absolute !important;
+    top: 1px !important;
+    margin-left: 0px !important;
 }
 
 .popover.right {
@@ -740,188 +722,193 @@ h3.popover-title,.fa-gear:before,.fa-cog:before,.fa-commenting-o:before,.fa-grou
     max-height: 400px;
     overflow: auto;
     width: 100%;
-    margin-left: -109px
+    margin-left: -109px;
 }
 
 .popover.fade.top.in {
     position: absolute;
-    max-width: 250px!important;
     max-height: 200px;
-    overflow: auto
+    overflow: auto;
+    max-width: 250px !important;
 }
 
 button.fa.fa-phone.call.fl.btn.btn-success {
-    margin-top: 2px!important
+    margin-top: 2px !important;
 }
 
 .tablebox.footer.light.fl {
-    border-top: 1px solid #aee3d1
+    border-top: 1px solid rgb(174, 227, 209);
 }
 
 img.fl.nosel.emobox {
-    margin-top: -4px
+    margin-top: -4px;
 }
 
 img.fl.nosel.emo {
-    margin-top: -1px
+    margin-top: -1px;
 }
 
 img.fl.fitimg.hand.u-pic {
-    border-radius: 10%!important;
-    margin-top: 4px!important;
-    margin-right: 4px!important;
     padding: 18px;
-    border: 1px solid#e8e8e8;
-    background-size: cover
+    border: 1px solid rgb(232, 232, 232);
+    background-size: cover;
+    border-radius: 10% !important;
+    margin-top: 4px !important;
+    margin-right: 4px !important;
 }
 
 span.corner.u-topic.dots {
-    margin-top: 3px!important
+    margin-top: 3px !important;
 }
 
 .border {
-    border: #e8e8e8 solid 1px
+    border: 1px solid rgb(232, 232, 232);
 }
 
 img.fl.u-pic {
-    border-radius: 100%
+    border-radius: 100%;
 }
 
-div#tlogins .fa-user:before {
-    display: none
+div#tlogins .fa-user::before {
+    display: none;
 }
 
 .lonline.light.break {
-    outline: #d3d3d300 solid 1px!important
+    outline: rgba(211, 211, 211, 0) solid 1px !important;
 }
 
 a.label.label-primary.fl {
-    display: none
+    display: none;
 }
 
 #menu-l {
     height: 55px;
     width: 307px;
     float: left;
-    background: url() no-repeat;
+    background: url("") no-repeat;
     position: absolute;
     top: -11px;
-    right: -7px
+    right: -7px;
 }
 
 .uzr.fl.corner.borderg.mm {
-    margin-left: 0!important;
-    border-radius: 0!important;
-    width: 100%!important;
-    border-top: .7px solid #eee!important;
-    border-bottom: .7px solid #eee!important;
-    margin-bottom: 0!important;
-    line-height: 26px
+    line-height: 26px;
+    margin-left: 0px !important;
+    border-radius: 0px !important;
+    width: 100% !important;
+    border-top: 0.7px solid rgb(238, 238, 238) !important;
+    border-bottom: 0.7px solid rgb(238, 238, 238) !important;
+    margin-bottom: 0px !important;
 }
 
 .bg {
-    background-color: #EDEDED!important
+    background-color: rgb(237, 237, 237) !important;
 }
 
 .fl.fa.fa-sign-in.btn.btn-primary.dots.roomh.border.corner {
-    height: 20px!important;
-    padding: 2px!important
+    height: 20px !important;
+    padding: 2px !important;
 }
 
 img.fitimg.fl.u-pic {
     background-size: cover;
-    border-radius: 3px!important;
     padding: 18px;
-    border: 1px solid#e8e8e8
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 3px !important;
 }
 
 img.fl.ustat {
     margin-top: 1px;
-    border-radius: 18%!important
+    border-radius: 18% !important;
 }
 
 img.fl.emobc {
-    margin-top: -3px!important
+    margin-top: -3px !important;
 }
 
 button.fr.fa.fa-share-alt.sndfilebc.fl.btn.btn-primary {
-    margin-top: 1px!important
+    margin-top: 1px !important;
 }
 
 button.fr.fa.fa-share-alt.sndfile.fl.btn {
-    margin-top: 2px!important
+    margin-top: 2px !important;
 }
 
 div#iraqiaa {
-    font-family: 'jazeera',FontAwesome;
-    background-image: linear-gradient(to bottom,#f1f3f4 0,#f1f3f4 100%);
+    font-family: jazeera, FontAwesome;
+    background-image: linear-gradient(rgb(241, 243, 244) 0px, rgb(241, 243, 244) 100%);
     text-align: center;
-    color: #118284;
-    margin: -27px 0 -20px
+    color: rgb(17, 130, 132);
+    margin: -27px 0px -20px;
 }
 
 div#iraq31 {
     width: 100%;
-    font-family: 'jazeera',FontAwesome;
-    background-color: #13b6b9!important;
+    font-family: jazeera, FontAwesome;
     border-radius: 3px;
-    border-left: 1px solid #5290AC;
-    border-top: 1px solid #5290AC;
-    border-right: 1px solid #376B87;
-    border-bottom: 1px solid #376B87;
-    margin: 1px 0 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(82, 144, 172) rgb(55, 107, 135) rgb(55, 107, 135) rgb(82, 144, 172);
+    margin: 1px 0px 3px;
     height: 27px;
-    padding: 0
+    padding: 0px;
+    background-color: rgb(19, 182, 185) !important;
 }
 
 iframe#iraq29 {
     height: 87px;
     margin-top: -20px;
-    margin-bottom: -4px
+    margin-bottom: -4px;
 }
 
 a#iraq32 {
     width: 100%;
-    font-family: 'jazeera',FontAwesome;
-    background-color: #13b6b9!important;
+    font-family: jazeera, FontAwesome;
     border-radius: 3px;
-    border-left: 1px solid #5290AC;
-    border-top: 1px solid #5290AC;
-    border-right: 1px solid #376B87;
-    border-bottom: 1px solid #376B87;
-    margin: 1px 0 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(82, 144, 172) rgb(55, 107, 135) rgb(55, 107, 135) rgb(82, 144, 172);
+    margin: 1px 0px 3px;
     text-align: center;
-    color: #fff
+    color: rgb(255, 255, 255);
+    background-color: rgb(19, 182, 185) !important;
 }
 
 a#iraq27 {
-    display: none
+    display: none;
 }
 
 a#iraq33 {
     width: 100px;
-    font-family: 'jazeera',FontAwesome;
-    background-color: #13b6b9!important;
+    font-family: jazeera, FontAwesome;
     border-radius: 3px;
-    border-left: 1px solid #5290AC;
-    border-top: 1px solid #5290AC;
-    border-right: 1px solid #376B87;
-    border-bottom: 1px solid #376B87;
-    margin: 0 0 2px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(82, 144, 172) rgb(55, 107, 135) rgb(55, 107, 135) rgb(82, 144, 172);
+    margin: 0px 0px 2px;
     text-align: center;
-    color: #fff;
+    color: rgb(255, 255, 255);
     height: 27px;
     padding: 1px;
-    font-size: 14px!important
+    background-color: rgb(19, 182, 185) !important;
+    font-size: 14px !important;
 }
 
 input[type="iraq"] {
     width: 182px;
     margin-left: 1px;
     border-radius: 3px;
-    text-align: center
+    text-align: center;
 }
 
 div#tlogins img.fl.u-ico {
-    display: none
+    display: none;
+}
+
+
+
+    a#ahmed {
+        position: absolute;
+    right: 1px;
+    color: rgb(255, 255, 255) !important;
 }
