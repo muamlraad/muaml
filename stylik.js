@@ -6,11 +6,10 @@ $(`<link href="https://raw.githack.com/muamlraad/muaml/main/01.css" rel="stylesh
 <link href="https://raw.githack.com/muamlraad/muaml/main/05.css" media="screen" rel="alternate stylesheet" title="Co5" type="text/css">
 <style>
 .des {
-    position: absolute;
-    transform: matrix(1, 0, 0, 1, 85, 0);
+transform: matrix(1, 0, 0, 1, 63, 0);
     margin-top: 2px;
-    width: 163px;
-    height: 33px;
+    width: 235px;
+    height: 39px;
     float: left;
     background: transparent url(https://c.top4top.io/p_1911yvp8x1.png) no-repeat scroll right top;
     text-align: left;
