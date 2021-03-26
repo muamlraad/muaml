@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <title>DOM</title>
+   <script type="text/javascript" src="./gallery.js">
+  window.onload = function() {
+	prepareGallery();
+}
+
+function prepareGallery() {
+	var gallery = document.getElementById("gallery");
+	var links = gallery.getElementsByTagName("a");
+	for (let j = 0; j < links.length; ++ j) {
+		links[j].onclick = function() {
+			showPic(this);
+			return false;
+		}
+	}
+}
+
+function showPic(whichpic) {
+	var placeholder = document.getElementById("placeholder");
+	// placeholder.src = whichpic.href;
+	placeholder.setAttribute("src", whichpic.href);
+	var description = document.getElementById("description");
+	description.firstChild.nodeValue = whichpic.title;
+}
+
+  
+  </script>
+   <link rel="stylesheet" type="text/css" href="layout.css">
+  <style>body {
+	background-color: lightgray;
+}
+div#imgBox {
+	width: 600px;
+	margin: 0 auto;
+}
+img#placeholder {
+	height: 300px;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+ul>li {
+	float: left;
+}
+ul a {
+	text-decoration: none;
+	display: block;
+	background-color: rgb(0, 0, 0);
+	color: white;
+	padding: 10px 21.7px;
+	transition-property: background-color;
+	transition-duration: 0.5s;
+}
+ul a:hover {
+	background-color: rgb(90, 90, 90);
+}
+ul::after {
+	content: "";
+	clear: both;
+	display: block;
+}
+div#imgBox p {
+	font-weight: bold;
+}
+</style>
+</head>
+<body>
+   <div id="imgBox">
+   	<h1>Snapshots</h1>
+   	<ul id="gallery">
+   		<li><a href="./images/boat.jpg" title="A boat with a tiger.">Boat</a></li>
+   		<li><a href="./images/cat.jpg" title="A cute cat.">Cat</a></li>
+   		<li><a href="./images/violin.jpg" title="A pretty violin.">Violin</a></li>
+   		<li><a href="./images/night.jpg" title="Beautiful night in la-la-land.">Night</a></li>
+   		<li><a href="./images/spiderman.jpg" title="Spiderman!!!">Spiderman</a></li>
+   		<li><a href="./images/Taylor.jpg" title="Pop-singer Taylor Swift.">Night</a></li>
+   	</ul>
+   	<img src="./images/gallery.png" id="placeholder">
+   	<p id="description">Choose an image.</p>
+   </div>
+</body>
+</html>
