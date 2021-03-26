@@ -1,0 +1,1129 @@
+.fa-dot-circle-o::before {
+    content: "";
+    animation: 1.5s ease 0s infinite normal none running mymove;
+}
+
+@font-face {
+    font-family: jazeera;
+    src: local("الجزيرة"), local("jazeera"), url("https://www.fontstatic.com/fonts/jazeera/jazeera.woff") format("woff");
+}
+
+@font-face {
+    font-family: jazeera-light;
+    src: local("الجزيرة خفيف"), local("jazeera-light"), url("https://www.fontstatic.com/fonts/jazeera-light/jazeera-light.woff") format("woff");
+}
+
+.tcat a:link, .tcat_alink {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: jazeera, FontAwesome;
+}
+
+.fa-remove::before, .fa-close::before, .fa-times::before {
+}
+
+a.btn.minix.fa.fa-times.fr {
+    border-radius: 4px;
+    padding: 1px 4px 2px 5px;
+    margin-top: 6px;
+    background-repeat: repeat-x;
+    margin-left: 1px;
+    width: 13px;
+    margin-right: 2px;
+    color: rgb(33, 32, 32) !important;
+    border-color: rgba(255, 255, 255, 0.22) !important;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.94) 0px, rgb(255, 255, 255) 100%) !important;
+}
+
+span.minix.badge.border, span.bwall.minix.badge.border, span.brooms.minix.badge.border {
+    display: none !important;
+}
+
+span.busers.minix.badge.border {
+    display: inline !important;
+}
+
+span.bwall.minix.badge.border, span.brooms.minix.badge.border {
+    display: none !important;
+}
+
+ul.nav.nav-tabs.fl li a:hover {
+    background-color: rgb(26, 163, 186);
+    color: rgb(255, 255, 255);
+}
+
+ul.nav.nav-tabs.fl li .fa-user-plus::before {
+    color: red;
+    animation: 0.5s ease 0s infinite normal none running mymove;
+}
+
+@-webkit-keyframes mymove {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+@keyframes mymove {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+a#iraq {
+    position: absolute;
+    right: 1px;
+    display: none;
+    color: rgb(255, 255, 255) !important;
+}
+
+.fl.fa.fa-sign-in.btn.btn-primary.dots.roomh.border.corner {
+    pointer-events: none;
+    background-color: rgb(3, 155, 229) !important;
+    padding: 1px 4px !important;
+}
+
+.ae.label.label-primary.fa.fa-gear {
+    padding: 7px 5px 5px 13px;
+    border-radius: 0px;
+    margin-left: -3px !important;
+}
+
+.ae.fa.label.fa-commenting-o.label-primary {
+    padding: 7px 5px 5px 13px;
+    border-radius: 0px;
+    margin-left: -4px !important;
+}
+
+.ae.fa.label.label-primary.fa-users {
+    padding: 7px 5px 5px 13px;
+    border-radius: 0px;
+    margin-left: -3px !important;
+}
+
+.fa-commenting-o::before {
+    content: "";
+}
+
+.ae.fa.chats.label.fa-comment.label-primary {
+    padding: 7px 13px 5px;
+    border-radius: 0px;
+    margin-left: -7px !important;
+}
+
+.ae.fa.label.fa-commenting-o.label-warning {
+    padding: 7px 0px 5px 9px;
+    border-radius: 0px;
+    margin-left: -4px !important;
+}
+
+.ae.fa.chats.label.fa-comment.label-warning {
+    padding: 7px 13px 5px;
+    border-radius: 0px;
+    margin-left: -7px !important;
+}
+
+.bgg.border.corner {
+    border-bottom-right-radius: 0px !important;
+}
+
+label.fl.nosel.label.pnhead {
+    background-color: rgb(19, 145, 167);
+    width: 85%;
+}
+
+iframe#iraq30 {
+    height: 66px;
+    float: left;
+    border-bottom: 3px solid rgb(229, 3, 47);
+    background-color: rgb(255, 255, 255);
+    margin-top: -6px;
+    background-image: url("");
+    background-size: contain;
+}
+
+div#iraq1 {
+    width: 99%;
+    position: absolute;
+    top: 173px;
+    right: 0px;
+}
+
+a#iraq2 {
+    border: 1px solid rgb(240, 173, 78);
+    margin-right: 5px;
+    float: right;
+    margin-top: -2px;
+    margin-left: -8px;
+    font-size: 14px !important;
+    width: 25% !important;
+    padding: 1px !important;
+    height: 24px !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(67, 162, 161) !important;
+}
+
+a#iraq0 {
+    border: 1px solid rgb(240, 173, 78);
+    margin-right: 5px;
+    float: right;
+    margin-top: -3px;
+    margin-left: -8px;
+    font-size: 14px !important;
+    width: 25% !important;
+    padding: 1px !important;
+    height: 23px !important;
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(67, 162, 161) !important;
+}
+
+.badge {
+    background-color: rgba(119, 119, 119, 0);
+    border-radius: 33%;
+    margin-left: -5px;
+    vertical-align: top;
+    display: inline !important;
+    border: 1px solid rgba(31, 149, 162, 0.03) !important;
+}
+
+div#menu-l {
+    height: 55px;
+    width: 307px;
+    float: left;
+    position: absolute;
+    top: -11px;
+    right: -7px;
+}
+
+.ae {
+    border: 1px solid rgb(175, 171, 171);
+}
+
+.primaryborder {
+    border-color: rgb(0, 142, 145) !important;
+    border-radius: 0px !important;
+}
+
+button.fa.fa-sign-out.fl.btn.btn-primary {
+    margin-top: 0px !important;
+}
+
+span.corner.fa.fa-user.label.label-primary.fr.uc {
+    display: inline !important;
+}
+
+button.fa.fa-send.fl.btn.btn-primary {
+    margin-top: 0px !important;
+}
+
+button.fa.fa-send.sndpm.fl.btn.btn-primary {
+    margin-top: 0px !important;
+}
+
+.btn-primary:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(82, 144, 172) rgb(55, 107, 135) rgb(55, 107, 135) rgb(82, 144, 172);
+}
+
+.fr.rating-box {
+    display: none;
+}
+
+.fa-user-times {
+    background-color: rgb(255, 255, 255);
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -41px;
+    margin: 0px !important;
+    top: 58px !important;
+    width: 123px !important;
+}
+
+.btn.hand.borderg.corner {
+    width: 32px;
+    height: 33px;
+}
+
+.ukick {
+    position: absolute;
+    top: 1px;
+    margin: 14px 0px 0px -60px !important;
+    width: 60px !important;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+img.fr {
+    width: 30px !important;
+    height: 30px !important;
+}
+
+.uban {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    top: 1px;
+    margin: 73px 0px 0px -61px !important;
+    width: 60px !important;
+}
+
+.emoi {
+    width: auto;
+    max-width: -webkit-fill-available;
+}
+
+.bgg.border.corner {
+    right: 1px;
+}
+
+img.fl.emobc {
+    margin-top: -3px !important;
+}
+
+.callnot {
+    left: 1px;
+    position: absolute !important;
+    top: 1px !important;
+    margin-left: 0px !important;
+}
+
+.popover.right {
+    max-width: initial;
+    overflow: auto;
+    width: auto;
+    margin-left: -109px;
+    height: 369px;
+}
+
+.popover.fade.top.in {
+    position: absolute;
+    max-height: 200px;
+    overflow: auto;
+    max-width: 250px !important;
+}
+
+button.fa.fa-phone.call.fl.btn.btn-success {
+    margin-top: 2px !important;
+}
+
+.tablebox.footer.light.fl {
+    border-top: 1px solid rgb(174, 227, 209);
+}
+
+img.fl.nosel.emobox {
+    margin-top: -4px;
+}
+
+img.fl.nosel.emo {
+    margin-top: -1px;
+}
+
+.ae, button.btn {
+    border-radius: 3px;
+    border: 1px solid rgb(232, 232, 232);
+}
+
+a.fl.emobc:focus, i.fa.fa-smile-o:focus, .primaryborder:focus, .btn.btn-success:focus, .btn.btn-primary:focus, .dots:focus, .bg:focus, textarea.fl.filw.corner.tbox:focus, area:focus, input#pass1:focus, input#u1:focus, input#u3:focus, input#pass2:focus, input#u2:focus {
+    outline: 0px;
+    box-shadow: none;
+}
+
+div#iraq30 {
+    background-image: linear-gradient(rgb(241, 243, 244) 0px, rgb(241, 243, 244) 100%);
+    text-align: center;
+    color: rgb(17, 130, 132);
+    margin: -27px 0px -20px;
+}
+
+div#iraq31 {
+    width: 100%;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(82, 144, 172) rgb(55, 107, 135) rgb(55, 107, 135) rgb(82, 144, 172);
+    margin: 1px 0px 3px;
+    height: 27px;
+    padding: 0px;
+    background-color: rgb(19, 182, 185) !important;
+}
+
+div#tlogins img.fitimg.fl.u-pic, .u-ico, img#iraq70 {
+    pointer-events: none;
+}
+
+a#as0 {
+    text-decoration: none;
+    margin-right: 6px;
+    float: right;
+    border-radius: 3px;
+    border-color: rgb(230, 230, 250);
+    padding: 6px;
+    margin-top: 2px;
+    color: red;
+    width: 106px;
+    text-align: center;
+    font: 14px / 1 FontAwesome;
+}
+
+iframe#iraq29 {
+    height: 68px;
+    position: absolute;
+    top: 27px;
+    right: -14px;
+}
+
+a#iraq33 {
+    width: 100px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(82, 144, 172) rgb(55, 107, 135) rgb(55, 107, 135) rgb(82, 144, 172);
+    margin: 0px 0px 2px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    height: 27px;
+    padding: 1px;
+    background-color: rgb(19, 182, 185) !important;
+    font-size: 14px !important;
+}
+
+input[type="iraq"] {
+    width: 182px;
+    margin-left: 1px;
+    border-radius: 3px;
+    text-align: center;
+}
+
+button.btn.btn-primary.hand.borderg.corner.fa.fa-ban {
+    width: 77px;
+    border-radius: 6px;
+    height: 27px;
+    background-repeat: repeat-x;
+    border-color: rgb(185, 44, 40);
+    background-image: linear-gradient(rgb(217, 83, 79) 0px, rgb(193, 46, 42) 100%);
+    background-color: rgb(193, 46, 42) !important;
+}
+
+.fa-user::before {
+    margin-right: 4px;
+}
+
+a.btn.minix.fa.fa-comment.fr {
+    border-radius: 4px;
+    padding: 1px 4px 2px 5px;
+    margin-top: 6px;
+    background-repeat: repeat-x;
+    border-color: rgb(40, 164, 201);
+    background-image: linear-gradient(rgb(91, 192, 222) 0px, rgb(42, 171, 210) 100%);
+    color: rgb(255, 255, 255) !important;
+}
+
+a.btn.minix.fa.fa-thumbs-up.fr {
+    border-radius: 4px;
+    padding: 1px 4px 2px 5px;
+    margin-top: 6px;
+    background-repeat: repeat-x;
+    border-color: rgb(185, 44, 40);
+    background-image: linear-gradient(rgb(217, 83, 79) 0px, rgb(193, 46, 42) 100%);
+    margin-left: 3px;
+    color: rgb(255, 255, 255) !important;
+}
+
+a.btn.minix.fa.fa-times.fr, a.btn.minix.fa.fa-thumbs-up.fr, a.btn.minix.fa.fa-comment.fr {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(211, 211, 211, 0) rgba(166, 166, 166, 0) rgba(0, 0, 0, 0) rgba(255, 255, 255, 0);
+    border-radius: 3px;
+}
+
+.fa-save::before, .fa-floppy-o::before {
+    margin-right: 1px;
+}
+
+.fa-save {
+    background-image: linear-gradient(rgb(217, 83, 79) 0px, rgb(193, 46, 42) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 3px !important;
+    height: 28px !important;
+    width: 12% !important;
+    padding: 7px 2px !important;
+    font-size: 12px !important;
+    background-color: rgb(217, 83, 79) !important;
+}
+
+textarea.form-control {
+    border-radius: 3px !important;
+    height: 28px !important;
+    width: 72% !important;
+    padding: 4px 0px !important;
+    font-size: 13px !important;
+}
+
+div#tlogins.light {
+    height: auto !important;
+}
+
+body.bg.center-block.bg.dad div#tlogins {
+    height: auto !important;
+}
+
+a.label.label-primary.fl {
+    display: none;
+}
+
+#iraq13 {
+    margin-bottom: 0px;
+    border-radius: 7px;
+    border-bottom: 1px solid rgb(254, 117, 188);
+    border-top: 1px solid rgb(254, 117, 188);
+    width: 80%;
+    height: 25px;
+    left: 74px;
+    background: rgba(255, 232, 244, 0);
+    top: 148px;
+    font-size: 15px !important;
+    padding: 0px !important;
+    position: absolute !important;
+}
+
+label.label.fr.label-primary {
+    border-radius: 3px !important;
+    height: 28px !important;
+    width: 14% !important;
+    padding: 9px 0px !important;
+    font-size: 13px !important;
+}
+
+#iraq21 {
+    text-decoration: dotted;
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    float: right;
+    border: rgba(76, 255, 112, 0);
+    margin-top: 1.7px !important;
+    margin-left: 2px !important;
+    margin-right: 1.5px !important;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px, rgba(0, 0, 0, 0.2) 0px -3px 1px -2px !important;
+    border-radius: 7px 14px !important;
+}
+
+select.primaryborder.form-control.userRoom.selbox.fr.form-control {
+    border-radius: 3px !important;
+    height: 28px !important;
+    width: 72% !important;
+    padding: 4px 0px !important;
+    font-size: 13px !important;
+}
+
+div#tlogins .fa-user::before {
+    margin-left: 1px;
+    border: 1px solid rgba(26, 163, 186, 0);
+}
+
+label.fl.label.loginstat {
+    position: absolute;
+    top: 28px;
+    left: 0px;
+    float: left !important;
+    border-radius: 0px 7px 7px 0px !important;
+    padding: 3px 6px 2px 8px !important;
+    margin-top: 6px !important;
+    font-size: 14px !important;
+    margin-left: -4px !important;
+}
+
+img.fl.fitimg.hand.u-pic {
+    padding: 18px;
+    border: 1px solid rgba(243, 243, 243, 0.3);
+    background-size: cover;
+    border-radius: 5px !important;
+    margin-top: 4px !important;
+    margin-right: 4px !important;
+}
+
+.border {
+    border: 1px solid rgb(232, 232, 232);
+}
+
+a#iraq19 {
+    position: absolute;
+    top: 40px;
+    right: 16px;
+    display: block;
+    background-image: url("");
+    background-position: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    height: 43px;
+    width: 44px;
+    background-size: cover;
+    background-color: rgba(0, 142, 145, 0) !important;
+    border-color: rgba(36, 85, 128, 0) !important;
+    box-shadow: none !important;
+}
+
+.u-ico {
+    margin-top: 5px !important;
+}
+
+span.corner.u-topic.dots {
+    margin-top: 3px !important;
+}
+
+label.label.label-primary.mini.fl {
+    pointer-events: none;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    margin: 0px;
+    padding: 1px 15px 0px 0px;
+    font-family: jazeera, FontAwesome;
+    width: 32% !important;
+    border-top: none !important;
+    border-right: none !important;
+    border-image: initial !important;
+    border-left: 2px solid rgb(247, 211, 34) !important;
+    border-radius: 0px 0px 0px 1px !important;
+    border-bottom: 1px solid rgb(247, 211, 34) !important;
+    font-size: 11px !important;
+}
+
+.lonline.light.break {
+    outline: rgba(255, 255, 255, 0) solid 1px !important;
+    background-color: rgba(19, 145, 167, 0.07) !important;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent) !important;
+}
+
+div#tlogins {
+    outline: 0px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 2px inset, rgb(119, 119, 119) 0px 0px 8px;
+    border: 0.1px solid rgba(176, 178, 179, 0.44);
+    background: rgb(255, 255, 255);
+}
+
+div#tlogins .hand.nosel.fl.uzr.border {
+    border: 1px solid rgba(19, 145, 167, 0.25);
+    width: 99% !important;
+    margin-top: 5px !important;
+    border-radius: 3px !important;
+}
+
+body {
+    background-image: url("");
+    background-size: contain;
+    background-color: rgb(249, 249, 249) !important;
+}
+
+div#tlogins .fr.borderg {
+    display: none;
+}
+
+span.s1.fa.fa-user.label.badgex.label-as-badge.label-success {
+    background-color: rgba(208, 27, 27, 0);
+    color: rgb(255, 255, 255);
+    font-size: 12px !important;
+}
+
+div#tlogins ::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+
+div#tlogins ::-webkit-scrollbar-button {
+    width: 5px;
+    height: 5px;
+}
+
+div#tlogins ::-webkit-scrollbar-thumb {
+    background-position: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(26, 163, 186);
+    border: 71px none rgb(255, 255, 255);
+    border-radius: 31px;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent) !important;
+}
+
+div#tlogins ::-webkit-scrollbar-thumb:hover {
+    background: rgb(26, 163, 186);
+}
+
+div#tlogins ::-webkit-scrollbar-thumb:active {
+    background: rgb(26, 163, 186);
+}
+
+div#tlogins ::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border: 65px none rgb(255, 255, 255);
+    border-radius: 34px;
+}
+
+div#tlogins ::-webkit-scrollbar-track:hover {
+    background: rgb(255, 255, 255);
+}
+
+div#tlogins ::-webkit-scrollbar-track:active {
+    background: rgb(255, 255, 255);
+}
+
+div#tlogins img.fitimg.fl.u-pic {
+    background-size: cover;
+    padding: 18px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 3px !important;
+    margin-top: -1px !important;
+}
+
+div#tlogins ::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+div#tlogins .fl.mini.u-msg {
+    padding: 7px;
+    text-align: center;
+    display: inline !important;
+    white-space: break-spaces !important;
+}
+
+a#iraq27 {
+    text-decoration: none;
+    height: 12px;
+    margin: 0px 0px 0px 19px;
+    line-height: 9px;
+    position: absolute;
+    top: 153px;
+    width: 148px;
+    font-size: 8px !important;
+    color: rgb(117, 174, 180) !important;
+    background: rgba(255, 255, 255, 0) !important;
+}
+
+div#tlogins .fade {
+    position: absolute;
+    margin: 22px 0px 0px 147px;
+    height: 110px;
+    opacity: 1 !important;
+    transition: none 0s ease 0s !important;
+    width: 65% !important;
+}
+
+button.btn.btn-default {
+    border-radius: 15px;
+    padding: 0px 5px;
+    margin-top: 6px;
+    color: rgb(255, 255, 255) !important;
+    background-image: linear-gradient(rgb(92, 184, 92) 0px, rgb(65, 150, 65) 100%) !important;
+    border: 1px solid rgb(204, 204, 204) !important;
+}
+
+textarea.as2020 {
+    width: 100%;
+    resize: none;
+    height: 180px;
+}
+
+div#chats {
+    background-image: url("");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid rgb(240, 173, 78) !important;
+}
+
+ul.nav.nav-tabs > li > a {
+    margin: 0px 0px 0px 13px;
+    color: rgb(255, 255, 255);
+    border-width: 0px 5px;
+    border-image: initial;
+    background-color: rgb(19, 145, 167);
+    border-radius: 0px;
+    display: initial;
+    width: 98%;
+    float: left;
+    text-align: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-left-style: initial;
+    height: 28px;
+    border-right-style: ridge;
+    font-family: jazeera, FontAwesome;
+    padding: 2px 0px 0px !important;
+}
+
+.fr.co, .fl.mini.u-co {
+    display: none;
+}
+
+ul.nav.nav-tabs > li.active > a {
+    color: rgb(255, 255, 255);
+    background-color: rgb(19, 145, 167);
+    border-width: 0px 5px;
+    border-image: initial;
+    border-radius: 0px;
+    text-align: center;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-left-style: inherit;
+    border-right-style: ridge;
+}
+
+ul.nav.nav-tabs > li {
+    width: 38%;
+    margin: -1px 59px 6px -13px;
+}
+
+ul.nav.nav-tabs > li > .fa-user-plus::before, ul.nav.nav-tabs > li > .fa-user::before, ul.nav.nav-tabs > li > .fa-user::before {
+    float: left;
+    margin-left: 1px;
+    border-radius: 0px;
+    width: 25px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0);
+    color: rgb(255, 255, 255);
+    height: 31px;
+    margin-top: -4px;
+    padding: 4px 0px 0px !important;
+    border-right: 2px solid rgb(255, 255, 255) !important;
+}
+
+.nav > li > a:focus, .nav > li > a:hover {
+    color: rgb(154, 191, 249);
+}
+
+input#u1, input#u2, input#pass1, input#u3, input#pass2 {
+    width: 97%;
+    height: 28px;
+    border-width: 1px 7px;
+    border-image: initial;
+    border-radius: 0px;
+    text-align: center;
+    border-style: solid double;
+    border-color: rgb(46, 161, 173);
+    margin: 0px 0px 5px -5.5px !important;
+}
+
+.checkbox {
+    position: absolute;
+    margin: 28px 0px 0px -35px !important;
+}
+
+label.ae.fa.label.fa-users.btnClAlGr.label-warning {
+    margin-left: -3px !important;
+}
+
+label.ae.fa.label.fa-users.btnClAlGr.label-warning, label.ae.fa.label.fa-users.btnClAlGr.label-primary {
+    padding: 7px 5px 5px 13px;
+}
+
+.fa-user-times::before {
+    display: none;
+}
+
+label.addGruMsg.label.tc.border.btn.label-info.fl {
+    background-image: linear-gradient(rgb(92, 184, 92) 0px, rgb(65, 150, 65) 100%);
+    color: rgb(255, 255, 255) !important;
+}
+
+ul.nav.nav-tabs {
+    float: right;
+    padding: 10px 6px 2px 1px;
+    border-radius: 0px;
+    margin-top: 20px;
+    border-left: 2px solid rgb(247, 211, 34);
+    border-right: 2px solid rgb(247, 211, 34);
+    background-position: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(235, 235, 235);
+    background-image: -webkit-linear-gradient(45deg, rgb(249, 249, 249) 25%, rgba(216, 247, 251, 0.51) 25%, rgb(229, 252, 255) 50%, rgba(167, 242, 255, 0.43) 50%, rgba(148, 233, 247, 0.11) 75%, rgb(230, 247, 249) 75%, rgb(249, 249, 249)) !important;
+}
+
+div#l1 {
+    height: 84px;
+}
+
+a#iraq7 {
+    border-width: 1px 1px 0px;
+    border-style: solid;
+    border-color: rgb(247, 211, 34) rgb(247, 211, 34) rgb(225, 225, 225);
+    border-image: initial;
+    margin-right: 0px;
+    float: right;
+    padding: 5px 0px 0px 20px;
+    margin-left: -6px;
+    border-radius: 0px;
+    background-repeat: repeat;
+    font-size: 14px !important;
+    width: 43px !important;
+    height: 25px !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+font.iraq12 {
+    border-width: 1px 7px;
+    border-image: initial;
+    background-color: rgb(189, 0, 0);
+    padding: 1px 10px 3px 4px;
+    color: rgb(255, 255, 255);
+    border-radius: 1px;
+    text-align: center;
+    border-style: solid double;
+    border-color: rgb(252, 248, 227);
+    font-family: jazeera, FontAwesome;
+    font-size: 13px !important;
+}
+
+font.iraq11 {
+    background-color: rgb(191, 6, 0);
+    padding: 1px 0px 2px;
+    color: rgb(255, 255, 255);
+    border-radius: 1px;
+    border-width: 1px 7px;
+    border-image: initial;
+    text-align: center;
+    border-style: solid double;
+    border-color: rgb(252, 248, 227);
+    font-family: jazeera, FontAwesome;
+    font-size: 13px !important;
+}
+
+span.fr, .fa-ban::before, .fa-ban::before, .fa-search::before, .fa-ban::before, .fa-ban::before, .fa-diamond::before, .fa-comment::before, .fa-envelope-o::before {
+    display: none;
+}
+
+#ir43 {
+    width: 68%;
+    height: 20px;
+    color: rgb(255, 255, 255);
+    border-left: 2px solid rgb(138, 234, 236);
+    background-color: rgb(19, 145, 167);
+    border-right: 2px solid rgb(247, 211, 34);
+    border-radius: 0px 0px 1px;
+    border-bottom: 1px solid rgb(247, 211, 34);
+    margin-bottom: -5px;
+    font-family: jazeera, FontAwesome;
+    margin-right: -1px;
+    padding: 2px 0px 0px;
+    line-height: 14px;
+    font-size: 13px !important;
+}
+
+div#tlogins button.btn.btn-primary {
+    top: 69px;
+    width: 39%;
+    right: 80px;
+    height: 22px;
+    padding: 0px 0px 3px;
+    position: inherit;
+    border-right: 4px double rgb(255, 240, 168);
+    border-left: 4px double rgb(255, 240, 168);
+    border-top-color: rgb(255, 240, 168);
+    border-bottom-color: rgb(255, 240, 168);
+    border-top-style: dotted;
+    border-bottom-style: dotted;
+    border-radius: 7% !important;
+}
+
+label.iraq.ae.fa.label.label-primary {
+    padding: 7px 10px 5px;
+    border-radius: 0px 3px 3px 0px;
+    border-style: solid ridge solid solid;
+    border-right-width: 4px;
+    border-right-color: initial;
+    margin-left: -4px !important;
+}
+
+.ae.fa.label.label-primary.fa-user {
+    padding: 7px 12px 5px 9px;
+    border-radius: 3px 0px 0px 3px;
+    border-style: solid solid solid groove;
+    border-left-width: 4px;
+    border-left-color: initial;
+}
+
+.tbox {
+    padding: 3px;
+    border-right: 5px ridge rgb(210, 210, 210);
+    border-left: 5px groove rgb(210, 210, 210);
+    border-top-color: rgb(210, 210, 210);
+    border-bottom-color: rgb(210, 210, 210);
+    min-height: 28px !important;
+    border-radius: 3px !important;
+}
+
+@media only screen and (max-width: 399px) and (min-width: 200px) {
+    input#u1, input#u2, input#pass1, input#u3, input#pass2 {
+        width: 90%;
+    }
+
+    a#iraq7 {
+        width: 43px !important;
+    }
+
+    ul.nav.nav-tabs {
+        margin-top: 4px;
+        border-top: 2px solid rgb(247, 211, 34);
+    }
+}
+
+.ae.fa.label.label-primary.fa-users.btnClAlGr::before {
+    content: "";
+}
+
+.fa-envelope::before {
+    content: "";
+}
+
+.fa-user::before {
+}
+
+.fa-group::before, .fa-users::before {
+    content: "";
+}
+
+.label.ae.fa.chats.label.fa-comment.label-warning::before {
+    content: "";
+    display: inline !important;
+}
+
+.ae.fa.chats.label.label-primary.fa-comment::before {
+    content: "";
+    display: inline !important;
+}
+
+.fa-gear::before, .fa-cog::before {
+    content: "";
+}
+
+a.btn.minix.fa.fa-comment::before {
+    content: "";
+    display: inline !important;
+}
+
+.fa-send::before, .fa-paper-plane::before {
+    content: "";
+    padding: 0px 2px 0px 0px;
+}
+
+.fa-share-alt::before {
+    content: "";
+}
+
+button.fr.fa.fa-share-alt.sndfile.fl.btn.btn-primary {
+    width: 30px;
+}
+
+a#iraq7 {
+    border-width: 1px 1px 0px;
+    border-style: solid;
+    border-color: rgb(247, 211, 34) rgb(247, 211, 34) rgb(225, 225, 225);
+    border-image: initial;
+    margin-right: 0px;
+    float: none;
+    padding: 3px 0px 0px 19px;
+    margin-left: -3px;
+    border-radius: 7px;
+    background-repeat: repeat;
+    font-size: 7px !important;
+    width: 43px !important;
+    height: 17px !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+iframe#iraqi1 {
+    float: left;
+    width: 26px;
+    margin-top: 1px;
+    height: 26px;
+    position: absolute;
+    left: 65px;
+}
+
+a#iraqi2 {
+    float: left;
+    margin-top: 2px;
+    position: absolute;
+    left: 102px;
+    border-color: rgba(0, 0, 0, 0);
+    color: rgb(10, 5, 4);
+    padding: 0px;
+    background-color: rgba(0, 142, 145, 0) !important;
+    box-shadow: none !important;
+    font-size: 22px !important;
+}
+
+img#iraqi3 {
+    padding: 1px 0px 0px;
+    width: 83px;
+    margin-top: 0px;
+    margin-left: -17px;
+    margin-right: -8px;
+}
+
+.u-msg.break.fl {
+    background-color: #00000000;
+    color: #ffffff!important;
+}
+
+
+.uzr.fl.corner.borderg.mm {
+    background-color: #0000005e!important;
+    border-top: 0px solid #eee!important;
+    border-bottom: 1px solid #fbfbfb47!important;
+    margin-bottom: 0!important;
+    width: 100%!important;
+}
+
+span.corner.nosel.u-topic.dots.fl.hand {
+    background-color: #ffffff00!important;
+    color: #fffbfb!important;
+}
+
+img.emoi {
+    background-color: #ffffff00!important;
+}
+
+
+
+.fa-youtube:before {
+    color: #ea0e0e!important;
+}
+.uzr.fl.corner.borderg.hmsg.mm {
+    background-color: #00000078!important;
+}
+button.btn.fa.fa-image {
+    background-color: #1391A7 !important;
+}
+.fm.borderf {
+position: absolute;
+    top: 54px;
+    left: 0px;
+padding: 0px 0px 0px 7px !important;
+    font-size: 8px!important;
+    color: #f8feff;
+}
+a.fx.borderf {
+    left: 0;
+    margin-top: -2px!important;
+font-size: 8px!important;
+    margin-left: -4px!important;
+    color: #f8feff;
+}
