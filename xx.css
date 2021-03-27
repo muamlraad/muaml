@@ -1119,3 +1119,6 @@ font-size: 8px!important;
     margin-left: -4px!important;
     color: #f8feff;
 }
+.u-msg.break.fl {
+    color: rgb(254 254 255) !important;
+}
