@@ -1,8 +1,18 @@
 div#d2 {
-    background-image: url(https://b.top4top.io/p_19120tnk62.jpg);
+    background-image: none;
 }
 div#d2bc {
-    background-image: url(https://a.top4top.io/p_19127n8z81.jpg);
+    background-image: none;
     background-size: cover;
 }
 
+.uzr.fl.corner.borderg.mm {
+    background-color: #fafbff !important;
+    border-top: 1px solid #e8dddd!important;
+    border-bottom: 1px solid #d4d2d2!important;
+    margin-bottom: 0!important;
+    width: 99%!important;
+}
+.u-msg.break.fl {
+    color: #020202 !important;
+}
