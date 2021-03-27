@@ -1,8 +1,29 @@
 div#d2 {
-    background-image: url(https://k.top4top.io/p_1911ptq6d2.jpg);
-    background-size: cover;
+    background-image: none;
 }
 div#d2bc {
-    background-image: url(https://i.top4top.io/p_1911ad9d52.jpg);
+    background-image: none;
     background-size: cover;
+}
+.u-msg.break.fl {
+    background-color: #de161600;
+    color: rgb(0, 0, 0)!important;
+}
+span.corner.nosel.u-topic.dots.fl.hand {
+    background-color: #a72a2a0d!important;
+    color: #da1f1f!important;
+}
+.uzr.fl.corner.borderg.pmsgc.mm {
+    background-color: #eac2c245!important;
+}
+.uzr.fl.corner.borderg.mm {
+    background-color: #ffffff!important;
+    border-top: 1px solid #eee!important;
+    border-bottom: 2px solid #ffffff!important;
+    margin-bottom: 1px!important;
+    width: 99%!important;
+}
+span.corner.nosel.u-topic.dots.fl.hand {
+    background-color: #a72a2a0d!important;
+    color: #da1f1f!important;
 }
