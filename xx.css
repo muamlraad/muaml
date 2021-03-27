@@ -1078,24 +1078,16 @@ img#iraqi3 {
     margin-right: -8px;
 }
 
-.u-msg.break.fl {
-    background-color: #00000000;
-    color: #ffffff!important;
-}
 
 
 .uzr.fl.corner.borderg.mm {
-    background-color: #0000005e!important;
-    border-top: 0px solid #eee!important;
-    border-bottom: 1px solid #fbfbfb47!important;
+    background-color: rgba(0, 77, 255, 0.08) !important;
+    border-top: 1px solid #fffcfcb8!important;
+    border-bottom: 1px solid #fffcfcb8!important;
     margin-bottom: 0!important;
-    width: 100%!important;
+    width: 99%!important;
 }
 
-span.corner.nosel.u-topic.dots.fl.hand {
-    background-color: #ffffff00!important;
-    color: #fffbfb!important;
-}
 
 img.emoi {
     background-color: #ffffff00!important;
@@ -1107,7 +1099,7 @@ img.emoi {
     color: #ea0e0e!important;
 }
 .uzr.fl.corner.borderg.hmsg.mm {
-    background-color: #00000078!important;
+    background-color: #00000045!important;
 }
 button.btn.fa.fa-image {
     background-color: #1391A7 !important;
