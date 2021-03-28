@@ -1132,6 +1132,7 @@ a.btn.minix.btn-primary.fa.fa-heart.fr {
     background-repeat: no-repeat;
     background-color: #ffffff00 !important;
     color: #ccb7c0;
+    margin-top: -6px !important;
 }
 
 .fa-heart:before {
@@ -1147,6 +1148,7 @@ a.btn.minix.btn-primary.fa.fa-comment.fr {
     background-size: 24px 24px;
     background-repeat: no-repeat;
     background-color: #ffffff00 !important;
+    margin-top: -6px !important;
 }
 .btn-primary:focus, .btn-primary:hover {
     background-position: revert;
