@@ -30,7 +30,7 @@ label.ae.fa.label.label-primary.fa-user {
     background-repeat: no-repeat;
 }
 
-.fa-user::before .fa-user::before {display: none;}
+.fa-user::before {display: none;}
 
 
 div#d0 {background-color: #ffffff !important;}
