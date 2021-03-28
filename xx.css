@@ -1081,7 +1081,7 @@ img#iraqi3 {
 
 
 .uzr.fl.corner.borderg.mm {
-    background-color: rgba(0, 77, 255, 0.08) !important;
+    background-color: rgb(58 58 58 / 54%) !important;
     border-top: 1px solid #fffcfcb8!important;
     border-bottom: 1px solid #fffcfcb8!important;
     margin-bottom: 0!important;
@@ -1121,4 +1121,7 @@ font-size: 8px!important;
 }
 .u-msg.break.fl {
     color: rgb(254 254 255) !important;
+}
+.uzr.fl.corner.borderg.pmsgc.mm {
+    background-color: rgb(116 140 137 / 51%) !important;
 }
