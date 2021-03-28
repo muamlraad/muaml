@@ -39,7 +39,7 @@ div#d0 {background-color: #ffffff !important;}
 }
 
 label.ae.fa.chats.label.fa-comment.label-primary {
-    background-image: url(https://g.top4top.io/p_1913v0f0y4.png);
+    background-image: url(https://b.top4top.io/p_1913qlwd12.png);
     padding: 25px 28px 14px 9px;
     border-radius: 6px 0px 0px 3px;
     border-style: solid solid solid groove;
@@ -103,5 +103,23 @@ label.ae.label.label-primary.fa.fa-gear {
 }
 
 .fa-gear::before, .fa-cog::before {
+    content: none;
+}
+
+label.ae.fa.chats.label.fa-comment.label-warning {
+    background-image: url(https://c.top4top.io/p_1913naewn3.png);
+    padding: 25px 28px 14px 9px;
+    border-radius: 6px 0px 0px 3px;
+    border-style: solid solid solid groove;
+    border-left-width: 0px;
+    border-left-color: initial;
+    background-color: #ffffff !important;
+    margin-left: 30px !important;
+    border: 1px solid rgb(165 160 160 / 0%);
+    background-size: 35px 35px;
+    background-repeat: no-repeat;
+}
+
+.label.ae.fa.chats.label.fa-comment.label-warning::before {
     content: none;
 }
