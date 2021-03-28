@@ -7,7 +7,7 @@ div#d2bc {
 }
 
 .uzr.fl.corner.borderg.mm {
-    background-color: #fafbff !important;
+    background-color: white !important;
     border-top: 1px solid #e8dddd!important;
     border-bottom: 1px solid #d4d2d2!important;
     margin-bottom: 0!important;
@@ -18,11 +18,11 @@ div#d2bc {
 }
 
 .uzr.fl.corner.borderg.pmsgc.mm {
-    background-color: #9c9c9c45!important;
-}
-.uzr.fl.corner.borderg.pmsgc.mm {
-    background-color: #9c9c9c45!important;
+    background-color: rgba(0, 77, 255, 0.08) !important;
 }
 .d2.filh.break.light {
     background-color: #fffcfc !important;
+}
+.uzr.fl.corner.borderg.hmsg.mm {
+    background-color: linen !important;
 }
