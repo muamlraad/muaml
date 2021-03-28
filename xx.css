@@ -1016,7 +1016,7 @@ label.iraq.ae.fa.label.label-primary {
 
 a.btn.minix.fa.fa-comment::before {
     content: "";
-    display: inline !important;
+    display: none;
 }
 
 .fa-send::before, .fa-paper-plane::before {
@@ -1122,4 +1122,32 @@ font-size: 8px!important;
 }
 .uzr.fl.corner.borderg.pmsgc.mm {
     background-color: rgb(116 140 137 / 51%) !important;
+}
+a.btn.minix.btn-primary.fa.fa-heart.fr {
+    background-image: url(https://i.top4top.io/p_19132yxy31.png);
+    padding: 9px 1px 2px 18px !important;
+    border-radius: 2px 0px 0px 3px;
+    border: 1px solid rgb(165 160 160 / 0%);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-color: #ffffff00 !important;
+    color: #ccb7c0;
+}
+
+.fa-heart:before {
+    content: none;
+}
+ 
+
+a.btn.minix.btn-primary.fa.fa-comment.fr {
+    background-image: url(https://c.top4top.io/p_1913ubd8j1.png);
+    padding: 9px 1px 2px 18px !important;
+    border-radius: 2px 0px 0px 3px;
+    border: 1px solid rgb(165 160 160 / 0%);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-color: #ffffff00 !important;
+}
+.btn-primary:focus, .btn-primary:hover {
+    background-position: revert;
 }
