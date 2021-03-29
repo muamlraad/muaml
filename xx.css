@@ -1368,6 +1368,7 @@ button.btn.fa.fa-youtube-play {
     background: linear-gradient( 
 369deg
  ,#b74674 0%,#1391a7 100%)!important;
+    color: #ffffff !important;
 }
 button.btn.fa.fa-youtube {
     background-color: #1391A7 !important;
@@ -1375,6 +1376,7 @@ button.btn.fa.fa-youtube {
     background: linear-gradient( 
 497deg
  ,#e8e8e8 0%,#e67272 100%)!important;
+    color: #ffffff !important;
 }
 .btn:hover {
     color: #fff;
