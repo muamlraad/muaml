@@ -906,7 +906,7 @@ font.iraq11 {
     font-size: 13px !important;
 }
 
-span.fr, .fa-ban::before, .fa-ban::before, .fa-search::before, .fa-ban::before, .fa-ban::before, .fa-diamond::before, .fa-comment::before, .fa-envelope-o::before {
+.fa-ban::before, .fa-ban::before, .fa-search::before, .fa-ban::before, .fa-ban::before, .fa-diamond::before, .fa-comment::before, .fa-envelope-o::before {
     display: none;
 }
 
@@ -1327,4 +1327,11 @@ span.busers.minix.badge.border,span.s1.fa.fa-user.label.badgex.label-as-badge.la
  }
 span.s1.fa.fa-user.label.badgex.label-as-badge.label-success {
     color: rgb(249 249 249) !important;
+}
+span.fr.minix.tago {
+    display: none;
+}
+
+span.fr.uhash {
+    display: none;
 }
