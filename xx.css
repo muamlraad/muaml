@@ -24,15 +24,6 @@
 
 a.btn.minix.fa.fa-times.fr {
     border-radius: 4px;
-    /* padding: 1px 4px 2px 5px; */
-    /* margin-top: 6px; */
-    /* background-repeat: repeat-x; */
-    /* margin-left: 1px; */
-    /* width: 13px; */
-    /* margin-right: 2px; */
-    /* color: rgb(33, 32, 32) !important; */
-    /* border-color: rgba(255, 255, 255, 0.22) !important; */
-    /* background-image: linear-gradient(rgba(255, 255, 255, 0.94) 0px, rgb(255, 255, 255) 100%) !important; */
 }
 
 span.minix.badge.border, span.bwall.minix.badge.border, span.brooms.minix.badge.border {
@@ -314,6 +305,7 @@ button.fa.fa-phone.call.fl.btn.btn-success {
 
 .tablebox.footer.light.fl {
     border-top: 1px solid rgb(174, 227, 209);
+    border-bottom-right-radius: 0em !important;
 }
 
 img.fl.nosel.emobox {
