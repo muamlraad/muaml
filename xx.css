@@ -208,6 +208,7 @@ button.fa.fa-sign-out.fl.btn.btn-primary {
 
 span.corner.fa.fa-user.label.label-primary.fr.uc {
     display: inline !important;
+    color: #fff;
 }
 
 button.fa.fa-send.fl.btn.btn-primary {
