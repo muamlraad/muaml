@@ -1139,18 +1139,8 @@ a.btn.minix.btn-primary.fa.fa-heart.fr {
     display: none;
 }
  
-.modal-body .fa-heart:before {display: inline;
+.modal-body .fa-heart:before {display: inline;}
 
-a.btn.minix.btn-primary.fa.fa-comment.fr {
-    background-image: url(https://c.top4top.io/p_1913ubd8j1.png);
-    padding: 9px 1px 2px 18px !important;
-    border-radius: 2px 0px 0px 3px;
-    border: 1px solid rgb(165 160 160 / 0%);
-    background-size: 24px 24px;
-    background-repeat: no-repeat;
-    background-color: #ffffff00 !important;
-    margin-top: -6px !important;
-}
 .btn-primary:focus, .btn-primary:hover {
     background-position: revert;
 }
@@ -1164,4 +1154,19 @@ a.btn.minix.btn-primary.fa.fa-comment.fr {
     background-color: #ffffff00 !important;
     color: #ccb7c0;
     margin-top: -6px !important;
+}
+a.btn.minix.btn-primary.fa.fa-times.fa {
+    background-image: url(https://d.top4top.io/p_1914pqqf11.png);
+    padding: 9px 1px 2px 18px !important;
+    border-radius: 2px 0px 0px 3px;
+    border: 1px solid rgb(251 251 251 / 0%);
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-color: #ffffff00 !important;
+    color: #c3bcca;
+    margin-top: -6px !important;
+}
+
+a.btn.minix.btn-primary.fa.fa-heart.fr, a.btn.minix.btn-primary.fa.fa-comment.fr , a.btn.minix.btn-primary.fa.fa-times.fa {
+    background-position: 0px 0px;
 }
