@@ -135,7 +135,7 @@ a#iraq {
 }
 
 label.fl.nosel.label.pnhead {
-    background-color: rgb(19, 145, 167);
+    background-color: rgb(255 255 255);
     width: 85%;
 }
 
@@ -1169,4 +1169,44 @@ a.btn.minix.btn-primary.fa.fa-times.fa {
 
 a.btn.minix.btn-primary.fa.fa-heart.fr, a.btn.minix.btn-primary.fa.fa-comment.fr , a.btn.minix.btn-primary.fa.fa-times.fa {
     background-position: 0px 0px;
+}
+label.label.label-danger.border.nosel.fa.fa-close.fr {
+    background-image: url(https://a.top4top.io/p_1914fokhk1.png);
+    padding: 9px 1px 2px 18px !important;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-color: #ffffff00 !important;
+    color: #ffffff00;
+    margin-top: -20px !important;
+    border: 1px solid #fffefe00 !important;
+}
+
+.fa-remove::before, .fa-close::before, .fa-times::before {
+    display: none;
+}
+
+.dpnl.bg.tab-content {
+    background-color: #ffffff !important;
+}
+
+label.fl.nosel.label.pnhead {
+    color: #651aaf !important;
+}
+
+textarea#usearch {
+    background-image: url(https://h.top4top.io/p_19143vciz1.png);
+    padding: 4px 6px 3px 24px !important;
+    background-size: 24px 24px;
+    background-repeat: no-repeat;
+    background-color: #ffffff00 !important;
+    margin-top: 2px !important;
+    border: 1px solid #fffefe00 !important;
+    padding: 5px;
+    border-right: 0px ridge rgb(255 255 255);
+    border-left: 0px groove rgb(255 255 255);
+    border-top-color: rgb(185 180 180) !important;
+    border-bottom-color: rgb(185 180 180) !important;
+    min-height: 15px !important;
+    border-radius: 1px !important;
+    color: #060606 !important;
 }
