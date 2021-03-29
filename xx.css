@@ -1191,6 +1191,7 @@ label.label.label-danger.border.nosel.fa.fa-close.fr {
 
 label.fl.nosel.label.pnhead {
     color: #651aaf !important;
+    font-family: jazeera, FontAwesome;
 }
 
 textarea#usearch {
