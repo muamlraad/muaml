@@ -24,15 +24,15 @@
 
 a.btn.minix.fa.fa-times.fr {
     border-radius: 4px;
-    padding: 1px 4px 2px 5px;
-    margin-top: 6px;
-    background-repeat: repeat-x;
-    margin-left: 1px;
-    width: 13px;
-    margin-right: 2px;
-    color: rgb(33, 32, 32) !important;
-    border-color: rgba(255, 255, 255, 0.22) !important;
-    background-image: linear-gradient(rgba(255, 255, 255, 0.94) 0px, rgb(255, 255, 255) 100%) !important;
+    /* padding: 1px 4px 2px 5px; */
+    /* margin-top: 6px; */
+    /* background-repeat: repeat-x; */
+    /* margin-left: 1px; */
+    /* width: 13px; */
+    /* margin-right: 2px; */
+    /* color: rgb(33, 32, 32) !important; */
+    /* border-color: rgba(255, 255, 255, 0.22) !important; */
+    /* background-image: linear-gradient(rgba(255, 255, 255, 0.94) 0px, rgb(255, 255, 255) 100%) !important; */
 }
 
 span.minix.badge.border, span.bwall.minix.badge.border, span.brooms.minix.badge.border {
@@ -1157,14 +1157,14 @@ a.btn.minix.btn-primary.fa.fa-comment.fr {
 }
 a.btn.minix.btn-primary.fa.fa-times.fa {
     background-image: url(https://d.top4top.io/p_1914pqqf11.png);
-    padding: 9px 1px 2px 18px !important;
+    padding: 19px 1px 1px 15px !important;
     border-radius: 2px 0px 0px 3px;
     border: 1px solid rgb(251 251 251 / 0%);
     background-size: 24px 24px;
     background-repeat: no-repeat;
     background-color: #ffffff00 !important;
     color: #c3bcca;
-    margin-top: -6px !important;
+    margin-top: 8px !important;
 }
 
 a.btn.minix.btn-primary.fa.fa-heart.fr, a.btn.minix.btn-primary.fa.fa-comment.fr , a.btn.minix.btn-primary.fa.fa-times.fa {
@@ -1321,3 +1321,7 @@ label.ae.fa.chats.label.fa-comment.label-warning {
     content: none;
 }
 span.busers.minix.badge.border,span.s1.fa.fa-user.label.badgex.label-as-badge.label-success,a#asim27{background-color: #fff8f8a8 !important;border-radius: 10px;color: rgb(0 149 255) !important;}
+
+.fa-times:before{
+ display: initial;
+ }
