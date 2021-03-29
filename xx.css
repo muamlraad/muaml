@@ -1328,6 +1328,7 @@ span.busers.minix.badge.border,span.s1.fa.fa-user.label.badgex.label-as-badge.la
  }
 span.s1.fa.fa-user.label.badgex.label-as-badge.label-success {
     color: rgb(249 249 249) !important;
+    background-color: #9a787800 !important;
 }
 span.fr.minix.tago {
     display: none;
