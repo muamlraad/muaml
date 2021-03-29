@@ -1493,3 +1493,18 @@ input.stopic.corner.dots , input.smsg.corner.dots {
     border-style: inset;
     width: 99% !important;
 }
+
+
+area {
+    margin: 0px !important;
+    margin-top: 1px !important;
+    margin-bottom: 11px !important;
+    margin-left: 1px !important;
+}
+
+.des {
+    margin: 0px !important;
+    margin-top: 1px !important;
+    margin-bottom: 11px !important;
+    margin-left: -35px !important;
+}
