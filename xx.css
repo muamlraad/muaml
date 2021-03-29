@@ -1094,7 +1094,12 @@ img.emoi {
     color: #ea0e0e!important;
 }
 button.btn.fa.fa-image {
-    background-color: #1391A7 !important;
+
+background-color: #1391A7 !important;
+    border: 1px solid rgb(189 154 154 / 0%);
+    background: linear-gradient( 
+369deg
+ ,#b74674 0%,#1391a7 100%)!important;
 }
 .fm.borderf {
 position: absolute;
@@ -1355,4 +1360,11 @@ button.border.btn.label.label-success.fl.fa.fa-plus {
     border: 1px solid rgb(255 255 255);
     content: " انشاء غرفة";
     text-align: center!important;
+}
+button.btn.fa.fa-youtube-play {
+    background-color: #1391A7 !important;
+    border: 1px solid rgb(189 154 154 / 0%);
+    background: linear-gradient( 
+369deg
+ ,#b74674 0%,#1391a7 100%)!important;
 }
