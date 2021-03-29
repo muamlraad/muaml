@@ -1454,3 +1454,41 @@ img.fitimg.fl.borderg.spic.corner.hand {
 .fl.borderg.corner.uzr {
     margin-top: 1px!important;
 }
+label.label.tc.border.btn.bb4.fl {
+    margin: 4px!important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 3px !important;
+    margin-left: 3px !important;
+    background-color: #1391A7 !important;
+    background: linear-gradient( 
+369deg
+ ,#ffffff 0%,#ffffff 100%)!important;
+    border: 2px solid #fffafa;
+    border-color: #e8e2e2 !important;
+}
+label.label.tc.border.cp.btn.label-danger.fl {
+    margin: 4px!important;
+    margin-top: 3px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 3px !important;
+    background-color: #1391A7 !important;
+    background: linear-gradient( 
+369deg
+ ,#ffffff 0%,#ffffff 100%)!important;
+    border: 2px solid #fffafa;
+    border-color: #e8e2e2 !important;
+}
+
+input.stopic.corner.dots , input.smsg.corner.dots {
+    padding: 2px;
+    border-right: 5px groove rgb(208 214 213);
+    border-left: 5px groove rgb(208 214 213);
+    border-top-color: rgb(210 213 214);
+    border-bottom-color: rgb(189 196 197);
+    min-height: 28px !important;
+    border-radius: 10px !important;
+    text-align: center;
+    border-style: inset;
+}
