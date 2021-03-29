@@ -1081,6 +1081,7 @@ img#iraqi3 {
     border-bottom: 1px solid #fffcfcb8!important;
     margin-bottom: 0!important;
     width: 99%!important;
+    margin-top: 1px!important;
 }
 
 
@@ -1378,4 +1379,76 @@ button.btn.fa.fa-youtube {
 .btn:hover {
     color: #fff;
     text-decoration: none;
+}
+label.label.tc.border.btn.label-info.fl {
+    margin: 4px !important;
+    margin-top: -246px !important;
+    margin-right: 15px !important;
+    margin-bottom: -64px !important;
+    margin-left: 3px !important;
+    background-color: #1391A7 !important;
+    background: linear-gradient( 
+369deg
+ ,#ffffff 0%,#ffffff 100%)!important;
+    border: 2px solid #fffafa;
+    border-color: #e8e2e2 !important;
+}
+
+label.label.tc.border.pmsg.btn.label-info.fl {}
+
+label.label.tc.border.redit.btn.label-info.fl {
+    margin: 4px!important;
+    margin-top: 3px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 3px !important;
+    background-color: #1391A7 !important;
+    background: linear-gradient( 
+369deg
+ ,#ffffff 0%,#ffffff 100%)!important;
+    border: 2px solid #fffafa;
+    border-color: #e8e2e2 !important;
+}
+
+a.label.label-primary.fr {
+    height: 100%;
+    width: 100%;
+    background-color: #1391A7 !important;
+    border: 1px solid rgb(189 154 154 / 0%);
+    background: linear-gradient( 
+369deg
+ ,#b74674 0%,#1391a7 100%)!important;
+}
+
+div.borderg.corner {
+    margin-top: 126px!important;
+}
+
+label.label.tc.border.pmsg.btn.label-info.fl {
+    margin: 4px!important;
+    margin-top: 0px !important;
+    margin-right: 0px !important;
+    margin-bottom: 0px !important;
+    margin-left: 3px !important;
+    background-color: #1391A7 !important;
+    background: linear-gradient( 
+369deg
+ ,#ffffff 0%,#ffffff 100%)!important;
+    border: 2px solid #fffafa;
+    border-color: #e8e2e2 !important;
+}
+
+img.fitimg.fl.borderg.spic.corner.hand {
+    width: 53px !important;
+    height: 53px !important;
+    margin: -78px !important;
+    margin-top: -68px !important;
+    margin-bottom: -42px !important;
+    margin-left: 100px !important;
+    border-radius: 25px 25px 25px 25px !important;
+    border: 1px solid #c3c3c3 !important;
+}
+
+.fl.borderg.corner.uzr {
+    margin-top: 1px!important;
 }
