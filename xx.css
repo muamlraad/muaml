@@ -1491,4 +1491,5 @@ input.stopic.corner.dots , input.smsg.corner.dots {
     border-radius: 10px !important;
     text-align: center;
     border-style: inset;
+    width: 99% !important;
 }
