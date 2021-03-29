@@ -1347,3 +1347,12 @@ div#users ::-webkit-scrollbar-thumb {
 span.fr {
     color: #fff;
 }
+button.border.btn.label.label-success.fl.fa.fa-plus {
+    color: #ffffff !important;
+    font-family: jazeera, FontAwesome;
+    width: 100%;
+    border-radius: 0px;
+    border: 1px solid rgb(255 255 255);
+    content: " انشاء غرفة";
+    text-align: center!important;
+}
