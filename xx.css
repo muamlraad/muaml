@@ -1375,3 +1375,7 @@ button.btn.fa.fa-youtube {
 497deg
  ,#e8e8e8 0%,#e67272 100%)!important;
 }
+.btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
