@@ -541,7 +541,8 @@ img.fl.fitimg.hand.u-pic {
 }
 
 .border {
-    border: 1px solid rgb(232, 232, 232);
+    border: 1px solid rgb(210 210 210);
+    border-color: #cab6b6 !important;
 }
 
 a#iraq19 {
@@ -1179,6 +1180,7 @@ label.label.label-danger.border.nosel.fa.fa-close.fr {
 
 .dpnl.bg.tab-content {
     background-color: #ffffff !important;
+    border: 1px solid #6fcada !important;
 }
 
 label.fl.nosel.label.pnhead {
