@@ -39,7 +39,7 @@ span.bwall.minix.badge.border, span.brooms.minix.badge.border {
 }
 
 ul.nav.nav-tabs.fl li a:hover {
-    background-color: rgb(26, 163, 186);
+    background-color: #e9b6ff;
     color: rgb(255, 255, 255);
 }
 
@@ -460,6 +460,7 @@ textarea.form-control {
 
 div#tlogins.light {
     height: auto !important;
+    border-radius: 6px 8px 7px 0px !important;
 }
 
 body.bg.center-block.bg.dad div#tlogins {
@@ -522,7 +523,7 @@ div#tlogins .fa-user::before {
 
 label.fl.label.loginstat {
     position: absolute;
-    top: 28px;
+    top: 0px;
     left: 0px;
     float: left !important;
     border-radius: 0px 7px 7px 0px !important;
@@ -542,8 +543,8 @@ img.fl.fitimg.hand.u-pic {
 }
 
 .border {
-    border: 1px solid rgb(210 210 210);
-    border-color: #cab6b6 !important;
+    border: 1px solid #c94ed0;
+    border-color: #c94ed0 !important;
 }
 
 a#iraq19 {
@@ -576,7 +577,7 @@ span.corner.u-topic.dots {
 label.label.label-primary.mini.fl {
     pointer-events: none;
     height: 20px;
-    color: rgb(255, 255, 255);
+    color: rgb(255 255 255);
     margin: 0px;
     padding: 1px 15px 0px 0px;
     font-family: jazeera, FontAwesome;
@@ -588,11 +589,12 @@ label.label.label-primary.mini.fl {
     border-radius: 0px 0px 0px 1px !important;
     border-bottom: 1px solid rgb(247, 211, 34) !important;
     font-size: 11px !important;
+    background-color: #bb76b7 !important;
 }
 
 .lonline.light.break {
     outline: rgba(255, 255, 255, 0) solid 1px !important;
-    background-color: rgba(19, 145, 167, 0.07) !important;
+    background-color: rgb(214 129 211 / 7%) !important;
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent) !important;
 }
 
@@ -743,7 +745,7 @@ ul.nav.nav-tabs > li > a {
     color: rgb(255, 255, 255);
     border-width: 0px 5px;
     border-image: initial;
-    background-color: rgb(19, 145, 167);
+    background-color: #bc5ce4;
     border-radius: 0px;
     display: initial;
     width: 98%;
@@ -751,7 +753,7 @@ ul.nav.nav-tabs > li > a {
     text-align: center;
     border-top-style: solid;
     border-bottom-style: solid;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(255 180 180);
     border-left-style: initial;
     height: 28px;
     border-right-style: ridge;
@@ -764,15 +766,15 @@ ul.nav.nav-tabs > li > a {
 }
 
 ul.nav.nav-tabs > li.active > a {
-    color: rgb(255, 255, 255);
-    background-color: rgb(19, 145, 167);
+    color: #fffeff;
+    background-color: #e9b6ff;
     border-width: 0px 5px;
     border-image: initial;
     border-radius: 0px;
     text-align: center;
     border-top-style: solid;
     border-bottom-style: solid;
-    border-color: rgb(255, 255, 255);
+    border-color: rgb(251 177 177);
     border-left-style: inherit;
     border-right-style: ridge;
 }
@@ -793,7 +795,7 @@ ul.nav.nav-tabs > li > .fa-user-plus::before, ul.nav.nav-tabs > li > .fa-user::b
     height: 31px;
     margin-top: -4px;
     padding: 4px 0px 0px !important;
-    border-right: 2px solid rgb(255, 255, 255) !important;
+    border-right: 2px solid rgb(108 22 162 / 45%) !important;
 }
 
 .nav > li > a:focus, .nav > li > a:hover {
@@ -810,6 +812,7 @@ input#u1, input#u2, input#pass1, input#u3, input#pass2 {
     border-style: solid double;
     border-color: rgb(46, 161, 173);
     margin: 0px 0px 5px -5.5px !important;
+    color: #975daffc;
 }
 
 .checkbox {
@@ -842,13 +845,18 @@ ul.nav.nav-tabs {
     border-left: 2px solid rgb(247, 211, 34);
     border-right: 2px solid rgb(247, 211, 34);
     background-position: initial;
-    background-size: initial;
-    background-repeat: initial;
     background-attachment: initial;
     background-origin: initial;
     background-clip: initial;
-    background-color: rgb(235, 235, 235);
-    background-image: -webkit-linear-gradient(45deg, rgb(249, 249, 249) 25%, rgba(216, 247, 251, 0.51) 25%, rgb(229, 252, 255) 50%, rgba(167, 242, 255, 0.43) 50%, rgba(148, 233, 247, 0.11) 75%, rgb(230, 247, 249) 75%, rgb(249, 249, 249)) !important;
+    background-image: url(https://l.top4top.io/p_1915u5gnq8.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 388px 116px;
+    border-left-color: initial;
+    background-color: #ffffff !important;
+    margin-left: 10px !important;
+    border: 1px solid rgb(165 160 160 / 0%);
 }
 
 div#l1 {
@@ -909,7 +917,7 @@ font.iraq11 {
     height: 20px;
     color: rgb(255, 255, 255);
     border-left: 2px solid rgb(138, 234, 236);
-    background-color: rgb(19, 145, 167);
+    background-color: #bb76b7;
     border-right: 2px solid rgb(247, 211, 34);
     border-radius: 0px 0px 1px;
     border-bottom: 1px solid rgb(247, 211, 34);
@@ -935,6 +943,7 @@ div#tlogins button.btn.btn-primary {
     border-top-style: dotted;
     border-bottom-style: dotted;
     border-radius: 7% !important;
+    background-color: #bc5ce4 !important;
 }
 
 label.iraq.ae.fa.label.label-primary {
@@ -1508,4 +1517,8 @@ area {
     margin-top: 1px !important;
     margin-bottom: 11px !important;
     margin-left: -35px !important;
+}
+
+.fa-eye-slash:before {
+    color: #fefcff !important;
 }
