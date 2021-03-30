@@ -1167,17 +1167,7 @@ a.btn.minix.btn-primary.fa.fa-comment.fr {
     color: #ccb7c0;
     margin-top: -6px !important;
 }
-a.btn.minix.btn-primary.fa.fa-times.fa {
-    background-image: url(https://d.top4top.io/p_1914pqqf11.png);
-    padding: 19px 1px 1px 15px !important;
-    border-radius: 2px 0px 0px 3px;
-    border: 1px solid rgb(251 251 251 / 0%);
-    background-size: 24px 24px;
-    background-repeat: no-repeat;
-    background-color: #ffffff00 !important;
-    color: #c3bcca;
-    margin-top: 8px !important;
-}
+a.btn.minix.btn-primary.fa.fa-times.fa {background-image: url(https://d.top4top.io/p_1914pqqf11.png);padding: 4px 4px 4px 4px!important;border-radius: 2px 0px 0px 3px;border: 1px solid rgb(251 251 251 / 0%);background-size: 21px 22px;background-repeat: no-repeat;background-color: #ffffff00 !important;color: #c3bcca;top: auto;}
 
 a.btn.minix.btn-primary.fa.fa-heart.fr, a.btn.minix.btn-primary.fa.fa-comment.fr , a.btn.minix.btn-primary.fa.fa-times.fa {
     background-position: 0px 0px;
