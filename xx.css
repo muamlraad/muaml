@@ -748,7 +748,7 @@ ul.nav.nav-tabs > li > a {
     color: rgb(255, 255, 255);
     border-width: 0px 5px;
     border-image: initial;
-    background-color: #bc5ce4;
+    background-color: #9f70b7;
     border-radius: 0px;
     display: initial;
     width: 98%;
@@ -770,7 +770,7 @@ ul.nav.nav-tabs > li > a {
 
 ul.nav.nav-tabs > li.active > a {
     color: #fffeff;
-    background-color: #e9b6ff;
+    background-color: #8435ad;
     border-width: 0px 5px;
     border-image: initial;
     border-radius: 0px;
@@ -946,7 +946,7 @@ div#tlogins button.btn.btn-primary {
     border-top-style: dotted;
     border-bottom-style: dotted;
     border-radius: 7% !important;
-    background-color: #bc5ce4 !important;
+    background-color: #9f70b7 !important;
 }
 
 label.iraq.ae.fa.label.label-primary {
