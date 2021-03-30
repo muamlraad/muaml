@@ -1,3 +1,6 @@
+div#iraq1 {
+    display: none;
+}
 .fa-dot-circle-o::before {
     content: "";
     animation: 1.5s ease 0s infinite normal none running mymove;
