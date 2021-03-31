@@ -1090,16 +1090,6 @@ img#iraqi3 {
 
 
 
-.uzr.fl.corner.borderg.mm {
-    background-color: rgb(0 0 0 / 59%) !important;
-    border-top: 1px solid #fffcfcb8!important;
-    border-bottom: 1px solid #fffcfcb8!important;
-    margin-bottom: 0!important;
-    width: 99%!important;
-    margin-top: 1px!important;
-}
-
-
 img.emoi {
     background-color: #ffffff00!important;
 }
@@ -1132,9 +1122,7 @@ font-size: 8px!important;
     margin-left: -4px!important;
     color: #f8feff;
 }
-.u-msg.break.fl {
-    color: rgb(254 254 255) !important;
-}
+
 .uzr.fl.corner.borderg.pmsgc.mm {
     background-color: rgb(116 140 137 / 51%) !important;
 }
@@ -1503,5 +1491,3 @@ label.ae.fa.label.fa-commenting-o.label-primary {
     background-size: 32px 32px;
     margin-left: 33px !important;
 }
-
-
