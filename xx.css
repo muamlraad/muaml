@@ -1128,14 +1128,16 @@ font-size: 8px!important;
 }
 a.btn.minix.btn-primary.fa.fa-heart.fr {
     background-image: url(https://i.top4top.io/p_19132yxy31.png);
-    padding: 9px 1px 2px 18px !important;
+    padding: 9px 1px 2px 45px !important;
     border-radius: 2px 0px 0px 3px;
-    border: 1px solid rgb(165 160 160 / 0%);
+    border: 1px solid rgb(255 244 244 / 70%);
     background-size: 24px 24px;
     background-repeat: no-repeat;
     background-color: #ffffff00 !important;
-    color: #ccb7c0;
-    margin-top: -6px !important;
+    color: #ff006d;
+    margin-top: 10px !important;
+    width: 45%;
+    background-position: center !important;
 }
 
 .fa-heart:before {
@@ -1147,17 +1149,7 @@ a.btn.minix.btn-primary.fa.fa-heart.fr {
 .btn-primary:focus, .btn-primary:hover {
     background-position: revert;
 }
-a.btn.minix.btn-primary.fa.fa-comment.fr {
-    background-image: url(https://c.top4top.io/p_1913naewn3.png);
-    padding: 9px 1px 2px 18px !important;
-    border-radius: 2px 0px 0px 3px;
-    border: 1px solid rgb(165 160 160 / 0%);
-    background-size: 24px 24px;
-    background-repeat: no-repeat;
-    background-color: #ffffff00 !important;
-    color: #ccb7c0;
-    margin-top: -6px !important;
-}
+a.btn.minix.btn-primary.fa.fa-comment.fr {background-image: url(https://c.top4top.io/p_1913naewn3.png);padding: 9px 29px 2px 49px !important;border-radius: 3px 0px 0px 3px;border: 1px solid rgb(255 244 244 / 70%);background-size: 24px 24px;background-repeat: no-repeat;background-color: #421d1d00 !important;color: #02e1ff !important;margin-top: 10px !important;width: 46%;background-position: center !important;}
 a.btn.minix.btn-primary.fa.fa-times.fa {background-image: url(https://d.top4top.io/p_1914pqqf11.png);padding: 4px 4px 4px 4px!important;border-radius: 2px 0px 0px 3px;border: 1px solid rgb(251 251 251 / 0%);background-size: 21px 22px;background-repeat: no-repeat;background-color: #ffffff00 !important;color: #c3bcca;top: auto;}
 
 a.btn.minix.btn-primary.fa.fa-heart.fr, a.btn.minix.btn-primary.fa.fa-comment.fr , a.btn.minix.btn-primary.fa.fa-times.fa {
@@ -1173,7 +1165,9 @@ label.label.label-danger.border.nosel.fa.fa-close.fr {
     margin-top: -20px !important;
     border: 1px solid #fffefe00 !important;
 }
-
+.bccos > div {
+    border: 1px solid #eaeaea59!important;
+}
 .fa-remove::before, .fa-close::before, .fa-times::before {
     display: none;
 }
