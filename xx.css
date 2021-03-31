@@ -30,15 +30,20 @@ a.btn.minix.fa.fa-times.fr {
 }
 
 span.minix.badge.border, span.bwall.minix.badge.border, span.brooms.minix.badge.border {
-    display: none !important;
+    display:  !important;
 }
 
 span.busers.minix.badge.border {
     display: inline !important;
+    background-color: #ff0000e6 !important;
+    border-radius: 10px;
+    color: rgb(255 255 255) !important;
+    margin: 0px 3px!important;
+    padding: 0px 3px!important;
 }
 
 span.bwall.minix.badge.border, span.brooms.minix.badge.border {
-    display: none !important;
+    display:  !important;
 }
 
 ul.nav.nav-tabs.fl li a:hover {
@@ -113,9 +118,7 @@ a#iraq {
 }
 
 .ae.fa.label.fa-commenting-o.label-warning {
-    padding: 7px 0px 5px 9px;
-    border-radius: 0px;
-    margin-left: -4px !important;
+
 }
 
 .ae.fa.chats.label.fa-comment.label-warning {
@@ -1216,54 +1219,32 @@ textarea#usearch {
 }
 
 label.ae.fa.label.label-primary.fa-user {
-    background-image: url(https://f.top4top.io/p_1913fp5kp3.png);
-    background-size: 35px 35px;
-    padding: 8px 21px 14px 7px;
-    border-radius: 6px 0px 0px 3px;
-    border-style: solid solid solid groove;
-    border-left-width: 2px;
-    border-left-color: initial;
-    background-color: #ffffff !important;
+    background-image: url(https://c.top4top.io/p_1916tsg7y1.png);
+    background-size: 32px 32px;
+    padding: 0px 7px 16px 7px;
     margin-left: 10px !important;
-    border: 1px solid rgb(165 160 160 / 0%);
-    background-repeat: no-repeat;
 }
 
 .fa-user::before {display: none;}
 
 
-div#d0 {background-color: #ffffff !important;}
+div#d0 {background-color: #ffffff !important;padding-left: 10px!important;}
 
 .ae.fa.chats.label.label-primary.fa-comment::before {
     content: none;
 }
 
 label.ae.fa.chats.label.fa-comment.label-primary {
-    background-image: url(https://b.top4top.io/p_1913qlwd12.png);
-    padding: 25px 28px 14px 9px;
-    border-radius: 6px 0px 0px 3px;
-    border-style: solid solid solid groove;
-    border-left-width: 0px;
-    border-left-color: initial;
-    background-color: #ffffff !important;
-    margin-left: 27px !important;
-    border: 1px solid rgb(165 160 160 / 0%);
-    background-size: 35px 35px;
-    background-repeat: no-repeat;
+    background-image: url(https://b.top4top.io/p_1916klcb53.png);
+    padding: 18px 23px 15px 9px;
+    margin-left: 33px !important;
 }
 
 label.ae.fa.label.label-primary.fa-users {
     background-image: url(https://d.top4top.io/p_19134ascg1.png);
-    padding: 5px 9px 16px 20px;
-    border-radius: 6px 0px 0px 3px;
-    border-style: solid solid solid groove;
-    border-left-width: 0px;
-    border-left-color: initial;
-    background-color: #ffffff !important;
-    margin-left: 27px !important;
-    border: 1px solid rgb(165 160 160 / 0%);
-    background-size: 44px 44px;
-    background-repeat: no-repeat;
+    padding: 5px 11px 17px 21px;
+    background-size: 46px 46px;
+    margin-left: 33px !important;
 }
 
 .fa-group::before, .fa-users::before {
@@ -1274,32 +1255,11 @@ label.ae.fa.label.label-primary.fa-users {
     content: none;
 }
 
-label.ae.fa.label.label-primary.fa-commenting-o {
-    background-image: url(https://l.top4top.io/p_1913w0nnn9.png);
-    padding: 5px 20px 16px 8px;
-    border-radius: 6px 0px 0px 3px;
-    border-style: solid solid solid groove;
-    border-left-width: 0px;
-    border-left-color: initial;
-    background-color: #ffffff !important;
-    margin-left: 27px !important;
-    border: 1px solid rgb(165 160 160 / 0%);
-    background-size: 35px 35px;
-    background-repeat: no-repeat;
-}
-
 label.ae.label.label-primary.fa.fa-gear {
-    background-image: url(https://a.top4top.io/p_191340zzv1.png);
-    padding: 3px 18px 17px 1px;
-    border-radius: 6px 0px 0px 3px;
-    border-style: solid solid solid groove;
-    border-left-width: 0px;
-    border-left-color: initial;
-    background-color: #ffffff !important;
-    margin-left: 27px !important;
-    border: 1px solid rgb(165 160 160 / 0%);
-    background-size: 35px 35px;
-    background-repeat: no-repeat;
+    background-image: url(https://l.top4top.io/p_1916pbfzx1.png);
+    padding: 0px 15px 17px 8px;
+    background-size: 32px 32px;
+    margin-left: 33px !important;
 }
 
 .fa-gear::before, .fa-cog::before {
@@ -1307,23 +1267,16 @@ label.ae.label.label-primary.fa.fa-gear {
 }
 
 label.ae.fa.chats.label.fa-comment.label-warning {
-    background-image: url(https://c.top4top.io/p_1913naewn3.png);
-    padding: 25px 28px 14px 9px;
-    border-radius: 6px 0px 0px 3px;
-    border-style: solid solid solid groove;
-    border-left-width: 0px;
-    border-left-color: initial;
-    background-color: #ffffff !important;
-    margin-left: 27px !important;
-    border: 1px solid rgb(165 160 160 / 0%);
-    background-size: 35px 35px;
-    background-repeat: no-repeat;
+    background-image: url(https://e.top4top.io/p_19160rs406.png);
+    padding: 4px 25px 14px 8px;
+    margin-left: 33px !important;
+    background-size: 32px 32px;
 }
 
 .label.ae.fa.chats.label.fa-comment.label-warning::before {
     content: none;
 }
-span.busers.minix.badge.border,span.s1.fa.fa-user.label.badgex.label-as-badge.label-success,a#asim27{background-color: #fff8f8a8 !important;border-radius: 10px;color: rgb(0 149 255) !important;}
+span.s1.fa.fa-user.label.badgex.label-as-badge.label-success, a#asim27{background-color: #fff8f8a8 !important;border-radius: 10px;color: rgb(0 149 255) !important;}
 
 .fa-times:before{
  display: initial;
@@ -1515,3 +1468,39 @@ area {
 .fa-eye-slash:before {
     color: #fefcff !important;
 }
+
+
+label.ae.fa.chats.label.label-primary.fa-comment, label.ae.fa.label.label-primary.fa-users, label.ae.fa.label.fa-commenting-o.label-primary , label.ae.label.label-primary.fa.fa-gear, label.ae.fa.label.label-primary.fa-user, label.ae.fa.chats.label.fa-comment.label-warning {
+    background-repeat: no-repeat;
+    border: 1px solid rgb(165 160 160 / 0%);
+    border-style: solid solid solid groove;
+    border-left-width: 0px;
+    border-left-color: initial;
+    background-color: #ffffff !important;
+}
+
+
+span.minix.badge.border {
+    display: inline !important;
+    background-color: #ff0000e6 !important;
+    color: rgb(255 255 255) !important;
+    margin: 32px 0px 0px 0px !important;
+    padding: 0px 3px!important;
+    border-radius: 10px;
+    margin-left: auto  !important;
+    margin: -7px -6px 0px -8px!important;
+}
+
+
+label.ae.fa.chats.label.fa-comment.label-primary > span.minix.badge.border {
+    display: none !important;
+}
+
+label.ae.fa.label.fa-commenting-o.label-primary {
+    background-image: url(https://a.top4top.io/p_1916bw1ff2.png);
+    padding: 0px 15px 17px 8px;
+    background-size: 32px 32px;
+    margin-left: 33px !important;
+}
+
+
