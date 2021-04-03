@@ -1153,7 +1153,7 @@ a.btn.minix.btn-primary.fa.fa-heart.fr {
     background-position: revert;
 }
 a.btn.minix.btn-primary.fa.fa-comment.fr {color: #02e1ff !important;padding: 4px 74px 7px 49px !important;border-radius: 2px 0px 0px 3px;border: 1px solid rgb(255 244 244 / 70%);background-repeat: no-repeat;background-color: #ffffff00 !important;margin-top: 0px !important;width: 50%;margin-left: 0px !important;background-image: url(https://b.top4top.io/p_1918540se1.png);background-size: 32px 979px;background-position-x: 56%;background-position-y: 60%;background-position: 50% -353px;}
-a.btn.minix.btn-primary.fa.fa-times.fa {background-repeat: no-repeat;background-color: #ffffff00 !important;/* color: #c3bcca; */margin-left: 0px !important;background-image: url(https://b.top4top.io/p_1918540se1.png);background-size: 25px 805px;padding: 0px 7px 16px 7px;background-position-x: 56%;background-position-y: 60%;background-position: 46% -245px;}
+a.btn.minix.btn-primary.fa.fa-times.fa {background-repeat: no-repeat;background-color: #ffffff00 !important;color: #c3bcca;margin-left: -10px !important;background-image: url(https://b.top4top.io/p_1918540se1.png);background-size: 25px 805px;padding: 0px 7px 16px 7px;background-position-x: 56%;background-position-y: 60%;background-position: 46% -245px;}
 
 a.btn.minix.btn-primary.fa.fa-heart.fr, a.btn.minix.btn-primary.fa.fa-comment.fr , a.btn.minix.btn-primary.fa.fa-times.fa {
     /* background-position: 0px 0px; */
@@ -1489,4 +1489,5 @@ div#d2bc > div > a.btn.minix.btn-primary.fa.fa-times.fa {
     background-position-x: 56%;
     background-position-y: 60%;
     background-position: 46% -244px;
+    border: 1px solid rgb(212 205 205 / 90%);
 }
