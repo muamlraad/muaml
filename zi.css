@@ -102,4 +102,9 @@ label.label.tc.border.btn.label-info.fl {
     border-right: 3px #434343 solid !important;
     border-radius: 3px;
 }
- 
+ .label-warning {
+    background-color: #d9534f;
+    background-image: url(https://k.top4top.io/p_1871wwqvi1.gif);
+    border-radius: 0;
+    margin-left: -2px!important;
+}
