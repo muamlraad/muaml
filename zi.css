@@ -53,3 +53,53 @@ span.busers.minix.badge.border {
 }ign: center !important;
     box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 -3px 1px -2px rgb(0 0 0 / 20%) !important;
 }
+label.fl.nosel.label.pnhead {
+    color: #fff;
+    background-color: #885867;
+    padding: 8px;
+    width: 85%;
+    display: block;
+    height: 35px;
+    background-image: repeating-linear-gradient( 45deg ,rgb(59 86 120 / 64%),#3b5678 100px,transparent 0,transparent 200px),repeating-linear-gradient( -45deg ,rgb(115 133 156),#3b5678 100px,transparent 0,#f8f9fa 200px);
+    background-color: #f0ad4e!important;
+    border-radius: 9;
+    border: 1px solid #f7f7f7;
+    margin-top: -5px;
+    margin-bottom: 4px;
+    margin-top: -28px!important;
+    font-family: jazeera,FontAwesome;
+}
+font-family: 'rawy-bold';
+div.borderg.corner {
+    margin-top: 70px !important;
+}
+input.stopic.corner.dots, input.smsg.corner.dots {
+    padding: 2px;
+    border-right: 3px groove #434343;
+    border-left: 3px groove #434343;
+    border-top-color: #434343;
+    border-bottom-color: #434343;
+    min-height: 28px !important;
+    text-align: center;
+    width: 99% !important;
+    border-radius: 3px !important;
+}
+.label-success {
+    background-color: #828f9e!important;
+}
+.border, div#tlogins {
+    box-shadow: inset 1px 1px 1px 0 #9494946b,0 0 2px #9494949e!important;
+}
+.border {
+    border: #aed0f1 solid 1px!important;
+}
+label.label.tc.border.btn.label-info.fl {
+    margin: 6px !important;
+    margin-right: 15px !important;
+    margin-left: 3px !important;
+    background: linear-gradient(369deg,#ffffff 0%,#ffffff 100%) !important;
+    border-left: 3px #434343 solid !important;
+    border-right: 3px #434343 solid !important;
+    border-radius: 3px;
+}
+ 
