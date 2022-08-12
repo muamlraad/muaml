@@ -1,16 +1,56 @@
-button.btn.fr.btn-warning.fa.fa-paint-brush {
-    display: none;
+.ae.fa.label.label-primary.fa-user {
+    border-color: #000000 !important;
+    width: 55px !important;
+    padding: 7px 12px 5px 9px!important;
+    border-radius: 21px 0 0 17px!important;
+    border-style: solid!important;
+    border-left: 4px solid!important;
+    border-left-style: groove !important;
+    border-right: 2px solid #fff !important;
+}
+.ae, button.btn {
+    border-radius: 3px;
+    border: #ffffff solid 1px;
+}
+span.busers.minix.badge.border {
+    display: inline!important;
 }
 
-button.btn.fr.btn-success.fa.fa-refresh {
-    display: none;
+ span.busers.minix.badge.border, span.s1.fa.fa-user.label.badgex.label-as-badge.label-success, a#asim27 {
+    background-color: hsla(0,0%,100%,0)!important;
+    border: hsla(0,0%,100%,0)!important;
 }
-
-a.label.label-primary.fl {
-    border-radius: 2px !important;
-    padding: 1px !important;
-    margin-bottom: 2px;
-    background-image: radial-gradient(circle,#188e91,#30a9ad,#008e91) !important;
-    text-align: center !important;
+.ae.fa.chats.label.fa-comment.label-primary {
+    border-color: #000000 !important;
+    width: 50px;
+    padding: 7px 17px 5px!important;
+    margin-left: -2px!important;
+    border-radius: 0!important;
+    border-right: 2px solid #fff !important;
+}
+.ae.fa.label.label-primary.fa-users {
+    border-color: #000000 !important;
+    width: 50px;
+    padding: 7px 17px 5px!important;
+    margin-left: -2px!important;
+    border-radius: 0!important;
+    border-right: 2px solid #fff !important;
+}
+.ae.fa.label.fa-commenting-o.label-primary {
+    border-color: #000000 !important;
+    width: 50px;
+    padding: 7px 17px 5px!important;
+    margin-left: -2px!important;
+    border-radius: 0!important;
+    border-right: 2px solid #fff !important;
+}
+.ae.label.label-primary.fa.fa-gear {
+    border-color: #000000 !important;
+    width: 50px;
+    padding: 7px 17px 5px!important;
+    margin-left: -2px!important;
+    border-radius: 0!important;
+border-right: 2px solid #fff !important;
+}ign: center !important;
     box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 -3px 1px -2px rgb(0 0 0 / 20%) !important;
 }
