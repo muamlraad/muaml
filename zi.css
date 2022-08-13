@@ -142,3 +142,18 @@ button.border.btn.label.label-success.fl.fa.fa-plus {
     background-image: repeating-linear-gradient( 45deg ,rgb(59 86 120 / 64%),#3b5678 100px,transparent 0,transparent 200px),repeating-linear-gradient( -45deg ,rgb(115 133 156),#3b5678 100px,transparent 0,#f8f9fa 200px);
     background-color: #f0ad4e!important;
 }
+
+span.usid.fr {
+    background-size: 34% auto;
+    background-repeat: no-repeat;
+    width: max-content;
+    border-radius: 0 3px 3px 0;
+    background-image: url(sico/1660401097764.png);
+    height: 25px;
+    background-position: 11%;
+    text-align: left;
+    line-height: 22px;
+    padding: 0 4px 0 24px;
+    font-family: monospace,serif;
+    border: 1px solid #ffbebe;
+}
