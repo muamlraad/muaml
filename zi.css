@@ -107,6 +107,12 @@ label.label.tc.border.btn.label-info.fl {
     background-image: url(https://k.top4top.io/p_1871wwqvi1.gif);
     border-radius: 0;
     margin-left: -2px!important;
+;width: 55px !important;
+    padding: 7px 12px 5px 9px!important;
+    border-style: solid!important;
+    border-left: 4px solid!important;
+    border-left-style: groove !important;;
+;border-right: 2px solid #fff !important;;
 }
 label.fl.nosel.label.pnhead {
     color: #fff;
