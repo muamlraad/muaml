@@ -163,3 +163,12 @@ span.usid.fr {
     font-family: monospace,serif;
     border: 1px solid #ffbebe;
 }
+.hand.nosel.fl.uzr.border>img.fitimg.fl.u-pic {
+    border: 0px solid #dedbdb00;
+    border-radius: 51%!important;
+    padding: 0px;
+    width: 50px !important;
+    height: 50px !important;
+    margin-left: 6px !important;
+    margin-top: 3px !important;
+}
