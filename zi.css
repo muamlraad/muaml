@@ -172,3 +172,10 @@ span.usid.fr {
     margin-left: 6px !important;
     margin-top: 3px !important;
 }
+div#wall>label.border.btn.fl {
+    color: #fff;
+    height: 37px;
+    background-image: repeating-linear-gradient( 45deg ,#775ce5a3,#5a2a78 100px,transparent 0,transparent 200px),repeating-linear-gradient( -45deg ,rgb(135 134 187),#5f328f 100px,transparent 0,#f8f9fa 200px);
+    background-color: #4652c1!important;
+    font-family: 'rawy-bold';
+}
