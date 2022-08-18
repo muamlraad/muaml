@@ -82,12 +82,6 @@ a#iraq {
     color: rgb(255, 255, 255) !important;
 }
 
-.fl.fa.fa-sign-in.btn.btn-primary.dots.roomh.border.corner {
-    pointer-events: none;
-    background-color: rgb(3, 155, 229) !important;
-    padding: 1px 4px !important;
-}
-
 .ae.label.label-primary.fa.fa-gear {
     padding: 7px 5px 5px 13px;
     border-radius: 0px;
@@ -340,10 +334,6 @@ div#iraq31 {
     background-color: rgb(19, 182, 185) !important;
 }
 
-div#tlogins img.fitimg.fl.u-pic, .u-ico, img#iraq70 {
-    pointer-events: none;
-}
-
 a#as0 {
     text-decoration: none;
     margin-right: 6px;
@@ -504,16 +494,6 @@ select.primaryborder.form-control.userRoom.selbox.fr.form-control {
     padding: 4px 0px !important;
     font-size: 13px !important;
 }
-
-img.fl.fitimg.hand.u-pic {
-    padding: 18px;
-    border: 1px solid rgba(243, 243, 243, 0.3);
-    background-size: cover;
-    border-radius: 5px !important;
-    margin-top: 4px !important;
-    margin-right: 4px !important;
-}
-
 a#iraq19 {
     position: absolute;
     top: 40px;
@@ -532,15 +512,6 @@ a#iraq19 {
     border-color: rgba(36, 85, 128, 0) !important;
     box-shadow: none !important;
 }
-
-.u-ico {
-    margin-top: 5px !important;
-}
-
-span.corner.u-topic.dots {
-    margin-top: 3px !important;
-}
-
 .lonline.light.break {
     outline: rgba(255, 255, 255, 0) solid 1px !important;
     background-color: rgba(214, 129, 211, 0.07) !important;
@@ -926,11 +897,6 @@ a.fx.borderf {
     font-size: 8px !important;
     margin-left: -4px !important;
 }
-
-.uzr.fl.corner.borderg.pmsgc.mm {
-    background-color: rgba(116, 140, 137, 0.51) !important;
-}
-
 a.btn.minix.btn-primary.fa.fa-heart.fr {
     border-radius: 2px 0px 0px 3px;
     border: 1px solid rgba(255, 244, 244, 0.7);
@@ -1129,10 +1095,6 @@ span.s1.fa.fa-user.label.badgex.label-as-badge.label-success, a#asim27 {
 span.s1.fa.fa-user.label.badgex.label-as-badge.label-success {
     color: rgb(249, 249, 249) !important;
     background-color: rgba(154, 120, 120, 0) !important;
-}
-
-span.fr.minix.tago {
-    display: none;
 }
 
 span.fr.uhash {
