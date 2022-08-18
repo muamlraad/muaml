@@ -538,16 +538,6 @@ label.fl.label.loginstat {
     font-size: 14px !important;
     margin-left: -4px !important;
 }
-
-img.fl.fitimg.hand.u-pic {
-    padding: 18px;
-    border: 1px solid rgba(243, 243, 243, 0.3);
-    background-size: cover;
-    border-radius: 5px !important;
-    margin-top: 4px !important;
-    margin-right: 4px !important;
-}
-
 .border {
     border: 1px solid #c94ed0;
     border-color: #c94ed0 !important;
@@ -1218,10 +1208,10 @@ div#d0 {background-color: #ffffff !important;padding-left: 10px!important;}
     content: none;
 }
 
-label.ae.fa.chats.label.fa-comment.label-primary {margin-left: 30px !important;background-image: url(https://b.top4top.io/p_1918540se1.png);background-size: 41px 1285px;padding: 0px 7px 16px 7px;background-position-x: 56%;background-position-y: 60%;width: 38px;height: 38px;margin-right: 0px;background-position: 66% -167px;}
+label.ae.fa.chats.label.fa-comment.label-primary {margin-left: 18px !important;background-image: url(https://b.top4top.io/p_1918540se1.png);background-size: 41px 1285px;padding: 0px 7px 16px 7px;background-position-x: 56%;background-position-y: 60%;width: 38px;height: 38px;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;margin-right: -25px;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;background-position: 66% -167px;}
 
 label.ae.fa.label.label-primary.fa-users {
-    margin-left: 39px !important;
+    margin-left: 32px !important;
     background-image: url(https://b.top4top.io/p_1918540se1.png);
     background-size: 92px 2856px;
     padding: 0px 7px 16px 7px;
@@ -1229,7 +1219,7 @@ label.ae.fa.label.label-primary.fa-users {
     background-position-y: 60%;
     width: 38px;
     height: 38px;
-    margin-right: 39px;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;margin-right: 26px;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     background-position: 43% -459px;
 }
 
@@ -1241,7 +1231,7 @@ label.ae.fa.label.label-primary.fa-users {
     content: none;
 }
 
-label.ae.label.label-primary.fa.fa-gear {margin-left: 31px !important;background-image: url(https://b.top4top.io/p_1918540se1.png);background-size: 41px 1285px;padding: 0px 7px 16px 7px;background-position-x: 56%;background-position-y: 60%;width: 38px!important;height: 38px;margin-right: -15px;background-position: 66% -48px;}
+label.ae.label.label-primary.fa.fa-gear {margin-left: 28px !important;background-image: url(https://b.top4top.io/p_1918540se1.png);background-size: 41px 1285px;padding: 0px 7px 16px 7px;background-position-x: 56%;background-position-y: 60%;width: 38px!important;height: 38px;;;;;;;margin-right: -21px;;;;;;;background-position: 66% -48px;}
 
 .fa-gear::before, .fa-cog::before {
     content: none;
@@ -1477,7 +1467,7 @@ label.ae.fa.chats.label.fa-comment.label-primary > span.minix.badge.border {
     display: none !important;
 }
 
-label.ae.fa.label.fa-commenting-o.label-primary {margin-left: 0px !important;background-image: url(https://b.top4top.io/p_1918540se1.png);background-size: 46px 1298px;padding: 0px 7px 16px 7px;background-position-x: 56%;background-position-y: 60%;width: 38px;height: 38px;margin-right: 0px;background-position: 46% -128px;}
+label.ae.fa.label.fa-commenting-o.label-primary {margin-left: -12px !important;background-image: url(https://b.top4top.io/p_1918540se1.png);background-size: 46px 1298px;padding: 0px 7px 16px 7px;background-position-x: 56%;background-position-y: 60%;width: 38px;height: 38px;;;;;;;;;;;;margin-right: -11px;;;;;;;;;;;;background-position: 46% -128px;}
 div#d2bc > div > a.btn.minix.btn-primary.fa.fa-times.fa {
     background-repeat: no-repeat;
     background-color: #ffffff00 !important;
