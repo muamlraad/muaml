@@ -261,7 +261,7 @@ background-image: url(https://j.top4top.io/p_2421hdr851.png);
 
 a.btn.minix.fa.fa-thumbs-up.fr {
     border-radius: 4px;
-    padding: 3px 42px 21px 3px;
+    padding: 4px 45px 24px 0px;
     margin-top: 6px;
     background-repeat: repeat-x;
     color: rgb(253 75 144) !important;
@@ -269,9 +269,9 @@ a.btn.minix.fa.fa-thumbs-up.fr {
     ;;;;;;;background-size: 36px 1108px;;;;;;;;
     width: 28px;
     height: 24px;
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;margin-right: -10px;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;margin-right: -10px;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
     ;;;;;;;;;;;;;;;;;;background-position: 46% -369px;;;;;;;;;;;;;;;;;;;
-    ;;;margin-left: 1% !important;;;;;
+    ;;;;;margin-left: 1% !important;;;;;;;
 ;font-size: 15px!important;;
 }
 
@@ -766,7 +766,7 @@ div#users ::-webkit-scrollbar-thumb {
 }
 
 span.fr {
-    color: rgb(255, 255, 255);
+    color: rgb(255 255 255);
 }
 
 div#wall > label.border.btn.fl {
