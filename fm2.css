@@ -1,0 +1,1032 @@
+.fa-dot-circle-o::before {
+    content: "";
+    animation: 1.5s ease 0s infinite normal none running mymove;
+}
+
+@font-face {
+    font-family: jazeera;
+    src: local("الجزيرة"), local("jazeera"), url("https://www.fontstatic.com/fonts/jazeera/jazeera.woff") format("woff");
+}
+
+@font-face {
+    font-family: jazeera-light;
+    src: local("الجزيرة خفيف"), local("jazeera-light"), url("https://www.fontstatic.com/fonts/jazeera-light/jazeera-light.woff") format("woff");
+}
+
+.tcat a:link, .tcat_alink {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: jazeera, FontAwesome;
+}
+
+.fa-remove::before, .fa-close::before, .fa-times::before {
+}
+
+span.minix.badge.border, span.bwall.minix.badge.border, span.brooms.minix.badge.border {
+}
+
+span.busers.minix.badge.border {
+    border-radius: 10px;
+    display: inline !important;
+    background-color: rgba(255, 0, 0, 0.9) !important;
+    color: rgb(255, 255, 255) !important;
+    margin: 0px 3px !important;
+    padding: 0px 3px !important;
+}
+
+span.bwall.minix.badge.border, span.brooms.minix.badge.border {
+}
+
+ul.nav.nav-tabs.fl li a:hover {
+    background-color: rgb(233, 182, 255);
+    color: rgb(255, 255, 255);
+}
+
+ul.nav.nav-tabs.fl li .fa-user-plus::before {
+    color: red;
+    animation: 0.5s ease 0s infinite normal none running mymove;
+}
+
+@-webkit-keyframes mymove {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+@keyframes mymove {
+    0% {
+        color: red;
+    }
+
+    100% {
+        color: rgb(255, 255, 255);
+    }
+}
+
+.ae.label.label-primary.fa.fa-gear {
+    padding: 7px 5px 5px 13px;
+    border-radius: 0px;
+    margin-left: -3px !important;
+}
+
+.ae.fa.label.fa-commenting-o.label-primary {
+    padding: 7px 5px 5px 13px;
+    border-radius: 0px;
+    margin-left: -4px !important;
+}
+
+.ae.fa.label.label-primary.fa-users {
+    padding: 7px 5px 5px 13px;
+    border-radius: 0px;
+    margin-left: -3px !important;
+}
+
+.fa-commenting-o::before {
+    content: "";
+}
+
+.ae.fa.chats.label.fa-comment.label-primary {
+    padding: 7px 13px 5px;
+    border-radius: 0px;
+    margin-left: -7px !important;
+}
+
+.ae.fa.label.fa-commenting-o.label-warning {
+}
+
+.ae.fa.chats.label.fa-comment.label-warning {
+    padding: 7px 13px 5px;
+    border-radius: 0px;
+    margin-left: -7px !important;
+}
+
+.bgg.border.corner {
+    border-bottom-right-radius: 0px !important;
+}
+
+label.fl.nosel.label.pnhead {
+    background-color: rgb(255, 255, 255);
+    width: 85%;
+}
+
+.badge {
+    background-color: rgba(119, 119, 119, 0);
+    border-radius: 33%;
+    margin-left: -5px;
+    vertical-align: top;
+    display: inline !important;
+    border: 1px solid rgba(31, 149, 162, 0.03) !important;
+}
+
+div#menu-l {
+    height: 55px;
+    width: 307px;
+    float: left;
+    position: absolute;
+    top: -11px;
+    right: -7px;
+}
+
+.ae {
+    border: 1px solid rgb(175, 171, 171);
+}
+
+.primaryborder {
+    border-color: rgb(0, 142, 145) !important;
+    border-radius: 0px !important;
+}
+
+button.fa.fa-sign-out.fl.btn.btn-primary {
+    margin-top: 0px !important;
+}
+
+span.corner.fa.fa-user.label.label-primary.fr.uc {
+    color: rgb(255, 255, 255);
+    display: inline !important;
+}
+
+button.fa.fa-send.fl.btn.btn-primary {
+    margin-top: 0px !important;
+}
+
+button.fa.fa-send.sndpm.fl.btn.btn-primary {
+    margin-top: 0px !important;
+}
+
+.btn-primary:hover {
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(82, 144, 172) rgb(55, 107, 135) rgb(55, 107, 135) rgb(82, 144, 172);
+}
+
+.fr.rating-box {
+    display: none;
+}
+
+.btn.hand.borderg.corner {
+    width: 32px;
+    height: 33px;
+}
+
+.emoi {
+    width: auto;
+    max-width: -webkit-fill-available;
+}
+
+.bgg.border.corner {
+    right: 1px;
+}
+
+img.fl.emobc {
+    margin-top: -3px !important;
+}
+
+.callnot {
+    left: 1px;
+    position: absolute !important;
+    top: 1px !important;
+    margin-left: 0px !important;
+}
+
+.popover.right {
+    max-width: initial;
+    overflow: auto;
+    width: auto;
+    margin-left: -109px;
+    height: 369px;
+}
+
+.popover.fade.top.in {
+    position: absolute;
+    max-height: 200px;
+    overflow: auto;
+    max-width: 250px !important;
+}
+
+button.fa.fa-phone.call.fl.btn.btn-success {
+    margin-top: 2px !important;
+}
+
+.tablebox.footer.light.fl {
+    border-top: 1px solid rgb(174, 227, 209);
+    border-bottom-right-radius: 0em !important;
+}
+
+img.fl.nosel.emobox {
+    margin-top: -4px;
+}
+
+img.fl.nosel.emo {
+    margin-top: -1px;
+}
+
+a.fl.emobc:focus, i.fa.fa-smile-o:focus, .primaryborder:focus, .btn.btn-success:focus, .btn.btn-primary:focus, .dots:focus, .bg:focus, textarea.fl.filw.corner.tbox:focus, area:focus, input#pass1:focus, input#u1:focus, input#u3:focus, input#pass2:focus, input#u2:focus {
+    outline: 0px;
+    box-shadow: none;
+}
+
+button.btn.btn-primary.hand.borderg.corner.fa.fa-ban {
+    width: 77px;
+    border-radius: 6px;
+    height: 27px;
+    background-repeat: repeat-x;
+    border-color: rgb(185, 44, 40);
+    background-image: linear-gradient(rgb(217, 83, 79) 0px, rgb(193, 46, 42) 100%);
+    background-color: rgb(193, 46, 42) !important;
+}
+
+.fa-user::before {
+    margin-right: 4px;
+}
+
+a.btn.minix.fa.fa-comment.fr {
+    border-radius: 4px;
+    padding: 1px 4px 2px 5px;
+    margin-top: 6px;
+    background-repeat: repeat-x;
+    color: rgb(255, 255, 255) !important;
+background-image: url(https://j.top4top.io/p_2421hdr851.png);
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;background-size: 37px 1108px;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;;;width: 28px;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;height: 24px;;;;;;;;;;;
+    margin-right: 0px;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;background-position: 46% -401px;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;margin-left: 0% !important;;;;;;;;
+}
+
+a.btn.minix.fa.fa-thumbs-up.fr {
+    border-radius: 4px;
+    padding: 3px 42px 21px 3px;
+    margin-top: 6px;
+    background-repeat: repeat-x;
+    color: rgb(253 75 144) !important;
+    background-image: url(https://j.top4top.io/p_2421hdr851.png);
+    ;;;;;;;background-size: 36px 1108px;;;;;;;;
+    width: 28px;
+    height: 24px;
+    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;margin-right: -10px;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+    ;;;;;;;;;;;;;;;;;;background-position: 46% -369px;;;;;;;;;;;;;;;;;;;
+    ;;;margin-left: 1% !important;;;;;
+;font-size: 15px!important;;
+}
+
+.fa-save::before, .fa-floppy-o::before {
+    margin-right: 1px;
+}
+
+.fa-save {
+    background-image: linear-gradient(rgb(217, 83, 79) 0px, rgb(193, 46, 42) 100%);
+    color: rgb(255, 255, 255);
+    border-radius: 3px !important;
+    height: 28px !important;
+    width: 12% !important;
+    padding: 7px 2px !important;
+    font-size: 12px !important;
+    background-color: rgb(217, 83, 79) !important;
+}
+
+textarea.form-control {
+    border-radius: 3px !important;
+    height: 28px !important;
+    width: 72% !important;
+    padding: 4px 0px !important;
+    font-size: 13px !important;
+}
+
+div#tlogins.light {
+    height: auto !important;
+    border-radius: 6px 8px 7px 0px !important;
+}
+
+body.bg.center-block.bg.dad div#tlogins {
+    height: auto !important;
+}
+
+label.label.fr.label-primary {
+    border-radius: 3px !important;
+    height: 28px !important;
+    width: 14% !important;
+    padding: 9px 0px !important;
+    font-size: 13px !important;
+}
+
+div#tlogins {
+    outline: 0px;
+    box-shadow: rgba(0, 0, 0, 0.075) 0px 2px 2px inset, rgb(119, 119, 119) 0px 0px 8px;
+    border: 0.1px solid rgba(176, 178, 179, 0.44);
+    background: rgb(255, 255, 255);
+}
+
+div#tlogins .hand.nosel.fl.uzr.border {
+    border: 1px solid rgba(19, 145, 167, 0.25);
+    width: 99% !important;
+    margin-top: 5px !important;
+    border-radius: 3px !important;
+}
+
+body {
+    background-image: url("");
+    background-size: contain;
+    background-color: rgb(249, 249, 249) !important;
+}
+
+span.s1.fa.fa-user.label.badgex.label-as-badge.label-success {
+    background-color: rgba(208, 27, 27, 0);
+    color: rgb(255, 255, 255);
+    font-size: 12px !important;
+}
+
+div#tlogins ::-webkit-scrollbar {
+    width: 5px;
+    height: 10px;
+}
+
+div#tlogins ::-webkit-scrollbar-button {
+    width: 5px;
+    height: 5px;
+}
+
+div#tlogins ::-webkit-scrollbar-thumb {
+    background-position: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(26, 163, 186);
+    border: 71px none rgb(255, 255, 255);
+    border-radius: 31px;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent) !important;
+}
+
+div#tlogins ::-webkit-scrollbar-thumb:hover {
+    background: rgb(26, 163, 186);
+}
+
+div#tlogins ::-webkit-scrollbar-thumb:active {
+    background: rgb(26, 163, 186);
+}
+
+div#tlogins ::-webkit-scrollbar-track {
+    background: rgb(255, 255, 255);
+    border: 65px none rgb(255, 255, 255);
+    border-radius: 34px;
+}
+
+div#tlogins ::-webkit-scrollbar-track:hover {
+    background: rgb(255, 255, 255);
+}
+
+div#tlogins ::-webkit-scrollbar-track:active {
+    background: rgb(255, 255, 255);
+}
+
+div#tlogins img.fitimg.fl.u-pic {
+    background-size: cover;
+    padding: 18px;
+    border: 1px solid rgb(232, 232, 232);
+    border-radius: 3px !important;
+    margin-top: -1px !important;
+}
+
+div#tlogins ::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+div#tlogins .fl.mini.u-msg {
+    text-align: center;
+}
+
+div#tlogins .fade {
+    position: absolute;
+    margin: 22px 0px 0px 147px;
+    height: 110px;
+    opacity: 1 !important;
+    transition: none 0s ease 0s !important;
+    width: 65% !important;
+}
+
+button.btn.btn-default {
+    border-radius: 15px;
+    padding: 0px 5px;
+    margin-top: 6px;
+    color: rgb(255, 255, 255) !important;
+    background-image: linear-gradient(rgb(92, 184, 92) 0px, rgb(65, 150, 65) 100%) !important;
+    border: 1px solid rgb(204, 204, 204) !important;
+}
+
+textarea.as2020 {
+    width: 100%;
+    resize: none;
+    height: 180px;
+}
+
+div#chats {
+    background-image: url("");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+.nav-tabs {
+    border-bottom: 0px solid rgb(240, 173, 78) !important;
+}
+
+label.ae.fa.label.fa-users.btnClAlGr.label-warning {
+    margin-left: -3px !important;
+}
+
+label.ae.fa.label.fa-users.btnClAlGr.label-warning, label.ae.fa.label.fa-users.btnClAlGr.label-primary {
+    padding: 3px 3px 6px 11px;
+}
+
+.fa-user-times::before {
+    display: none;
+}
+
+label.addGruMsg.label.tc.border.btn.label-info.fl {
+    background-image: linear-gradient(rgb(92, 184, 92) 0px, rgb(65, 150, 65) 100%);
+    color: rgb(255, 255, 255) !important;
+}
+
+.fa-ban::before, .fa-ban::before, .fa-search::before, .fa-ban::before, .fa-ban::before, .fa-diamond::before, .fa-comment::before, .fa-envelope-o::before {
+    display: none;
+}
+.fa-thumbs-up:before{
+    display: none;
+}
+.ae.fa.label.label-primary.fa-user {
+    padding: 7px 12px 5px 9px;
+    border-radius: 3px 0px 0px 3px;
+    border-style: solid solid solid groove;
+    border-left-width: 4px;
+    border-left-color: initial;
+}
+
+.tbox {
+    padding: 3px;
+    border-right: 5px ridge rgb(210, 210, 210);
+    border-left: 5px groove rgb(210, 210, 210);
+    border-top-color: rgb(210, 210, 210);
+    border-bottom-color: rgb(210, 210, 210);
+    min-height: 28px !important;
+    border-radius: 3px !important;
+}
+
+.ae.fa.label.label-primary.fa-users.btnClAlGr::before {
+    content: "";
+}
+
+.fa-envelope::before {
+    content: "";
+}
+
+.fa-user::before {
+}
+
+.fa-group::before, .fa-users::before {
+    content: "";
+}
+
+.label.ae.fa.chats.label.fa-comment.label-warning::before {
+    content: "";
+    display: inline !important;
+}
+
+.ae.fa.chats.label.label-primary.fa-comment::before {
+    content: "";
+    display: inline !important;
+}
+
+.fa-gear::before, .fa-cog::before {
+    content: "";
+}
+
+a.btn.minix.fa.fa-comment::before {
+    content: "";
+    display: none;
+}
+
+.fa-send::before, .fa-paper-plane::before {
+    content: "";
+    padding: 0px 2px 0px 0px;
+}
+
+.fa-share-alt::before {
+    content: "";
+}
+
+button.fr.fa.fa-share-alt.sndfile.fl.btn.btn-primary {
+    width: 30px;
+}
+
+img.emoi {
+    background-color: rgba(255, 255, 255, 0) !important;
+}
+
+.fa-youtube::before {
+    color: rgb(234, 14, 14) !important;
+}
+
+button.btn.fa.fa-image {
+    border: 1px solid rgba(189, 154, 154, 0);
+    background: linear-gradient(369deg, rgb(183, 70, 116) 0%, rgb(19, 145, 167) 100%) !important;
+}
+
+.fm.borderf {
+    position: absolute;
+    top: 54px;
+    left: 0px;
+    color: rgb(248, 254, 255);
+    padding: 0px 0px 0px 7px !important;
+    font-size: 8px !important;
+}
+
+a.fx.borderf {
+    left: 0px;
+    color: rgb(248, 254, 255);
+    margin-top: -2px !important;
+    font-size: 8px !important;
+    margin-left: -4px !important;
+}
+
+a.btn.minix.btn-primary.fa.fa-heart.fr {
+    border-radius: 2px 0px 0px 3px;
+    border: 1px solid rgba(255, 244, 244, 0.7);
+    background-repeat: no-repeat;
+    color: rgb(255, 0, 109);
+    width: 50%;
+    background-image: url("https://j.top4top.io/p_2421hdr851.png");
+    background-size: 32px 979px;
+    background-position: 49% -324px;
+    background-color: rgba(255, 255, 255, 0) !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+    padding: 4px 74px 7px 49px !important;
+}
+
+.modal-body .fa-heart::before {
+    display: inline;
+}
+
+.btn-primary:focus, .btn-primary:hover {
+    background-position: revert;
+}
+
+a.btn.minix.btn-primary.fa.fa-comment.fr {
+    border-radius: 2px 0px 0px 3px;
+    border: 1px solid rgba(255, 244, 244, 0.7);
+    background-repeat: no-repeat;
+    width: 50%;
+    background-image: url("https://j.top4top.io/p_2421hdr851.png");
+    background-size: 32px 979px;
+    background-position: 50% -353px;
+    color: rgb(2, 225, 255) !important;
+    padding: 4px 74px 7px 49px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+
+a.btn.minix.btn-primary.fa.fa-times.fa {
+    background-repeat: no-repeat;
+    color: rgb(195, 188, 202);
+    background-image: url("https://j.top4top.io/p_2421hdr851.png");
+    background-size: 25px 805px;
+    padding: 0px 7px 16px;
+    background-position: 46% -245px;
+    background-color: rgba(255, 255, 255, 0) !important;
+    margin-left: -10px !important;
+}
+
+label.label.label-danger.border.nosel.fa.fa-close.fr {
+    background-repeat: no-repeat;
+    color: rgba(255, 255, 255, 0);
+    width: 11%;
+    background-image: url("https://j.top4top.io/p_2421hdr851.png");
+    background-size: 37px 1266px;
+    background-position: 83% -265px;
+    padding: 10px 1px 6px 43px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 1px solid rgba(255, 254, 254, 0) !important;
+    margin-top: -20px !important;
+    margin-left: -29px !important;
+}
+
+.bccos > div {
+    border: 1px solid rgba(234, 234, 234, 0.35) !important;
+}
+
+.fa-remove::before, .fa-close::before, .fa-times::before {
+    display: none;
+}
+
+.dpnl.bg.tab-content {
+    background-color: rgb(255, 255, 255) !important;
+    border: 1px solid rgb(111, 202, 218) !important;
+}
+
+label.fl.nosel.label.pnhead {
+    font-family: jazeera, FontAwesome;
+    color: rgb(255, 255, 255) !important;
+}
+
+textarea#usearch {
+    background-image: url("https://j.top4top.io/p_2421hdr851.png");
+    background-repeat: no-repeat;
+    background-size: 34px 971px;
+    background-position: -1% -440px;
+    padding: 4px 6px 3px 24px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    margin-top: 2px !important;
+    border-width: 1px !important;
+    border-style: solid !important;
+    border-color: rgb(185, 180, 180) rgba(255, 254, 254, 0) !important;
+    border-image: initial !important;
+    min-height: 15px !important;
+    border-radius: 1px !important;
+    color: rgb(6, 6, 6) !important;
+}
+
+label.ae.fa.label.label-primary.fa-user {
+    background-image: url("https://j.top4top.io/p_2421hdr851.png");
+    background-size: 41px 1285px;
+    padding: 0px 7px 16px;
+    width: 38px;
+    height: 38px;
+    margin-right: 0px;
+    background-position: 66% -6px;
+    margin-left: 4% !important;
+}
+
+.fa-user::before {
+    display: none;
+}
+
+div#d0 {
+    background-color: rgb(255, 255, 255) !important;
+    padding-left: 1% !important;
+}
+
+.ae.fa.chats.label.label-primary.fa-comment::before {
+    content: none;
+}
+
+label.ae.fa.chats.label.fa-comment.label-primary {
+    background-image: url("https://j.top4top.io/p_2421hdr851.png");
+    background-size: 41px 1285px;
+    padding: 0px 7px 16px;
+    width: 38px;
+    height: 38px;
+    margin-right: 0px;
+    background-position: 66% -167px;
+    margin-left: 6% !important;
+}
+
+label.ae.fa.label.label-primary.fa-users {
+    background-image: url("https://j.top4top.io/p_2421hdr851.png");
+    background-size: 92px 2856px;
+    padding: 0px 7px 16px;
+    width: 38px;
+    height: 38px;
+    background-position: 43% -459px;
+    margin-right: 0% !important;
+    margin-left: 6% !important;
+}
+
+.fa-group::before, .fa-users::before {
+    content: none;
+}
+
+.fa-commenting-o::before {
+    content: none;
+}
+
+label.ae.label.label-primary.fa.fa-gear {
+    background-image: url("https://j.top4top.io/p_2421hdr851.png");
+    background-size: 41px 1285px;
+    padding: 0px 7px 16px;
+    height: 38px;
+    margin-right: 0px;
+    background-position: 66% -48px;
+    margin-left: 6% !important;
+    width: 38px !important;
+}
+
+.fa-gear::before, .fa-cog::before {
+    content: none;
+}
+
+label.ae.fa.chats.label.fa-comment.label-warning {
+    background-image: url("https://j.top4top.io/p_2421hdr851.png");
+    padding: 4px 25px 14px 8px;
+    background-size: 32px 32px;
+    margin-left: 33px !important;
+}
+
+.label.ae.fa.chats.label.fa-comment.label-warning::before {
+    content: none;
+}
+
+span.s1.fa.fa-user.label.badgex.label-as-badge.label-success, a#asim27 {
+    border-radius: 10px;
+    background-color: rgba(255, 248, 248, 0.66) !important;
+    color: rgb(0, 149, 255) !important;
+}
+
+.fa-times::before {
+    display: initial;
+}
+
+span.s1.fa.fa-user.label.badgex.label-as-badge.label-success {
+    color: rgb(249, 249, 249) !important;
+    background-color: rgba(154, 120, 120, 0) !important;
+}
+
+span.fr.uhash {
+    display: none;
+}
+
+div#users ::-webkit-scrollbar-thumb {
+    background-position: initial;
+    background-size: initial;
+    background-repeat: initial;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: rgb(26, 163, 186);
+    border: 71px none rgb(255, 255, 255);
+    border-radius: 31px;
+    background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent) !important;
+}
+
+span.fr {
+    color: rgb(255, 255, 255);
+}
+
+div#wall > label.border.btn.fl {
+    color: rgb(255, 255, 255);
+    height: 37px;
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    font-family: rawy-bold;
+    background-color: rgb(70, 82, 193) !important;
+}
+
+button.btn.fa.fa-youtube-play {
+    border: 1px solid rgba(189, 154, 154, 0);
+    background: linear-gradient(369deg, rgb(183, 70, 116) 0%, rgb(19, 145, 167) 100%) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+button.btn.fa.fa-youtube {
+    border: 1px solid rgba(189, 154, 154, 0);
+    background: linear-gradient(497deg, rgb(232, 232, 232) 0%, rgb(230, 114, 114) 100%) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+label.label.tc.border.btn.label-info.fl {
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    margin: -246px 15px -64px 3px !important;
+    background: linear-gradient(369deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%) !important;
+    border-color: rgb(232, 226, 226) !important;
+}
+
+label.label.tc.border.redit.btn.label-info.fl {
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    margin: 3px 0px 0px 3px !important;
+    background: linear-gradient(369deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%) !important;
+    border-color: rgb(232, 226, 226) !important;
+}
+
+a.label.label-primary.fr {
+    height: 100%;
+    width: 100%;
+    border: 1px solid rgba(189, 154, 154, 0);
+    background: linear-gradient(369deg, rgb(183, 70, 116) 0%, rgb(19, 145, 167) 100%) !important;
+}
+
+div.borderg.corner {
+    margin-top: 126px !important;
+}
+
+label.label.tc.border.pmsg.btn.label-info.fl {
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    margin: 0px 0px 0px 3px !important;
+    background: linear-gradient(369deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%) !important;
+    border-color: rgb(232, 226, 226) !important;
+}
+
+img.fitimg.fl.borderg.spic.corner.hand {
+    width: 53px !important;
+    height: 53px !important;
+    margin: -68px -78px -42px 100px !important;
+    border-radius: 25px !important;
+    border: 1px solid rgb(195, 195, 195) !important;
+}
+
+.fl.borderg.corner.uzr {
+    margin-top: 1px !important;
+}
+
+label.label.tc.border.btn.bb4.fl {
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    margin: 0px 0px 3px 3px !important;
+    background: linear-gradient(369deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%) !important;
+    border-color: rgb(232, 226, 226) !important;
+}
+
+label.label.tc.border.cp.btn.label-danger.fl {
+    border-width: 2px;
+    border-style: solid;
+    border-image: initial;
+    margin: 3px 0px 0px 3px !important;
+    background: linear-gradient(369deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%) !important;
+    border-color: rgb(232, 226, 226) !important;
+}
+
+input.stopic.corner.dots, input.smsg.corner.dots {
+    padding: 2px;
+    border-right: 5px inset rgb(208, 214, 213);
+    border-left: 5px inset rgb(208, 214, 213);
+    border-top-color: rgb(210, 213, 214);
+    border-bottom-color: rgb(189, 196, 197);
+    text-align: center;
+    border-top-style: inset;
+    border-bottom-style: inset;
+    min-height: 28px !important;
+    border-radius: 10px !important;
+    width: 99% !important;
+}
+
+area {
+    margin: 1px 0px 11px 1px !important;
+}
+
+.des {
+    margin: 1px 0px 11px -35px !important;
+}
+
+.fa-eye-slash::before {
+    color: rgb(254, 252, 255) !important;
+}
+
+label.ae.fa.chats.label.label-primary.fa-comment, label.ae.fa.label.label-primary.fa-users, label.ae.fa.label.fa-commenting-o.label-primary, label.ae.label.label-primary.fa.fa-gear, label.ae.fa.label.label-primary.fa-user, label.ae.fa.chats.label.fa-comment.label-warning {
+    background-repeat: no-repeat;
+    border-width: 1px 1px 1px 0px;
+    border-top-color: rgba(165, 160, 160, 0);
+    border-right-color: rgba(165, 160, 160, 0);
+    border-bottom-color: rgba(165, 160, 160, 0);
+    border-image: initial;
+    border-style: solid solid solid groove;
+    border-left-color: initial;
+    background-color: rgb(255, 255, 255) !important;
+}
+
+span.minix.badge.border {
+    border-radius: 10px;
+    display: inline !important;
+    background-color: rgba(255, 0, 0, 0.9) !important;
+    color: rgb(255, 255, 255) !important;
+    padding: 0px 3px !important;
+    margin: -7px -6px 0px -8px !important;
+}
+
+label.ae.fa.chats.label.fa-comment.label-primary > span.minix.badge.border {
+    display: none !important;
+}
+
+label.ae.fa.label.fa-commenting-o.label-primary {
+    background-image: url("https://j.top4top.io/p_2421hdr851.png");
+    background-size: 46px 1298px;
+    padding: 0px 7px 16px;
+    width: 38px;
+    height: 38px;
+    margin-right: 0px;
+    background-position: 46% -128px;
+    margin-left: 6% !important;
+}
+
+div#d2bc > div > a.btn.minix.btn-primary.fa.fa-times.fa {
+    background-repeat: no-repeat;
+    color: rgb(195, 188, 202);
+    background-image: url("https://j.top4top.io/p_2421hdr851.png");
+    background-size: 25px 805px;
+    padding: 0px 7px 16px;
+    background-position: 46% -244px;
+    border: 1px solid rgba(212, 205, 205, 0.9);
+    background-color: rgba(255, 255, 255, 0) !important;
+    margin-left: 268px !important;
+}
+
+#tlogins .fa::before {
+    display: initial;
+    font-weight: 400 !important;
+}
+
+label.fl.nosel.label.pnhead {
+    font-family: rawy-bold;
+}
+
+label.fl.nosel.label.pnhead {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 85.5%;
+    display: block;
+    height: 37px;
+    background-image: repeating-linear-gradient(45deg, rgba(59, 86, 120, 0.64), rgb(59, 86, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(115, 133, 156), rgb(59, 86, 120) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    border: 1px solid rgb(143, 133, 133);
+    margin-bottom: 4px;
+    background-color: rgb(240, 173, 78) !important;
+    margin-top: -20px !important;
+}
+
+div#wall > label.border.btn.fl {
+    color: rgb(255, 255, 255);
+    height: 31px;
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    font-family: rawy-bold;
+    background-color: rgb(70, 82, 193) !important;
+}
+
+.border {
+    border: 1px solid rgb(174, 208, 241) !important;
+}
+
+label.label.tc.border.btn.label-info.fl {
+    border-radius: 3px;
+    margin-right: 15px !important;
+    margin-left: 3px !important;
+    background: linear-gradient(369deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%) !important;
+    border-left: 3px solid rgb(67, 67, 67) !important;
+    border-right: 3px solid rgb(67, 67, 67) !important;
+}
+
+button.border.btn.label.label-success.fl.fa.fa-plus {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    width: 99% !important;
+    text-align: center !important;
+    border: 1px solid rgb(201, 201, 201) !important;
+    border-radius: 0px 6px 0px 2px !important;
+    background-color: rgb(70, 82, 193) !important;
+}
+
+span.usid.fr {
+    background-size: 34%;
+    background-repeat: no-repeat;
+    width: max-content;
+    border-radius: 0px 3px 3px 0px;
+    background-image: url("https://www.arabe.chat/sico/1660663682593.png");
+    height: 25px;
+    background-position: 11% center;
+    text-align: left;
+    line-height: 22px;
+    padding: 0px 4px 0px 24px;
+    font-family: monospace, serif;
+    border: 1px solid rgb(255, 190, 190);
+}
+
+.dots.corner.u-topic.fl > span.fr {
+    background-size: 27%;
+    background-repeat: no-repeat;
+    width: max-content;
+    border-radius: 0px 3px 3px 0px;
+    background-image: url("https://www.arabe.chat/sico/1660663682593.png");
+    height: 25px;
+    background-position: 24% center;
+    text-align: left;
+    line-height: 25px;
+    padding: 0px 4px 0px 24px;
+    font-family: monospace, serif;
+}
+
+.head.nosel.bg.fl > .fl.uzr > img.fitimg.fl.hand.u-pic {
+    border: 1px solid rgba(179, 100, 100, 0);
+    padding: 0px;
+    animation: 6s ease 0s infinite normal none running asim;
+    border-radius: 50% !important;
+    width: 26px !important;
+    height: 25px !important;
+    margin-left: 4px !important;
+    margin-right: 0px !important;
+    margin-top: 1px !important;
+}
