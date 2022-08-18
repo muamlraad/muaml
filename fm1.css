@@ -998,3 +998,14 @@ span.usid.fr {
     padding: 0px 4px 0px 24px;
     font-family: monospace, serif;
 }
+.head.nosel.bg.fl > .fl.uzr > img.fitimg.fl.hand.u-pic {
+    border: 1px solid rgba(179, 100, 100, 0);
+    padding: 0px;
+    animation: 6s ease 0s infinite normal none running asim;
+    border-radius: 50% !important;
+    width: 26px !important;
+    height: 25px !important;
+    margin-left: 4px !important;
+    margin-right: 0px !important;
+    margin-top: 1px !important;
+}
