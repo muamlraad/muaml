@@ -21,6 +21,7 @@
 
 .fa-remove::before, .fa-close::before, .fa-times::before {
 }
+
 span.minix.badge.border, span.bwall.minix.badge.border, span.brooms.minix.badge.border {
 }
 
@@ -111,6 +112,7 @@ label.fl.nosel.label.pnhead {
     background-color: rgb(255, 255, 255);
     width: 85%;
 }
+
 .badge {
     background-color: rgba(119, 119, 119, 0);
     border-radius: 33%;
@@ -252,6 +254,7 @@ a.fl.emobc:focus, i.fa.fa-smile-o:focus, .primaryborder:focus, .btn.btn-success:
     outline: 0px;
     box-shadow: none;
 }
+
 button.btn.btn-primary.hand.borderg.corner.fa.fa-ban {
     width: 77px;
     border-radius: 6px;
@@ -270,8 +273,7 @@ a.btn.minix.fa.fa-comment.fr {
     border-radius: 4px;
     padding: 1px 4px 2px 5px;
     margin-top: 6px;
-    background-repeat: repeat-x;-x; */
-    border-color: rgb(40, 164, 201);
+    background-repeat: repeat-x;
     background-image: linear-gradient(rgb(91, 192, 222) 0px, rgb(42, 171, 210) 100%);
     color: rgb(255, 255, 255) !important;
 }
@@ -286,6 +288,7 @@ a.btn.minix.fa.fa-thumbs-up.fr {
     margin-left: 3px;
     color: rgb(255, 255, 255) !important;
 }
+
 .fa-save::before, .fa-floppy-o::before {
     margin-right: 1px;
 }
@@ -317,6 +320,7 @@ div#tlogins.light {
 body.bg.center-block.bg.dad div#tlogins {
     height: auto !important;
 }
+
 label.label.fr.label-primary {
     border-radius: 3px !important;
     height: 28px !important;
@@ -324,6 +328,7 @@ label.label.fr.label-primary {
     padding: 9px 0px !important;
     font-size: 13px !important;
 }
+
 .lonline.light.break {
     outline: rgba(255, 255, 255, 0) solid 1px !important;
     background-color: rgba(214, 129, 211, 0.07) !important;
@@ -350,9 +355,6 @@ body {
     background-color: rgb(249, 249, 249) !important;
 }
 
-div#tlogins .fr.borderg {
-    display: none;
-}
 
 span.s1.fa.fa-user.label.badgex.label-as-badge.label-success {
     background-color: rgba(208, 27, 27, 0);
@@ -479,6 +481,7 @@ label.addGruMsg.label.tc.border.btn.label-info.fl {
 .fa-ban::before, .fa-ban::before, .fa-search::before, .fa-ban::before, .fa-ban::before, .fa-diamond::before, .fa-comment::before, .fa-envelope-o::before {
     display: none;
 }
+
 .ae.fa.label.label-primary.fa-user {
     padding: 7px 12px 5px 9px;
     border-radius: 3px 0px 0px 3px;
@@ -543,6 +546,7 @@ a.btn.minix.fa.fa-comment::before {
 button.fr.fa.fa-share-alt.sndfile.fl.btn.btn-primary {
     width: 30px;
 }
+
 img.emoi {
     background-color: rgba(255, 255, 255, 0) !important;
 }
@@ -572,6 +576,7 @@ a.fx.borderf {
     font-size: 8px !important;
     margin-left: -4px !important;
 }
+
 a.btn.minix.btn-primary.fa.fa-heart.fr {
     border-radius: 2px 0px 0px 3px;
     border: 1px solid rgba(255, 244, 244, 0.7);
@@ -586,6 +591,7 @@ a.btn.minix.btn-primary.fa.fa-heart.fr {
     margin-left: 0px !important;
     padding: 4px 74px 7px 49px !important;
 }
+
 .modal-body .fa-heart::before {
     display: inline;
 }
@@ -652,7 +658,7 @@ label.label.label-danger.border.nosel.fa.fa-close.fr {
 
 label.fl.nosel.label.pnhead {
     font-family: jazeera, FontAwesome;
-    color: rgb(255 255 255) !important;
+    color: rgb(255, 255, 255) !important;
 }
 
 textarea#usearch {
@@ -788,12 +794,12 @@ span.fr {
     color: rgb(255, 255, 255);
 }
 
-div#wall>label.border.btn.fl {
-    color: #fff;
+div#wall > label.border.btn.fl {
+    color: rgb(255, 255, 255);
     height: 37px;
-    background-image: repeating-linear-gradient( 45deg ,#775ce5a3,#5a2a78 100px,transparent 0,transparent 200px),repeating-linear-gradient( -45deg ,rgb(135 134 187),#5f328f 100px,transparent 0,#f8f9fa 200px);
-    background-color: #4652c1!important;
-    font-family: 'rawy-bold';
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    font-family: rawy-bold;
+    background-color: rgb(70, 82, 193) !important;
 }
 
 button.btn.fa.fa-youtube-play {
@@ -957,80 +963,86 @@ div#d2bc > div > a.btn.minix.btn-primary.fa.fa-times.fa {
     background-color: rgba(255, 255, 255, 0) !important;
     margin-left: 268px !important;
 }
-#tlogins .fa:before {
-    font-weight: 400 !important;
+
+#tlogins .fa::before {
     display: initial;
+    font-weight: 400 !important;
 }
+
 label.fl.nosel.label.pnhead {
-    font-family: 'rawy-bold';
+    font-family: rawy-bold;
 }
+
 label.fl.nosel.label.pnhead {
-    color: #fff;
-    background-color: #885867;
+    color: rgb(255, 255, 255);
     padding: 10px;
     width: 85.5%;
     display: block;
     height: 37px;
-    background-image: repeating-linear-gradient( 45deg ,rgb(59 86 120 / 64%),#3b5678 100px,transparent 0,transparent 200px),repeating-linear-gradient( -45deg ,rgb(115 133 156),#3b5678 100px,transparent 0,#f8f9fa 200px);
-    background-color: #f0ad4e!important;
-    border-radius: 9;
-    border: 1px solid #8f8585;
-    margin-top: -5px;
+    background-image: repeating-linear-gradient(45deg, rgba(59, 86, 120, 0.64), rgb(59, 86, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(115, 133, 156), rgb(59, 86, 120) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    border: 1px solid rgb(143, 133, 133);
     margin-bottom: 4px;
-    margin-top: -20px!important;
+    background-color: rgb(240, 173, 78) !important;
+    margin-top: -20px !important;
 }
-div#wall>label.border.btn.fl {
-    color: #fff;
+
+div#wall > label.border.btn.fl {
+    color: rgb(255, 255, 255);
     height: 31px;
-    background-image: repeating-linear-gradient( 45deg ,#775ce5a3,#5a2a78 100px,transparent 0,transparent 200px),repeating-linear-gradient( -45deg ,rgb(135 134 187),#5f328f 100px,transparent 0,#f8f9fa 200px);
-    background-color: #4652c1!important;
-    font-family: 'rawy-bold';
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    font-family: rawy-bold;
+    background-color: rgb(70, 82, 193) !important;
 }
+
 .border {
-    border: #aed0f1 solid 1px!important;
+    border: 1px solid rgb(174, 208, 241) !important;
 }
+
 label.label.tc.border.btn.label-info.fl {
+    border-radius: 3px;
     margin-right: 15px !important;
     margin-left: 3px !important;
-    background: linear-gradient(369deg,#ffffff 0%,#ffffff 100%) !important;
-    border-left: 3px #434343 solid !important;
-    border-right: 3px #434343 solid !important;
-    border-radius: 3px;
+    background: linear-gradient(369deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 100%) !important;
+    border-left: 3px solid rgb(67, 67, 67) !important;
+    border-right: 3px solid rgb(67, 67, 67) !important;
 }
+
 button.border.btn.label.label-success.fl.fa.fa-plus {
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
     width: 99% !important;
     text-align: center !important;
-    color: #fff;
-    border: #c9c9c9 solid 1px!important;
+    border: 1px solid rgb(201, 201, 201) !important;
     border-radius: 0px 6px 0px 2px !important;
-    padding: 10px;
-    background-image: repeating-linear-gradient( 45deg ,#775ce5a3,#5a2a78 100px,transparent 0,transparent 200px),repeating-linear-gradient( -45deg ,rgb(135 134 187),#5f328f 100px,transparent 0,#f8f9fa 200px);
-    background-color: #4652c1!important;
+    background-color: rgb(70, 82, 193) !important;
 }
+
 span.usid.fr {
-    background-size: 34% auto;
+    background-size: 34%;
     background-repeat: no-repeat;
     width: max-content;
-    border-radius: 0 3px 3px 0;
-    background-image: url(https://www.arabe.chat/sico/1660663682593.png);
+    border-radius: 0px 3px 3px 0px;
+    background-image: url("https://www.arabe.chat/sico/1660663682593.png");
     height: 25px;
-    background-position: 11%;
+    background-position: 11% center;
     text-align: left;
     line-height: 22px;
-    padding: 0 4px 0 24px;
-    font-family: monospace,serif;
-    border: 1px solid #ffbebe;
+    padding: 0px 4px 0px 24px;
+    font-family: monospace, serif;
+    border: 1px solid rgb(255, 190, 190);
 }
-.dots.corner.u-topic.fl>span.fr {
-    background-size: 27% auto;
+
+.dots.corner.u-topic.fl > span.fr {
+    background-size: 27%;
     background-repeat: no-repeat;
     width: max-content;
-    border-radius: 0 3px 3px 0;
-    background-image: url(https://www.arabe.chat/sico/1660663682593.png);
+    border-radius: 0px 3px 3px 0px;
+    background-image: url("https://www.arabe.chat/sico/1660663682593.png");
     height: 25px;
-    background-position: 24%;
+    background-position: 24% center;
     text-align: left;
     line-height: 25px;
-    padding: 0 4px 0 24px;
-    font-family: monospace,serif;
+    padding: 0px 4px 0px 24px;
+    font-family: monospace, serif;
 }
