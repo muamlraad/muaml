@@ -25,11 +25,6 @@ div#iraq1 {
 
 .fa-remove::before, .fa-close::before, .fa-times::before {
 }
-
-a.btn.minix.fa.fa-times.fr {
-    border-radius: 4px;
-}
-
 span.minix.badge.border, span.bwall.minix.badge.border, span.brooms.minix.badge.border {
 }
 
@@ -411,14 +406,6 @@ a.btn.minix.fa.fa-thumbs-up.fr {
     margin-left: 3px;
     color: rgb(255, 255, 255) !important;
 }
-
-a.btn.minix.fa.fa-times.fr, a.btn.minix.fa.fa-thumbs-up.fr, a.btn.minix.fa.fa-comment.fr {
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(211, 211, 211, 0) rgba(166, 166, 166, 0) rgba(0, 0, 0, 0) rgba(255, 255, 255, 0);
-    border-radius: 3px;
-}
-
 .fa-save::before, .fa-floppy-o::before {
     margin-right: 1px;
 }
@@ -1288,4 +1275,8 @@ div#d2bc > div > a.btn.minix.btn-primary.fa.fa-times.fa {
     border: 1px solid rgba(212, 205, 205, 0.9);
     background-color: rgba(255, 255, 255, 0) !important;
     margin-left: 268px !important;
+}
+#tlogins .fa:before {
+    font-weight: 400 !important;
+    display: initial;
 }
