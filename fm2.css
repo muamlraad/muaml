@@ -723,10 +723,14 @@ label.ae.label.label-primary.fa.fa-gear {
 }
 
 label.ae.fa.chats.label.fa-comment.label-warning {
-    background-image: url("https://j.top4top.io/p_2421hdr851.png");
-    padding: 4px 25px 14px 8px;
-    background-size: 32px 32px;
-    margin-left: 33px !important;
+background-image: url(https://j.top4top.io/p_2421hdr851.png);
+    background-size: 41px 1285px;
+    padding: 0px 7px 16px;
+    width: 38px;
+    height: 38px;
+    margin-right: 0px;
+    background-position: 66% -89px;
+    margin-left: 6% !important;
 }
 
 .label.ae.fa.chats.label.fa-comment.label-warning::before {
@@ -764,11 +768,6 @@ div#users ::-webkit-scrollbar-thumb {
     border-radius: 31px;
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent) !important;
 }
-
-span.fr {
-    color: rgb(255 255 255);
-}
-
 div#wall > label.border.btn.fl {
     color: rgb(255, 255, 255);
     height: 37px;
