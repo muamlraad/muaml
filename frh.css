@@ -390,7 +390,7 @@ a.btn.minix.fa.fa-comment.fr {
     border-radius: 4px;
     padding: 1px 4px 2px 5px;
     margin-top: 6px;
-    background-repeat: repeat-x;
+    background-repeat: repeat-x;-x; */
     border-color: rgb(40, 164, 201);
     background-image: linear-gradient(rgb(91, 192, 222) 0px, rgb(42, 171, 210) 100%);
     color: rgb(255, 255, 255) !important;
@@ -645,10 +645,6 @@ div#chats {
 
 .nav-tabs {
     border-bottom: 0px solid rgb(240, 173, 78) !important;
-}
-
-.nav > li > a:focus, .nav > li > a:hover {
-    color: rgb(154, 191, 249);
 }
 
 label.ae.fa.label.fa-users.btnClAlGr.label-warning {
@@ -969,7 +965,7 @@ label.label.label-danger.border.nosel.fa.fa-close.fr {
 
 label.fl.nosel.label.pnhead {
     font-family: jazeera, FontAwesome;
-    color: rgb(101, 26, 175) !important;
+    color: rgb(255 255 255) !important;
 }
 
 textarea#usearch {
@@ -1006,7 +1002,7 @@ label.ae.fa.label.label-primary.fa-user {
 
 div#d0 {
     background-color: rgb(255, 255, 255) !important;
-    padding-left: 10px !important;
+    padding-left: 8% !important;
 }
 
 .ae.fa.chats.label.label-primary.fa-comment::before {
@@ -1105,14 +1101,12 @@ span.fr {
     color: rgb(255, 255, 255);
 }
 
-button.border.btn.label.label-success.fl.fa.fa-plus {
-    font-family: jazeera, FontAwesome;
-    width: 100%;
-    border-radius: 0px;
-    border: 1px solid rgb(255, 255, 255);
-    content: " انشاء غرفة";
-    color: rgb(255, 255, 255) !important;
-    text-align: center !important;
+div#wall>label.border.btn.fl {
+    color: #fff;
+    height: 37px;
+    background-image: repeating-linear-gradient( 45deg ,#775ce5a3,#5a2a78 100px,transparent 0,transparent 200px),repeating-linear-gradient( -45deg ,rgb(135 134 187),#5f328f 100px,transparent 0,#f8f9fa 200px);
+    background-color: #4652c1!important;
+    font-family: 'rawy-bold';
 }
 
 button.btn.fa.fa-youtube-play {
@@ -1279,4 +1273,64 @@ div#d2bc > div > a.btn.minix.btn-primary.fa.fa-times.fa {
 #tlogins .fa:before {
     font-weight: 400 !important;
     display: initial;
+}
+label.fl.nosel.label.pnhead {
+    font-family: 'rawy-bold';
+}
+label.fl.nosel.label.pnhead {
+    color: #fff;
+    background-color: #885867;
+    padding: 10px;
+    width: 85.5%;
+    display: block;
+    height: 37px;
+    background-image: repeating-linear-gradient( 45deg ,rgb(59 86 120 / 64%),#3b5678 100px,transparent 0,transparent 200px),repeating-linear-gradient( -45deg ,rgb(115 133 156),#3b5678 100px,transparent 0,#f8f9fa 200px);
+    background-color: #f0ad4e!important;
+    border-radius: 9;
+    border: 1px solid #8f8585;
+    margin-top: -5px;
+    margin-bottom: 4px;
+    margin-top: -20px!important;
+}
+div#wall>label.border.btn.fl {
+    color: #fff;
+    height: 31px;
+    background-image: repeating-linear-gradient( 45deg ,#775ce5a3,#5a2a78 100px,transparent 0,transparent 200px),repeating-linear-gradient( -45deg ,rgb(135 134 187),#5f328f 100px,transparent 0,#f8f9fa 200px);
+    background-color: #4652c1!important;
+    font-family: 'rawy-bold';
+}
+.border {
+    border: #aed0f1 solid 1px!important;
+}
+label.label.tc.border.btn.label-info.fl {
+    margin-right: 15px !important;
+    margin-left: 3px !important;
+    background: linear-gradient(369deg,#ffffff 0%,#ffffff 100%) !important;
+    border-left: 3px #434343 solid !important;
+    border-right: 3px #434343 solid !important;
+    border-radius: 3px;
+}
+button.border.btn.label.label-success.fl.fa.fa-plus {
+    width: 99% !important;
+    text-align: center !important;
+    color: #fff;
+    border: #c9c9c9 solid 1px!important;
+    border-radius: 0px 6px 0px 2px !important;
+    padding: 10px;
+    background-image: repeating-linear-gradient( 45deg ,#775ce5a3,#5a2a78 100px,transparent 0,transparent 200px),repeating-linear-gradient( -45deg ,rgb(135 134 187),#5f328f 100px,transparent 0,#f8f9fa 200px);
+    background-color: #4652c1!important;
+}
+span.usid.fr {
+    background-size: 34% auto;
+    background-repeat: no-repeat;
+    width: max-content;
+    border-radius: 0 3px 3px 0;
+    background-image: url(https://www.arabe.chat/sico/1660663682593.png);
+    height: 25px;
+    background-position: 11%;
+    text-align: left;
+    line-height: 22px;
+    padding: 0 4px 0 24px;
+    font-family: monospace,serif;
+    border: 1px solid #ffbebe;
 }
