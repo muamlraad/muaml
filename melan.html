@@ -1,0 +1,1480 @@
+<!DOCTYPE html>
+<html dir="rtl">
+  <head>
+    <title>مميزات الملوك</title>
+      
+          <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+          <style>
+              @media only screen and (max-width:350px) {
+                  body,html {
+                      font-size: 13px;
+                  }
+              }
+              @media only screen and (min-width:350px) and (max-width:375px) {
+                  body,html {
+                      font-size: 14px;
+                  }
+              }
+              @media only screen and (min-width:375px) and (max-width:400px) {
+                  body,html {
+                      font-size: 15px;
+                  }
+              }
+              @media only screen and (min-width:400px) and (max-width:415px) {
+                  body,html {
+                      font-size: 16px;
+                  }
+              }
+              *{
+                  margin: 0;
+                  padding: 0;
+              }
+              body,html {
+                  width: 100%;
+                  height: 100%;
+                  background: #1a1a1a;
+                  font-family: 'Microsoft YaHei', "PingFang SC", sans-serif;
+                  -webkit-touch-callout: none;
+              }
+              ul,li {
+                  list-style: none;
+              }
+              .none {
+                  display: none;
+              }
+              .body_content {
+                  -webkit-box-orient: vertical;
+                  -webkit-box-direction: normal;
+                  -webkit-box-align: center;
+                  -ms-flex-align: center;
+                  display: -webkit-box;
+                  display: -ms-flexbox;
+                  display: flex;
+                  -ms-flex-direction: column;
+                  flex-direction: column;
+                  align-items: center;
+                  height: 100vh;
+              }
+              .main_content {
+                  width: 100vw;
+                  margin-bottom: 1rem;
+              }
+              .noble_svga {
+                  width: 70%;
+                  /*height: 22vh;*/
+                  margin: -1vh auto;
+              }
+              .noble_svga svg {
+      
+              }
+              .noble_level {
+                  text-align: center;
+                  height: 30vh;
+                  display: flex;
+                  align-items: center;
+              }
+              .noble_level_svga {
+                  display: none;
+              }
+              .noble_value {
+                  color: #eeac89;
+              }
+              .noble_value_explain {
+                  color: rgba(238,172,137,0.4);
+                  display: inline-block;
+                  vertical-align: middle;
+              }
+      
+              .cont_content {
+                  width: calc(92vw - 2px);
+                  margin: 0 auto;
+              }
+              .cont_content ul {
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-around;
+              }
+              .list {
+                  color: #EEAC89;
+                  width: 18.5vw;
+                  text-align: center;
+                  padding: 0.8rem 0;
+                  background: #222;
+                  font-size: 0.85rem;
+              }
+              .list.active {
+                  color: rgba(138,88,61,1);
+                  width: 18.5vw;
+                  text-align: center;
+                  padding: 0.8rem 0;
+                  background: #EEAC89;
+              }
+              .list:first-child {
+                    border-radius: 0 10px 0 0; 
+                  border-left: 1px solid #222;
+              }
+              .list.active:first-child {
+                    border-radius: 0 10px 0 0; 
+                  border-left: 1px solid #EEAC89;
+              }
+              .list:last-child {
+                    border-radius: 10px 0 0 0; 
+                  border-right: 1px solid #222;
+              }
+              .list.active:last-child {
+                    border-radius: 10px 0  0 0; 
+                  border-right: 1px solid #EEAC89;
+              }
+              .noble_content_list {
+                  position: relative;
+                  /*display: none;*/
+              }
+              .all_privilege {
+                  height: calc(100% - 2px);
+                  overflow: auto;
+                  width: calc(92vw - 2px);
+                  margin: 0 auto;
+                  border-radius: 0 0 10px 10px;
+                  border: 1px solid #eeac89;
+              }
+              .all_privilege::-webkit-scrollbar {
+                  width: 0 !important;
+                  height: 0 !important;
+              }
+              .all_privilege0 {
+                  background-position: 30vw 20vw!important;
+              }
+              .owner_privilege {
+                  position: absolute;
+                  top: 0;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  z-index: 11;
+                  background-image: url(client/img/nobleService/exclusive_privilege.png?v=1.2.2.2);
+                  background-repeat: no-repeat;
+                  background-size: 100% 100%;
+                  height: 7vw;
+                  width: 60vw;
+              }
+              .owner_privilege_detail {
+                  text-align: center;
+                  line-height: 0;
+                  padding: 3.5vw;
+                  color: rgba(138,88,61,1);
+                  font-size: 0.85rem;
+              }
+              .noble_list {
+                  text-align: center;
+                  margin: 7.5vw 0 5vw 0;
+              }
+              .privilege_info {
+                  display: inline-block;
+                  text-align: center;
+                  margin: 1rem 0 0.5rem 0;
+                  width: 5rem;
+                  vertical-align: top;
+                  height: 8.5rem;
+              }
+              .privilege_info img {
+                  width: 15vw;
+              }
+              .privilege_info.active .explain_title {
+                  color: #ffc86d;
+                  margin-bottom: 1vw;
+                  margin-top: -1.5vw;
+              }
+              .privilege_info .explain_title {
+                  color: #848280;
+                  margin-bottom: 1vw;
+                  margin-top: -1.5vw;
+                  height: 2rem;
+                  display: flex;
+                  justify-content: center;/*实现水平居中*/
+                  align-items:center; /*实现垂直居中*/
+                  font-size: 0.85rem;
+              }
+              .privilege_info.active .explain {
+                  color: #7A5D4D;
+                  font-size: 0.8rem;
+              }
+              .privilege_info .explain {
+                  color: #504c49;
+                  font-size: 0.8rem;
+              }
+      
+              .need_to_upgrade {
+                  text-align: center;
+                  color: rgba(238,172,137,0.6);
+              }
+              .line {
+                  height: 0.5px;
+                  width: 20px;
+                  background: #6e5456;
+                  border-radius: 100%;
+                  opacity: 0.4;
+                  vertical-align: middle;
+                  display: inline-block;
+              }
+              .need_to_upgrade_description {
+                  vertical-align: middle;
+                  display: inline-block;
+                  margin: 0 6px;
+              }
+      
+              .owner_noble_info {
+                  margin-top: 1rem;
+                  background: #2e2825;
+                  border-radius: 16px 16px 0 0;
+                  display: flex;
+                  align-items: center;
+                  justify-content: space-around;
+                  text-align: center;
+                  width: 96vw;
+                  padding: 1.15rem 1.5vw 1.85rem 2.5vw;
+              }
+              .owner_noble_info > div {
+                  width: 22vw;
+                  position: relative;
+              }
+              .owner_info {
+                  color: #eeac89;
+                  font-size: 1rem;
+                  margin-bottom: 0.3rem;
+                  /*width: 5rem;*/
+              }
+              .noble_introduction {
+                  color: rgba(238,172,137,0.40);
+                  display: inline-block;
+                  vertical-align: middle;
+                  font-size: 0.8rem;
+              }
+              .vertical_line {
+                  height: 10px;
+                  width: 1px;
+                  border-radius: 100%;
+                  opacity: 0.4;
+                  background: #7a5d4d;
+                  position: absolute;
+                  right: -1vw;
+                  top: 50%;
+              }
+              .explain_rule {
+                  display: inline-block;
+                  vertical-align: middle;
+                  width: 0.9rem;
+                  /*margin-right: -1rem;*/
+              }
+      
+              .view_mask {
+                  position: fixed;
+                  width: 100vw;
+                  height: 100vh;
+                  background: rgba(0,0,0,0.8);
+                  z-index: 5;
+                  left: 0;
+                  top: 0;
+                  display: none;
+              }
+              .noble_view {
+                  position: relative;
+                  left: 50%;
+                  top: 50%;
+                  transform: translate(-50%, -50%);
+                  width: 90vw;
+              }
+              .noble_view_content {
+                  background: #2e2825;
+                  border: 1px solid #eeac89;
+                  border-radius: 15px;
+                  padding: 1.5rem 5vw;
+                  z-index: 6;
+              }
+              .noble_view .noble_level_title {
+                  text-align: center;
+                  font-size: 1.2rem;
+                  color: rgba(238,172,137,1);
+              }
+              .noble_view .noble_level_explain {
+                  font-size: 1rem;
+                  color: #7a5d4d;
+                  line-height: 1.5rem;
+                  margin-top: 1rem;
+              }
+              .noble_level_explain_img {
+                  width: 100%;
+                  margin-top: 1rem;
+                  min-height: 34vw;
+                  border-radius: 10px;
+              }
+              .noble_view_close {
+                  background-image: url(client/img/nobleService/noble_view_close.png?v=1.2.2.2);
+                  background-repeat: no-repeat;
+                  background-size: 60%;
+                  background-position: center;
+                  width: 8vw;
+                  height: 8vw;
+                  border-radius: 100%;
+                  border: 1.4px solid #eeac89;
+                  display: block;
+                  margin: 0 auto;
+                  margin-top: 1.5rem;
+              }
+              .down{
+                  position: absolute;
+                  left: 50%;
+                  transform: translateX(-50%);
+                  width: 4vw;
+                  -webkit-animation: down 1.2s cubic-bezier(.25,.1,.25,.1) infinite;
+                  animation: down 1.2s cubic-bezier(.25,.1,.25,.1) infinite;
+              }
+              @-webkit-keyframes down {
+                  0% {
+                      bottom: 0.5rem;
+                  }
+                  50% {
+                      bottom: 1rem;
+                  }
+                  100% {
+                      bottom: 0.5rem;
+                  }
+              }
+              @keyframes down {
+                  0% {
+                      bottom: 0.5rem;
+                  }
+                  50% {
+                      bottom: 1rem;
+                  }
+                  100% {
+                      bottom: 0.5rem;
+                  }
+              }
+              .noble_view_show_css3 {
+                  -webkit-animation: slide_down 0.2s linear;
+                  animation: slide_down 0.2s linear;
+              }
+              @-webkit-keyframes slide_down {
+                  0% {
+                      margin-top: -0.8rem;
+                  }
+                  50% {
+                      margin-top: -0.4rem;
+                  }
+                  100% {
+                      margin-top: 0;
+                  }
+              }
+              @keyframes slide_down {
+                  0% {
+                      margin-top: -0.8rem;
+                  }
+                  50% {
+                      margin-top: -0.4rem;
+                  }
+                  100% {
+                      margin-top: 0;
+                  }
+              }
+              .noble_view_hide_css3 {
+                  -webkit-animation: slide_up 0.2s linear;
+                  animation: slide_up 0.2s linear;
+              }
+              @-webkit-keyframes slide_up {
+                  0% {
+                      margin-top: 0;
+                  }
+                  50% {
+                      margin-top: -0.4rem;
+                  }
+                  100% {
+                      margin-top: -0.8rem;
+                  }
+              }
+              @keyframes slide_up {
+                  0% {
+                      margin-top: 0;
+                  }
+                  50% {
+                      margin-top: -0.4rem;
+                  }
+                  100% {
+                      margin-top: -0.8rem;
+                  }
+              }
+              .birthday_bg {
+                  background: #1D1917;
+                  width: 100%;
+                  margin: 4vw 0;
+                  padding: 3vw 0;
+                  border-radius: 10px;
+              }
+              .birthday_bg .content_rows ul {
+                  text-align: center;
+                  width: 100%;
+              }
+              .birthday_bg .content_rows ul li {
+                  width: 20vw;
+                  text-align: center;
+                  display: inline-block;
+                  margin: 1vw 2vw;
+              }
+              .birthday_bg img {
+                  width: 70%;
+                  display: block;
+                  margin: 0 auto;
+              }
+              .birthday_bg p {
+                  color: rgba(238,172,137,1);
+                  margin-top: 2vw;
+              }
+              .birthday_button {
+                  padding: 3vw 3vw;
+                  width: 47vw;
+                  margin: 0 auto;
+                  text-align: center;
+                  opacity: 1;
+                  background: linear-gradient(180deg,#f7d4b0, #eeac89);
+                  border-radius: 20px;
+                  box-shadow: 0px 2px 4px 0px #28160b;
+              }
+          </style>
+          <style>
+              html, body {
+                  position: relative;
+                  height: 100%;
+              }
+              body {
+                  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                  font-size: 14px;
+                  margin: 0;
+                  padding: 0;
+              }
+              .swiper-container {
+                  height: calc(70vh - 12.72rem);
+                  overflow-y: initial!important;
+                  overflow-x: hidden!important;
+                  width: calc(92vw - 0.451vw);
+              }
+              .swiper-slide {
+                  text-align: center;
+                  display: -webkit-box;
+                  display: -ms-flexbox;
+                  display: -webkit-flex;
+                  display: flex;
+                  -webkit-box-pack: center;
+                  -ms-flex-pack: center;
+                  -webkit-justify-content: center;
+                  justify-content: center;
+                  -webkit-box-align: center;
+                  -ms-flex-align: center;
+                  -webkit-align-items: center;
+                  align-items: center;
+              }
+              .main_content_vi .privilege_info{
+                  height: 11.5rem;!important;
+              }
+              .main_content_vi .owner_privilege{
+                  width: 94vw;!important;
+              }
+              .main_content_vi .list:nth-child(5), .main_content_vi .list:nth-child(6){
+                  width: 25vw;
+              }
+              .main_content_vi .list {
+                  font-size: 0.5vw;!important;
+              }
+          </style>
+          <link rel="stylesheet" href="client/css/nobleService/swiper.min.css">
+      
+  </head>
+  <body>
+    
+<div class="body_content">
+    <div class="noble_level">
+            <div class="noble_level_svga active ">
+                <div class="noble_svga" id="noble_svga0"></div>
+                <p class="noble_value">20$</p>
+               
+            </div>
+            <div class="noble_level_svga active ">
+                <div class="noble_svga" id="noble_svga1"></div>
+                <p class="noble_value">50$</p>
+             
+            </div>
+            <div class="noble_level_svga active ">
+                <div class="noble_svga" id="noble_svga2"></div>
+                <p class="noble_value">90$</p>
+              
+            </div>
+            <div class="noble_level_svga active ">
+                <div class="noble_svga" id="noble_svga3"></div>
+                <p class="noble_value">120$</p>
+               
+            </div>
+            <div class="noble_level_svga active ">
+                <div class="noble_svga" id="noble_svga4"></div>
+                <p class="noble_value">170$</p>
+              
+            </div>
+            <div class="noble_level_svga active ">
+                <div class="noble_svga" id="noble_svga5"></div>
+                <p class="noble_value">220$</p>
+                <p class="nobel_explain" style="font-size: 0.95rem">
+            </div>
+    </div>
+    <div style="-webkit-box-flex: 1;-ms-flex: 1;flex: 1;">
+        <div style="display: flex;align-items: flex-end;height: 100%;">
+            <div>
+                <div class="main_content ">
+                    <div class="cont_content">
+                        <ul>
+                                <li class="list"  index="0">الفارس</li>
+                                <li class="list"  index="1">القائد</li>
+                                <li class="list"  index="2">الوزير</li>
+                                <li class="list"  index="3">الأمير</li>
+                                <li class="list"  index="4">القيصر</li>
+                                <li class="list"  index="5">الملك</li>
+                        </ul>
+                    </div>
+
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                                <div class="swiper-slide noble_content_list">
+                                    <div class="all_privilege all_privilege0" index="0">
+                                        <div class="noble_list">
+                                            <div class="privilege_info active ">
+                                                <img src="1.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">الطرد</p>
+                                                <p class="explain">يمكنك طردالاشخاص من الغرفة</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="2.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">الوقاية من الطرد</p>
+                                                <p class="explain">النبلاء بامتياز الوقاية من الطرد.</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="3.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">هدية مميزة</p>
+                                                <p class="explain">خاصه ومحدوده</p>
+                                                <p class="explain">فريدة من نوعها</p>
+                                            </div>
+
+                                            <div class="privilege_info active ">
+                                                <img src="4.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">تنبيهات غير محدودة</p>
+                                                <p class="explain">ارسال تنبيهات</p>
+                                                <p class="explain">بلا حدود</p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="25.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">حذف الحائط</p>
+                                                <p class="explain">يمكنك حذف منشور</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="26.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">بوق الخادم</p>
+                                                <p class="explain">ارسال علانات</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="27.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">دخول مخفي</p>
+                                                <p class="explain">دخول مخفي داخل الدردشة</p>
+                                                <p class="explain">ملفت الانتباه</p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="28.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">انشاء غرف</p>
+                                                <p class="explain">دائما</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info birthday">
+                                                <img src="29.png?v=1.3.5.3" alt="">
+                                                <p class="explain_title">عرض الأولوية في الغرفة
+</p>
+                                                <p class="explain"></p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="30.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">تأثير الدخول الرائع
+</p>
+                                                <p class="explain"> </p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="31.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">1000لايك يوميأ</p>
+                                                <p class="explain"> </p>
+                                                <p class="explain"> </p>
+                                            </div>
+<div class="privilege_info active ">
+                                                <img src="32.png?v=1.2.2.2" alt="">
+                                                <p style="
+    color: #848280;
+" class="explain_title">اسم متحرك</p>
+                                                <p class="explain">تصميم خاص</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owner_privilege">
+                                        <p class="owner_privilege_detail">امتياز حصري  4/12</p>
+                                    </div>
+                                    <img src="client/img/nobleService/group_btn.png?v=1.2.2.2" alt="" class="down" index="0">
+                                </div>
+                                <div class="swiper-slide noble_content_list">
+                                    <div class="all_privilege all_privilege1" index="1">
+                                        <div class="noble_list">
+                                            <div class="privilege_info active ">
+                                                <img src="1.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">الطرد</p>
+                                                <p class="explain">يمكنك طردالاشخاص من الغرفة</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="2.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">الوقاية من الطرد</p>
+                                                <p class="explain">النبلاء بامتياز الوقاية من الطرد.</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="3.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">هدية مميزة</p>
+                                                <p class="explain">خاصه ومحدوده</p>
+                                                <p class="explain">فريدة من نوعها</p>
+                                            </div>
+
+                                            <div class="privilege_info active ">
+                                                <img src="4.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">تنبيهات غير محدودة</p>
+                                                <p class="explain">ارسال تنبيهات </p>
+                                                <p class="explain">بلا حدود</p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="5.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">حذف الحائط</p>
+                                                <p class="explain">يمكنك حذف منشور</p>
+                                                <p class="explain"></p>
+                                            </div><div class="privilege_info">
+                                                <img src="6.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title" style="
+    color: #ffc86d;
+">بوق الخادم</p>
+                                                <p class="explain" style="
+    color: #7A5D4D;
+">ارسال علانات</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="27.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">دخول مخفي</p>
+                                                <p class="explain">دخول مخفي داخل الدردشة</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="28.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">انشاء غرف</p>
+                                                <p class="explain">دائما</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info birthday">
+                                                <img src="29.png?v=1.3.5.3" alt="">
+                                                <p class="explain_title">عرض الأولوية في الغرفة
+</p>
+                                                <p class="explain"></p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="30.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">تأثير الدخول الرائع
+</p>
+                                                <p class="explain"> </p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="31.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">1000لايك يوميأ</p>
+                                                <p class="explain"> </p>
+                                                <p class="explain"> </p>
+                                            </div>
+<div class="privilege_info active ">
+                                                <img src="32.png?v=1.2.2.2" alt="">
+                                                <p style="
+    color: #848280;
+" class="explain_title">اسم متحرك</p>
+                                                <p class="explain">تصميم خاص</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owner_privilege">
+                                        <p class="owner_privilege_detail">امتياز حصري  6/12</p>
+                                    </div>
+                                    <img src="client/img/nobleService/group_btn.png?v=1.2.2.2" alt="" class="down" index="1">
+                                </div>
+                                <div class="swiper-slide noble_content_list">
+                                    <div class="all_privilege all_privilege2" index="2">
+                                        <div class="noble_list">
+                                            <div class="privilege_info active ">
+                                                <img src="1.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">الطرد</p>
+                                                <p class="explain">يمكنك طردالاشخاص من الغرفة</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="2.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">الوقاية من الطرد</p>
+                                                <p class="explain">النبلاء بامتياز الوقاية من الطرد.</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="3.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">هدية مميزة</p>
+                                                <p class="explain">خاصه ومحدوده</p>
+                                                <p class="explain">فريدة من نوعها</p>
+                                            </div>
+
+                                            <div class="privilege_info active ">
+                                                <img src="4.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">تنبيهات غير محدودة</p>
+                                                <p class="explain">ارسال تنبيهات</p>
+                                                <p class="explain">بلا حدود</p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="5.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">حذف الحائط</p>
+                                                <p class="explain">يمكنك حذف منشور</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="6.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">بوق الخادم</p>
+                                                <p class="explain">ارسال علانات</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="7.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">دخول مخفي</p>
+                                                <p class="explain">دخول مخفي داخل الدردشة</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="28.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">انشاء غرف</p>
+                                                <p class="explain">دائما</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info birthday">
+                                                <img src="29.png?v=1.3.5.3" alt="">
+                                                <p class="explain_title">عرض الأولوية في الغرفة
+</p>
+                                                <p class="explain"></p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="30.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">تأثير الدخول الرائع
+</p>
+                                                <p class="explain"> </p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="31.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">1000لايك يوميأ</p>
+                                                <p class="explain"> </p>
+                                                <p class="explain"> </p>
+                                            </div>
+<div class="privilege_info active ">
+                                                <img src="32.png?v=1.2.2.2" alt="">
+                                                <p style="
+    color: #848280;
+" class="explain_title">اسم متحرك</p>
+                                                <p class="explain">تصميم خاص</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owner_privilege">
+                                        <p class="owner_privilege_detail">امتياز حصري  7/12</p>
+                                    </div>
+                                    <img src="client/img/nobleService/group_btn.png?v=1.2.2.2" alt="" class="down" index="2">
+                                </div>
+                                <div class="swiper-slide noble_content_list">
+                                    <div class="all_privilege all_privilege3" index="3">
+                                        <div class="noble_list">
+                                            <div class="privilege_info active ">
+                                                <img src="1.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">الطرد</p>
+                                                <p class="explain">يمكنك طردالاشخاص من الغرفة</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="2.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">الوقاية من الطرد</p>
+                                                <p class="explain">النبلاء بامتياز الوقاية من الطرد.</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="3.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">هدية مميزة</p>
+                                                <p class="explain">خاصه ومحدوده</p>
+                                                <p class="explain">فريدة من نوعها</p>
+                                            </div>
+
+                                            <div class="privilege_info active ">
+                                                <img src="4.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">تنبيهات غير محدودة</p>
+                                                <p class="explain">ارسال التنبيهات</p>
+                                                <p class="explain">بلا حدود</p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="5.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">حذف الحائط</p>
+                                                <p class="explain">يمكنك حذف منشور</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="6.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">بوق الخادم</p>
+                                                <p class="explain">ارسال علانات</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="7.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">دخول مخفي</p>
+                                                <p class="explain">دخول مخفي داخل الدردشة</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="8.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">انشاء غرف</p>
+                                                <p class="explain">دائما</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active  birthday">
+                                                <img src="9.png?v=1.3.5.3" alt="">
+                                                <p class="explain_title">عرض الأولوية في الغرفة
+</p>
+                                                <p class="explain"></p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="10.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">تأثير الدخول الرائع</p>
+                                                <p class="explain"> </p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+                                                <img src="31.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">1000لايك يوميأ</p>
+                                                <p class="explain"> </p>
+                                                <p class="explain"> </p>
+                                            </div>
+<div class="privilege_info active ">
+                                                <img src="32.png?v=1.2.2.2" alt="">
+                                                <p style="
+    color: #848280;
+" class="explain_title">اسم متحرك</p>
+                                                <p class="explain">تصميم خاص</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owner_privilege">
+                                        <p class="owner_privilege_detail">امتياز حصري  10/12</p>
+                                    </div>
+                                    <img src="client/img/nobleService/group_btn.png?v=1.2.2.2" alt="" class="down" index="3">
+                                </div>
+                                <div class="swiper-slide noble_content_list">
+                                    <div class="all_privilege all_privilege4" index="4">
+                                        <div class="noble_list">
+                                            <div class="privilege_info active ">
+                                                <img src="1.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">الطرد</p>
+                                                <p class="explain">يمكنك طردالاشخاص من الغرفة</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="2.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">الوقاية من الطرد</p>
+                                                <p class="explain">النبلاء بامتياز الوقاية من الطرد.</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="3.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">هدية مميزة</p>
+                                                <p class="explain">خاصه ومحدوده</p>
+                                                <p class="explain">فريدة من نوعها</p>
+                                            </div>
+
+                                            <div class="privilege_info active ">
+                                                <img src="4.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">تنبيهات غير محدودة</p>
+                                                <p class="explain">ارسال التنبيهات</p>
+                                                <p class="explain">بلا حدود</p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="5.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">حذف الحائط</p>
+                                                <p class="explain">يمكنك حذف منشور</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="6.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">بوق الخادم</p>
+                                                <p class="explain">ارسال علانات</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="7.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">دخول مخفي</p>
+                                                <p class="explain">دخول مخفي داخل الدردشة</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="8.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">انشاء غرف</p>
+                                                <p class="explain">دائما</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active  birthday">
+                                                <img src="9.png?v=1.3.5.3" alt="">
+                                                <p class="explain_title">عرض الأولوية في الغرفة
+</p>
+                                                <p class="explain"></p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="10.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">تأثير الدخول الرائع</p>
+                                                <p class="explain"> </p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="11.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">1000لايك يوميأ</p>
+                                                <p class="explain"> </p>
+                                                <p class="explain"> </p>
+                                            </div>
+<div class="privilege_info active ">
+                                                <img src="32.png?v=1.2.2.2" alt="">
+                                                <p style="
+    color: #848280;
+" class="explain_title">اسم متحرك</p>
+                                                <p class="explain">تصميم خاص</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owner_privilege">
+                                        <p class="owner_privilege_detail">امتياز حصري  11/12</p>
+                                    </div>
+                                    <img src="client/img/nobleService/group_btn.png?v=1.2.2.2" alt="" class="down" index="4">
+                                </div>
+                                <div class="swiper-slide noble_content_list">
+                                    <div class="all_privilege all_privilege5" index="5">
+                                        <div class="noble_list">
+                                            <div class="privilege_info active ">
+                                                <img src="1.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">الطرد</p>
+                                                <p class="explain">يمكنك طردالاشخاص من الغرفة</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="2.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">الوقاية من الطرد</p>
+                                                <p class="explain">النبلاء بامتياز الوقاية من الطرد.</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="3.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">هدية مميزة</p>
+                                                <p class="explain">خاصه ومحدوده</p>
+                                                <p class="explain">فريدة من نوعها</p>
+                                            </div>
+
+                                            <div class="privilege_info active ">
+                                                <img src="4.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">تنبيهات غير محدودة</p>
+                                                <p class="explain">ارسال تنبيهات</p>
+                                                <p class="explain">بلا حدود</p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="5.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">حذف الحائط</p>
+                                                <p class="explain">يمكنك حذف منشور</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="6.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">بوق الخادم</p>
+                                                <p class="explain">ارسال علانات</p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="7.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">دخول مخفي</p>
+                                                <p class="explain">دخول مخفي داخل الدردشة</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="8.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">انشاء غرف </p>
+                                                <p class="explain">دائما</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info active  birthday">
+                                                <img src="9.png?v=1.3.5.3" alt="">
+                                                <p class="explain_title">عرض الأولوية في الغرفة
+</p>
+                                                <p class="explain"></p>
+                                                <p class="explain"></p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="10.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">تأثير الدخول الرائع</p>
+                                                <p class="explain"> </p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info active ">
+                                                <img src="11.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">1000لايك يوميأ</p>
+                                                <p class="explain"> </p>
+                                                <p class="explain"> </p>
+                                          
+  </div>
+<div class="privilege_info active ">
+                                                <img src="12.png?v=1.2.2.2" alt="">
+                                                <p class="explain_title">اسم متحرك</p>
+                                                <p class="explain">تصميم خاص</p>
+                                                <p class="explain"> </p>
+                                            </div>
+                                            <div class="privilege_info">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="owner_privilege">
+                                        <p class="owner_privilege_detail">امتياز حصري  12/12</p>
+                                    </div>
+                                    <img src="client/img/nobleService/group_btn.png?v=1.2.2.2" alt="" class="down" index="5">
+                                </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="need_to_upgrade">
+                        <br/>
+                </div>
+                <div class="owner_noble_info">
+                    <div>
+                        <p class="owner_info owner_noble_grade">للاشتراك تواصل</p>
+                        <p class="noble_introduction">مع الادارة</p>
+                        <p class="vertical_line"></p>
+                    </div>
+                    
+                    <div>
+                            <p class="owner_info owner_surplus_days">30</p>
+                        <p class="surplus_days">
+                            <span class="noble_introduction">العدد المتبقي من الأيام
+                                <img src="client/img/nobleService/explain_rule.png?v=1.2.2.2" alt="" class="explain_rule">
+                            </span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="view_mask noble_view_mask">
+    <div class="noble_view" style="left:  40% ">
+        <div class="noble_view_content">
+            <p class="noble_level_title"></p>
+            <p class="noble_level_explain"></p>
+            <img src="client/img/nobleService/noble_bg.png" alt="" class="noble_level_explain_img">
+        </div>
+        <div class="noble_view_close"></div>
+    </div>
+</div>
+
+<div class="view_mask birthday_content_view_mask">
+    <div class="noble_view" style="left:  40% ">
+        <div class="noble_view_content">
+            <p class="noble_level_title">عرض الأولوية في الغرفة
+</p>
+            <p class="noble_level_explain"></p>
+            <div class="birthday_bg">
+                <div class="content_rows">
+                    <ul>
+                       </ul>
+                </div>
+            </div>
+          
+        </div>
+        <div class="noble_view_close"></div>
+    </div>
+</div>
+
+<div class="view_mask user_keep_value_view_mask">
+    <div class="noble_view" style="left:  40% ">
+        <div class="noble_view_content">
+            <p class="noble_level_title">نقاط الضمان</p>
+            <div class="noble_level_explain">
+                نقاط الضمان = نقاط الأساطير الحالية - نقاط الأساطير للحالة المقابلة ، تُستخدم فقط لحساب حالة نقاط ضمان الأساطير
+                <br/>
+            </div>
+        </div>
+        <div class="noble_view_close"></div>
+    </div>
+</div>
+
+<div class="view_mask common_content_view_mask">
+    <div class="noble_view" style="left:  40% ">
+        <div class="noble_view_content">
+            <p class="noble_level_title"></p>
+            <p class="noble_level_explain"></p>
+        </div>
+        <div class="noble_view_close"></div>
+    </div>
+</div>
+
+    
+        <script src="client/js/nobleService/jquery.min.js"></script>
+        <script src="client/js/nobleService/lottie.min.js"></script>
+        <script src="client/js/nobleService/swiper.min.js"></script>
+    <!--    <script src="//lib.baomitu.com/eruda/2.2.1/eruda.js"></script><script>eruda.init();</script>-->
+        <script>
+            var active_arr = [false,false,false,false,false];
+            var noble_level_list = [
+                {
+                    'noble_level_title': 'الطرد من الغرفة',
+                    'noble_level_explain': 'ميزة الطرد في كل الغرف  يمكنك طرد الاشخاص المخالفين للقواعدالتطبيق من الغرفة ،   ،  ',
+                    'is_different_img': false,
+                    'noble_level_explain_img': 'rule_noble_stealth_explain_ar',
+                    'img_suffix': ''
+                },
+                {
+                    'noble_level_title': 'الوقاية من الطرد',
+                    'noble_level_explain': 'النبلاء بامتياز الوقاية من الطرد ، ولا يمكن لمالك الغرفة أو مشرف الغرفة طرده من الغرفة..',
+                    'is_different_img': true,
+                    'noble_level_explain_img': [
+                        'noble_nameplate_explain0',
+                        'noble_nameplate_explain1',
+                        'noble_nameplate_explain2',
+                        'noble_nameplate_explain3',
+                        'noble_nameplate_explain4',
+                        'noble_nameplate_explain5'
+                    ],
+                    'img_suffix': '.gif?v=1.2.2.2'
+                },
+                {
+                    'noble_level_title': 'هدية مميزة',
+                    'noble_level_explain': 'الهدايا الحصرية لمستخدمي مميزات الأساطير هي مصدر فخر ، لأنه يمكن تقديمها لأي مستخدم',
+                    'is_different_img': true,
+                    'noble_level_explain_img': [
+                        'noble_exclusive_gift_explain0',
+                        'noble_exclusive_gift_explain1',
+                        'noble_exclusive_gift_explain2',
+                        'noble_exclusive_gift_explain3',
+                        'noble_exclusive_gift_explain4',
+                        'noble_exclusive_gift_explain5'
+                    ],
+                    'img_suffix': '.png?v=1.2.2.2'
+                },
+                {
+                    'noble_level_title': 'تنبيهات غير محدودة',
+                    'noble_level_explain': 'يمكن ارسال تنبية بدون فترة زمينة ارسال لجميع المستخدمين!',
+                    'is_different_img': false,
+                    'noble_level_explain_img': 'noble_seat_expression_explain_ar',
+                    'img_suffix': ''
+                },
+                {
+                    'noble_level_title': 'حذف الحائط',
+                    'noble_level_explain': 'يمكنك حذف منشور للمستخدمين داخل الدردشة اذا كان المنشور مخالف .',
+                    'is_different_img': true,
+                    'noble_level_explain_img': [
+                        'noble_card_skin_explain0',
+                        'noble_card_skin_explain1',
+                        'noble_card_skin_explain2',
+                        'noble_card_skin_explain3',
+                        'noble_card_skin_explain4',
+                        'noble_card_skin_explain5'
+                    ],
+                    'img_suffix': ''
+                },
+                {
+                    'noble_level_title': 'بوق الخادم',
+                    'noble_level_explain': 'تتيح لك خدمة بوق الخادم ارسال العلان للجميع المتسخدمين داخل الدردشة.',
+                    'is_different_img': false,
+                    'noble_level_explain_img': 'noble_exclusive_service_explain_ar',
+                    'img_suffix': ''
+                },
+                {
+                    'noble_level_title': 'دخول المخفي',
+                    'noble_level_explain': 'دوقيمكن لماركيز وما فوق النبلاء اختيار إخفاء حالة الاتصال بالإنترنت أو بيانات قائمة الحفلة حتى لا يتمكن الآخرون من مشاهدتها.',
+                    'is_different_img': true,
+                    'noble_level_explain_img': [
+                        'noble_speak_halo_explain0',
+                        'noble_speak_halo_explain1',
+                        'noble_speak_halo_explain2',
+                        'noble_speak_halo_explain3',
+                        'noble_speak_halo_explain4',
+                        'noble_speak_halo_explain5'
+                    ],
+                    'img_suffix': '.gif?v=1.2.2.2'
+                },
+                {
+                    'noble_level_title': 'انشاء غرف دائما',
+                    'noble_level_explain': 'انشاء الكثير من الغرف داخل الدردشة ',
+                    'is_different_img': true,
+                    'noble_level_explain_img': [
+                        'noble_wheat_special_effects_explain0',
+                        'noble_wheat_special_effects_explain1',
+                        'noble_wheat_special_effects_explain2',
+                        'noble_wheat_special_effects_explain3',
+                        'noble_wheat_special_effects_explain4',
+                        'noble_wheat_special_effects_explain5'
+                    ],
+                    'img_suffix': ''
+                },
+                {
+    
+                },
+                {
+                    'noble_level_title': 'تأثير الدخول الرائع',
+                    'noble_level_explain': 'كونتي تمتع النبيل بتأثير الدخول الرائع ، يتم تشغيله عند دخول الغرفة ويجذب انتباه الجمهور بأكمله.',
+                    'is_different_img': false,
+                    'noble_level_explain_img': 'noble_free_broadcast_explain',
+                    'img_suffix': '.png?v=1.3.2.3'
+                },
+                {
+                    'noble_level_title': '1000لايك يوميأ',
+                    'noble_level_explain': 'كل يوم 1000 لايك زيادة لمدة شهر !',
+                    'is_different_img': true,
+                    'noble_level_explain_img': [
+                        'noble_custom_car_explain0',
+                        'noble_custom_car_explain1',
+                        'noble_custom_car_explain2',
+                        'noble_custom_car_explain3',
+                        'noble_custom_car_explain4',
+                        'noble_custom_car_explain5'
+                    ],
+                    'img_suffix': '.gif?v=1.2.2.3'
+                },
+            ];
+            //var nodelist = JSON.parse("[object Object],[object Object],[object Object],[object Object],[object Object],[object Object]".replaceAll('&quot;','"'));
+            $(function () {
+                var swiper = new Swiper('.swiper-container',{
+                    initialSlide: 0,
+                    on: {
+                        init: function(swiper){
+                            var active = 0;
+                            if (active == 0) {
+                                $('.list').eq(active).addClass('active')
+                                $('.all_privilege' + active).css('background', 'linear-gradient(rgba(46,40,37,0.9), rgba(46,40,37, 0.9)), url(client/img/nobleService/noble_level' + (active + 1) + '.png?v=1.2.2.2) no-repeat 30vw 15vw / 100%')
+                                $('.noble_level_svga').eq(active).show()
+                                if (!active_arr[active]) {
+                                    svgaVideo(active);
+                                }
+                            }
+                        },
+                        slideChangeTransitionStart: function(){
+                            var active = this.activeIndex;
+                            $('.list').removeClass('active')
+                            $('.list').eq(active).addClass('active')
+                            $('.noble_content_list').eq(active).show()
+                            $('.noble_level_svga').hide()
+                            $('.noble_level_svga').eq(active).show()
+                            if (!active_arr[active]) {
+                                svgaVideo(active);
+                            }
+                        },
+                    },
+                })
+    
+    
+                // 倒计时
+                if (false) {
+                    countTime();
+                }
+    
+                // 内容弹窗
+                $('.noble_content_list .noble_list .privilege_info').not('.birthday').click(function (){
+                    // 先把图片清空
+                    $('.noble_view_content .noble_level_explain_img').attr('src', '')
+                    var list_active = parseInt($('.list.active').attr('index'))
+                    var active = parseInt($(this).index())
+                    $('.noble_view_mask').fadeIn(200).find('.noble_view').removeClass('noble_view_hide_css3').addClass('noble_view_show_css3');
+                    $('.noble_view_mask .noble_level_title').html(noble_level_list[active].noble_level_title)
+                    $('.noble_view_mask .noble_level_explain').html(noble_level_list[active].noble_level_explain)
+                    if (noble_level_list[active].is_different_img) {
+                        $('.noble_view_mask .noble_level_explain_img').attr('src', 'https://static-cdn.lemochat.com/client'+'/img/nobleService/' + noble_level_list[active].noble_level_explain_img[list_active] + noble_level_list[active].img_suffix)
+                    } else {
+                        $('.noble_view_mask .noble_level_explain_img').attr('src', 'https://static-cdn.lemochat.com/client'+'/img/nobleService/' + noble_level_list[active].noble_level_explain_img + noble_level_list[active].img_suffix)
+                    }
+                    $('.noble_view_mask .noble_view_close').click(function () {
+                        $('.noble_view_mask').fadeOut(200).find('.noble_view').removeClass('noble_view_show_css3').addClass('noble_view_hide_css3');
+                    })
+                });
+    
+                // 内容生日弹窗
+                $('.noble_content_list .noble_list .privilege_info.birthday').click(function (){
+                    $('.birthday_content_view_mask').fadeIn(200).find('.noble_view').removeClass('noble_view_hide_css3').addClass('noble_view_show_css3');
+                    $('.birthday_content_view_mask .birthday_button').click(function () {
+                        window.location.href = birthdayUrl();
+                    })
+                    $('.birthday_content_view_mask .noble_view_close').click(function () {
+                        $('.birthday_content_view_mask').fadeOut(200).find('.noble_view').removeClass('noble_view_show_css3').addClass('noble_view_hide_css3');
+                    })
+                });
+    
+                // 荣耀值
+                $('.nobel_explain').click(function (){
+                    $('.common_content_view_mask .noble_level_title').html("")
+                    $('.common_content_view_mask .noble_level_explain').html("")
+                    $('.common_content_view_mask').fadeIn(200).find('.noble_view').removeClass('noble_view_hide_css3').addClass('noble_view_show_css3');
+                    $('.common_content_view_mask .noble_level_title').html("نقاط المميزات");
+                    $('.common_content_view_mask .noble_level_explain').html("استهلاك عملة ذهبية واحدة = قيمة نقطه اسطورية واحدة ، إنها بيانات الاعتماد لترقية حالة الأساطير. سيتم تجميعها في غضون 30 يومًا ، وسيتم مسح قيمة الأساطير لأول 30 يومًا بعد اليوم الثلاثين ، وسيكون التراكم تم إجراؤها في دورة مدتها 30 يومًا مرة أخرى. عندما تفي نقاط الأساطير بمتطلبات معدات المستوى المقابلة ، يمكن الحصول على مستوى الاسطوري المقابل.");
+                    $('.common_content_view_mask .noble_view_close').click(function () {
+                        $('.common_content_view_mask').fadeOut(200).find('.noble_view').removeClass('noble_view_show_css3').addClass('noble_view_hide_css3');
+                    })
+                });
+                // 保级值
+                $('.keep_value').click(function (){
+                    $('.user_keep_value_view_mask').fadeIn(200).find('.noble_view').removeClass('noble_view_hide_css3').addClass('noble_view_show_css3');
+                    $('.user_keep_value_view_mask .noble_view_close').click(function () {
+                        $('.user_keep_value_view_mask').fadeOut(200).find('.noble_view').removeClass('noble_view_show_css3').addClass('noble_view_hide_css3');
+                    })
+                });
+    
+                // 剩余天数
+                $('.surplus_days').click(function (){
+                    $('.common_content_view_mask .noble_level_title').html("")
+                    $('.common_content_view_mask .noble_level_explain').html("")
+                    $('.common_content_view_mask').fadeIn(200).find('.noble_view').removeClass('noble_view_hide_css3').addClass('noble_view_show_css3');
+                    $('.common_content_view_mask .noble_level_title').html("العدد المتبقي من الأيام");
+                    $('.common_content_view_mask .noble_level_explain').html("فترة الصلاحية هي 30 يومًا من وقت الحصول على مستوى الاسطوري. خلال فترة الصلاحية ، يمكنك الاستمتاع بامتيازات الأساطير وترقية حالة الأساطير. في نهاية اليوم الثلاثين ، سيتم تنفيذ حساب نقاط الضمان / التخفيض. بعد في اليوم الثلاثين ، سيتم منح المستخدم أذونات الأساطير المقابلة أو إلغاء حالة الأساطير وفقًا للنتائج المحسوبة.");
+                    $('.common_content_view_mask .noble_view_close').click(function () {
+                        $('.common_content_view_mask').fadeOut(200).find('.noble_view').removeClass('noble_view_show_css3').addClass('noble_view_hide_css3');
+                    })
+                });
+    
+                $('.list').click(function () {
+                    var active = parseInt($(this).attr('index'));
+                    $('.list').removeClass('active')
+                    $(this).addClass('active')
+                    swiper.slideTo(active)
+                    $('.all_privilege' + active).css('background', 'linear-gradient(rgba(46,40,37,0.9), rgba(46,40,37, 0.9)), url(client/img/nobleService/noble_level' + (active + 1) + '.png?v=1.2.2.2) no-repeat 30vw 15vw / 100%')
+                    $('.noble_level_svga').hide()
+                    $('.noble_level_svga').eq(active).show()
+                    if (!active_arr[active]) {
+                        svgaVideo(active);
+                    }
+                })
+    
+                $(".all_privilege").scroll(function(){
+                    var active = parseInt($(this).attr('index'))
+                    var nScrollHight = 0; //滚动距离总长(注意不是滚动条的长度)
+                    nScrollHight = $(".all_privilege")[active].scrollHeight * 0.8;
+                    var scrollTop = $($(".all_privilege")[active]).scrollTop();
+                    var ks_area = $($(".all_privilege")[active]).innerHeight();
+                    if(scrollTop + ks_area >= nScrollHight) {
+                        $($('.down')[active]).hide();
+                    }
+                    if(scrollTop <= ks_area * 0.2) {
+                        $($('.down')[active]).show();
+                    }
+                });
+    
+                $(".down").click(function () {
+                    var active = $(this).attr('index')
+                    $($('.all_privilege')[active]).scrollTop($($('.all_privilege')[active]).height());
+                });
+            })
+    
+            function isDevelopment() {
+                var domain = document.domain;
+                if (domain.indexOf('test') == -1) {
+                    return "activity.lemochat.com";
+                } else {
+                    return "test-activity.lemochat.com";
+                }
+            }
+    
+            function birthdayUrl() {
+                return 'https://' + isDevelopment() + "/september/biguser_birthday/index/#/write" + window.location.search + "&region=2";
+                // return window.location.protocol + '//' + isDevelopment() + "/september/biguser_birthday/index/#/write" + window.location.search;
+            }
+    
+            function countTime() {
+                var date = new Date();
+                var now = parseInt(date.getTime().toString().substr(0,10));
+    
+                var end = 0;
+                if (false) {
+                    end = "-";
+                }
+    
+                //时间差
+                var leftTime = parseInt(end) - now;
+                // var leftTime = 1614933100 - now;
+                console.log(end, now);
+                //定义变量 h,m,s保存倒计时的时间
+                var h,m,s;
+                if (leftTime > 0) {
+                    h = checkTime(Math.floor(leftTime / 60 / 60 % 24));
+                    m = checkTime(Math.floor(leftTime / 60 % 60));
+                    s = checkTime(Math.floor(leftTime % 60));
+                } else {
+                    h = "00"
+                    m = "00"
+                    s = "00"
+                    location.reload();
+                }
+                //将倒计时赋值到div中
+                $('.whether_show_countdown').html(h+":" + m+":" + s)
+                //递归每秒调用countTime方法，显示动态时间效果
+                setTimeout(countTime,1000);
+            }
+    
+            function checkTime(i) {
+                if (i < 10) {
+                    i = "0" + i;
+                }
+                return i;
+            };
+    
+            function svgaVideo (type) {
+                var previewSvga = '';
+                previewSvga = 'https://static-cdn.lemochat.com/client' + '/svga/nobleService/data' + (type + 1) + '/data.json?v=1.5.1.3'
+                var animation = document.querySelector('#noble_svga' + type);
+                lottie.loadAnimation({
+                    container: animation, // the dom element that will contain the animation
+                    renderer: 'svg',
+                    loop: true,
+                    autoplay: true,
+                    path: previewSvga // the path to the animation json
+                });
+                active_arr[type] = true
+            }
+        </script>
+  </body>
+</html>
