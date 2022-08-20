@@ -1,6 +1,7 @@
-div#chats>div>div.hand.nosel.fl.uzr.border>img.fitimg.fl.u-pic {
+div#chats > div > div.hand.nosel.fl.uzr.border > img.fitimg.fl.u-pic {
     margin-left: 76px !important;
 }
+
 .fa-dot-circle-o::before {
     content: "";
     animation: 1.5s ease 0s infinite normal none running mymove;
@@ -145,6 +146,7 @@ div#menu-l {
 
 button.fa.fa-sign-out.fl.btn.btn-primary {
     margin-top: 0px !important;
+    display: none;
 }
 
 span.corner.fa.fa-user.label.label-primary.fr.uc {
@@ -153,7 +155,10 @@ span.corner.fa.fa-user.label.label-primary.fr.uc {
 }
 
 button.fa.fa-send.fl.btn.btn-primary {
-    margin-top: 0px !important;
+    color: rgb(255, 255, 255);
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    text-align: center !important;
+    border-radius: 0px 6px 0px 2px !important;
 }
 
 button.fa.fa-send.sndpm.fl.btn.btn-primary {
@@ -474,12 +479,12 @@ label.addGruMsg.label.tc.border.btn.label-info.fl {
 
 .tbox {
     padding: 3px;
-    border-right: 5px ridge rgb(210, 210, 210);
-    border-left: 5px groove rgb(210, 210, 210);
-    border-top-color: rgb(210, 210, 210);
-    border-bottom-color: rgb(210, 210, 210);
-    min-height: 28px !important;
-    border-radius: 3px !important;
+    border-right: 5px ridge rgb(171 157 211);
+    border-left: 5px ridge rgb(171 157 211);
+    border-top-color: rgb(191 176 233);
+    border-bottom-color: rgb(191 176 233);
+    min-height: 30px !important;
+    border-radius: 10px !important;
 }
 
 .ae.fa.label.label-primary.fa-users.btnClAlGr::before {
@@ -517,8 +522,8 @@ a.btn.minix.fa.fa-comment::before {
 }
 
 .fa-send::before, .fa-paper-plane::before {
-    content: "";
     padding: 0px 2px 0px 0px;
+    text-align: center !important;
 }
 
 .fa-share-alt::before {
