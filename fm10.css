@@ -1,3 +1,15 @@
+.room.borderg.hand.nosel.fl>span.fa.fa-microphone {
+    font-size: 11px !important;
+    text-align: center;
+    margin-top: 0px;
+    background-image: url(https://www.arabe.chat/sico/1661015202767.gif);
+    background-size: 27px 22.89px;
+    width: 33px;
+    height: 26px;
+    margin-right: 0px;
+    background-position: -383% -570px;
+    margin-left: -2% !important;
+}
 .broadcasters > div > .prod > .fa-microphone:before {
     display: none;
 }
