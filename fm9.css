@@ -1,3 +1,26 @@
+.topWall3>div>span {
+    color: #e3e3e3;
+    margin: 84px -8px -11px -2px!important;
+}
+.fr.top3 {
+    margin: 95px 24px 9px 11px!important;
+}
+.fl.top1 {
+    margin: 67px 1px 2px 27px!important;
+}
+.fl.top2 {
+    margin: 95px 0px 0px 24px!important;
+}
+.topWall3 {
+    margin-top: 0px;
+    width: 100%;
+    height: 260px!important;
+    background: url(https://www.arabe.chat/sico/1661008560172.png) white;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
 div#chats > div > div.hand.nosel.fl.uzr.border > img.fitimg.fl.u-pic {
     margin-left: 76px !important;
 }
