@@ -1,3 +1,9 @@
+div.borderg.corner>div>.label.label-primary {
+    color: rgb(255, 255, 255);
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    font-family: rawy-bold;
+    background-color: rgb(70, 82, 193) !important;
+}
 .fa-search:before {
     color: #c24b4b;
 }
@@ -896,10 +902,14 @@ label.label.tc.border.redit.btn.label-info.fl {
 }
 
 a.label.label-primary.fr {
+
     height: 100%;
     width: 100%;
     border: 1px solid rgba(189, 154, 154, 0);
-    background: linear-gradient(369deg, rgb(183, 70, 116) 0%, rgb(19, 145, 167) 100%) !important;
+    color: rgb(255, 255, 255);
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    font-family: rawy-bold;
+    background-color: rgb(70, 82, 193) !important;
 }
 
 div.borderg.corner {
