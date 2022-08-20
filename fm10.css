@@ -1,3 +1,20 @@
+.broadcasters>div>.prod>hr {
+    margin: 0;
+    border-top-color: #d9534f00;
+}
+.broadcasters>div>.prod>.fa-microphone {
+    font-size: 11px !important;
+    text-align: center;
+    margin-top: 0px;
+    background-image: url(https://www.arabe.chat/sico/1661011044977.png);
+    background-size: 42px 40.89px;
+    width: 43px;
+    height: 44px;
+    margin-right: 0px;
+    background-position: 26% -243px;
+    margin-left: 0% !important;
+}
+
 .topWall3 > div > span {
     color: rgb(227, 227, 227);
     margin: 84px -8px -11px -2px !important;
