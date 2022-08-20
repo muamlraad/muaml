@@ -1,3 +1,7 @@
+.room.borderg.hand.nosel.fl > .fa-microphone:before {
+    display: none;
+}
+
 .room.borderg.hand.nosel.fl>span.fa.fa-microphone {
     font-size: 11px !important;
     text-align: center;
