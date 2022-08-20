@@ -1,36 +1,42 @@
-.room.borderg.hand.nosel.fl > .fa-microphone:before {
+.fa-search:before {
+    color: #c24b4b;
+}
+.room.borderg.hand.nosel.fl > .fa-microphone::before {
     display: none;
 }
 
-.room.borderg.hand.nosel.fl>span.fa.fa-microphone {
-    font-size: 11px !important;
+.room.borderg.hand.nosel.fl > span.fa.fa-microphone {
     text-align: center;
     margin-top: 0px;
-    background-image: url(https://www.arabe.chat/sico/1661015202767.gif);
+    background-image: url("https://www.arabe.chat/sico/1661015202767.gif");
     background-size: 27px 22.89px;
     width: 33px;
     height: 26px;
     margin-right: 0px;
     background-position: -383% -570px;
+    font-size: 11px !important;
     margin-left: -5% !important;
 }
-.broadcasters > div > .prod > .fa-microphone:before {
+
+.broadcasters > div > .prod > .fa-microphone::before {
     display: none;
 }
-.broadcasters>div>.prod>hr {
-    margin: 0;
-    border-top-color: #d9534f00;
+
+.broadcasters > div > .prod > hr {
+    margin: 0px;
+    border-top-color: rgba(217, 83, 79, 0);
 }
-.broadcasters>div>.prod>.fa-microphone {
-    font-size: 11px !important;
+
+.broadcasters > div > .prod > .fa-microphone {
     text-align: center;
     margin-top: 0px;
-    background-image: url(https://www.arabe.chat/sico/1661011044977.png);
+    background-image: url("https://www.arabe.chat/sico/1661011044977.png");
     background-size: 42px 40.89px;
     width: 43px;
     height: 44px;
     margin-right: 0px;
     background-position: 26% -243px;
+    font-size: 11px !important;
     margin-left: 0% !important;
 }
 
@@ -341,6 +347,8 @@ a.btn.minix.fa.fa-thumbs-up.fr {
     color: rgb(253, 75, 144) !important;
     margin-left: 1% !important;
     font-size: 15px !important;
+    -webkit-text-stroke-width: medium;
+    text-align: left;
 }
 
 .fa-save::before, .fa-floppy-o::before {
@@ -522,7 +530,7 @@ label.addGruMsg.label.tc.border.btn.label-info.fl {
     color: rgb(255, 255, 255) !important;
 }
 
-.fa-ban::before, .fa-ban::before, .fa-search::before, .fa-ban::before, .fa-ban::before, .fa-diamond::before, .fa-comment::before, .fa-envelope-o::before {
+.fa-ban::before, .fa-ban::before,.fa-ban::before, .fa-ban::before, .fa-diamond::before, .fa-comment::before, .fa-envelope-o::before {
     display: none;
 }
 
@@ -604,8 +612,12 @@ img.emoi {
 }
 
 button.btn.fa.fa-image {
-    border: 1px solid rgba(189, 154, 154, 0);
-    background: linear-gradient(369deg, rgb(183, 70, 116) 0%, rgb(19, 145, 167) 100%) !important;
+    background-image: repeating-linear-gradient(45deg, rgb(20 124 255 / 64%), rgb(59, 86, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(115, 133, 156), rgb(59, 86, 120) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    border: 1px solid rgb(143, 133, 133);
+    margin-bottom: 4px;
+    background-color: rgb(255 180 73) !important;
+    color: rgb(255, 255, 255) !important;
+    height: 31px;
 }
 
 .fm.borderf {
@@ -848,9 +860,10 @@ div#wall > label.border.btn.fl {
 }
 
 button.btn.fa.fa-youtube-play {
-    border: 1px solid rgba(189, 154, 154, 0);
-    background: linear-gradient(369deg, rgb(183, 70, 116) 0%, rgb(19, 145, 167) 100%) !important;
-    color: rgb(255, 255, 255) !important;
+    color: rgb(255, 255, 255);
+    height: 31px;
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    background-color: rgb(70, 82, 193) !important;
 }
 
 button.btn.fa.fa-youtube {
