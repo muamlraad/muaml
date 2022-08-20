@@ -1,3 +1,70 @@
+label.label.fl.hand.fa.border.fa-user {
+    background-repeat: no-repeat;
+    color: rgb(114 46 46 / 0%);
+    width: 4%;
+    background-image: url(https://j.top4top.io/p_2423ak40a1.png);
+    background-size: 24px 719px;
+    background-position: 74% -417px;
+    padding: 15px 1px 0px 30px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 1px solid rgba(255, 254, 254, 0) !important;
+    margin-top: -2px !important;
+    margin-left: -5px !important;
+}
+label.btn.btn-info.fr.border.fa.fa-expand {
+    background-repeat: no-repeat;
+    color: rgb(114 46 46 / 0%);
+    width: 4%;
+    background-image: url(https://j.top4top.io/p_2423ak40a1.png);
+    background-size: 24px 719px;
+    background-position: 74% -363px;
+    padding: 14px 0px 0px 32px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 1px solid rgba(255, 254, 254, 0) !important;
+    margin-top: -2px !important;
+    margin-left: -5px !important;
+}
+label.btn.minix.btn-danger.phide.fr.border.fa.fa-minus {
+    background-repeat: no-repeat;
+    color: rgb(114 46 46 / 0%);
+    width: 11%;
+    background-image: url(https://j.top4top.io/p_2423ak40a1.png);
+    background-size: 24px 719px;
+    background-position: 74% -298px;
+    padding: 16px 4px 0px 13px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 1px solid rgba(255, 254, 254, 0) !important;
+    margin-top: -2px !important;
+    margin-left: -5px !important;
+}
+button.fr.fa.fa-share-alt.sndfilebc.fl.btn.btn-primary {
+    width: 30px;
+    background-repeat: no-repeat;
+    color: rgb(114 46 46 / 0%);
+    width: 0%;
+    background-image: url(https://j.top4top.io/p_2423ak40a1.png);
+    background-size: 27px 813px;
+    background-position: 74% -570px;
+    padding: 15px 1px 0px 30px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 0px solid rgba(255, 254, 254, 0) !important;
+    margin-top: 0px !important;
+    margin-left: 0px !important;
+}
+button.fr.fa.fa-share-alt.sndfile.fl.btn.btn-primary {
+    width: 30px;
+    background-repeat: no-repeat;
+    color: rgb(114 46 46 / 0%);
+    width: 0%;
+    background-image: url(https://j.top4top.io/p_2423ak40a1.png);
+    background-size: 27px 813px;
+    background-position: 74% -570px;
+    padding: 15px 1px 0px 30px !important;
+    background-color: rgba(255, 255, 255, 0) !important;
+    border: 1px solid rgba(255, 254, 254, 0) !important;
+    margin-top: 0px !important;
+    margin-left: 3px !important;
+}
 div.borderg.corner>div>.label.label-primary {
     color: rgb(255, 255, 255);
     background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
