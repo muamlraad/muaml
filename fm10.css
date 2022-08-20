@@ -1,3 +1,6 @@
+.broadcasters > div > .prod > .fa-microphone:before {
+    display: none;
+}
 .broadcasters>div>.prod>hr {
     margin: 0;
     border-top-color: #d9534f00;
