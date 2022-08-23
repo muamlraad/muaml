@@ -1,3 +1,10 @@
+.mkrr.fr.label.label-primary {
+    font-family: rawy-bold;
+}
+
+input.fl {
+    font-family: rawy-bold;
+}
 label.btn.btn-info.fr.border.fa.fa-compress {
     background-repeat: no-repeat;
     color: rgb(114 46 46 / 0%);
