@@ -322,6 +322,15 @@ div#room > .tablebox.footer.fl.light > button.fa.fa-send.fl.btn.btn-primary {
 
 button.fa.fa-send.sndpm.fl.btn.btn-primary {
     margin-top: 0px !important;
+    color: rgb(255, 255, 255)!important;
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(255 255 255) 100px, transparent -3px, transparent 39px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(79 53 106) 15px, transparent 27px, rgb(248, 249, 250) 200px)!important;
+    text-align: center !important;
+    border-radius: 30px 30px 30px 0px !important;
+    width: 37px !important;
+    border-right: 5px ridge rgb(171 157 211 / 51%)!important;
+    border-left: 5px ridge rgb(171 157 211 / 52%)!important;
+    border-top-color: rgb(157 142 199 / 29%)!important;
+    border-bottom-color: rgb(157 142 199 / 29%)!important;
 }
 
 .btn-primary:hover {
@@ -644,7 +653,6 @@ label.addGruMsg.label.tc.border.btn.label-info.fl {
     border-bottom-color: rgb(157 142 199 / 29%)!important;
     min-height: 30px !important;
     border-radius: 11px 11px 11px 11px !important;
-    margin-left: 34px !important;
 }
 
 .ae.fa.label.label-primary.fa-users.btnClAlGr::before {
@@ -1231,6 +1239,14 @@ img.memr {
 
 textarea#tbox {
     text-align: center!important;
+    padding: 3px!important;
+    border-right: 5px ridge rgb(171 157 211 / 51%)!important;
+    border-left: 5px ridge rgb(171 157 211 / 52%)!important;
+    border-top-color: rgb(157 142 199 / 29%)!important;
+    border-bottom-color: rgb(157 142 199 / 29%)!important;
+    min-height: 30px !important;
+    border-radius: 11px 11px 11px 11px !important;
+    margin-left: 34px !important;
 }
 a.label.label-primary.fl img.fl, button.btn.fr.btn-success.fa.fa-refresh, div#l2 br, div#l3 br {
     display: none!important;
@@ -1286,7 +1302,6 @@ a.label.label-primary.fl {
 
 .light.fl.pro.center.break.primaryborder {
     top: 4px!important;
-    padding: 3px!important;
     box-shadow: 3px 4px 100px #000!important;
 }
 
@@ -1415,4 +1430,15 @@ label.ae.fa.label.label-primary.fa-users.btnClAlGr {
 .head.nosel.bg.fl>.fl.uzr>.fl.filw>.fl {
     margin-top: -22px!important;
     margin-left: 35px!important;
+}
+button.fa.fa-send.sndbc.fl.btn.btn-primary {
+    color: rgb(255, 255, 255)!important;
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(255 255 255) 100px, transparent -3px, transparent 39px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(79 53 106) 15px, transparent 27px, rgb(248, 249, 250) 200px)!important;
+    text-align: center !important;
+    border-radius: 30px 30px 30px 0px !important;
+    width: 37px !important;
+    border-right: 5px ridge rgb(171 157 211 / 51%)!important;
+    border-left: 5px ridge rgb(171 157 211 / 52%)!important;
+    border-top-color: rgb(157 142 199 / 29%)!important;
+    border-bottom-color: rgb(157 142 199 / 29%)!important;
 }
