@@ -310,11 +310,14 @@ span.corner.fa.fa-user.label.label-primary.fr.uc {
 
 div#room > .tablebox.footer.fl.light > button.fa.fa-send.fl.btn.btn-primary {
     color: rgb(255, 255, 255)!important;
-    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(237, 218, 249) 100px, transparent -3px, transparent 39px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 15px, transparent 27px, rgb(248, 249, 250) 200px)!important;
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(255 255 255) 100px, transparent -3px, transparent 39px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(79 53 106) 15px, transparent 27px, rgb(248, 249, 250) 200px)!important;
     text-align: center !important;
     border-radius: 30px 30px 30px 0px !important;
-    margin-left: 62px !important;
     width: 37px !important;
+    border-right: 5px ridge rgb(171 157 211 / 51%)!important;
+    border-left: 5px ridge rgb(171 157 211 / 52%)!important;
+    border-top-color: rgb(157 142 199 / 29%)!important;
+    border-bottom-color: rgb(157 142 199 / 29%)!important;
 }
 
 button.fa.fa-send.sndpm.fl.btn.btn-primary {
@@ -378,10 +381,8 @@ img.fl.nosel.emobox {
     float: left!important;
     margin-top: -3px!important;
     height: 36px!important;
-    position: absolute!important;
-    left: 269px!important;
     border-radius: 100%!important;
-    width: 36px !important;
+    width: 38px !important;
 }
 
 img.fl.nosel.emo {
@@ -637,12 +638,13 @@ label.addGruMsg.label.tc.border.btn.label-info.fl {
 
 .tbox {
     padding: 3px!important;
-    border-right: 5px ridge rgb(171, 157, 211)!important;
-    border-left: 5px ridge rgb(171, 157, 211)!important;
-    border-top-color: rgb(191, 176, 233)!important;
-    border-bottom-color: rgb(191, 176, 233)!important;
+    border-right: 5px ridge rgb(171 157 211 / 51%)!important;
+    border-left: 5px ridge rgb(171 157 211 / 52%)!important;
+    border-top-color: rgb(157 142 199 / 29%)!important;
+    border-bottom-color: rgb(157 142 199 / 29%)!important;
     min-height: 30px !important;
-    border-radius: 0px 10px 10px 0px !important;
+    border-radius: 11px 11px 11px 11px !important;
+    margin-left: 34px !important;
 }
 
 .ae.fa.label.label-primary.fa-users.btnClAlGr::before {
@@ -1222,15 +1224,13 @@ img.memr {
     margin-top: -3px!important;
     height: 38px!important;
     position: absolute!important;
-    left: 298px!important;
+    left: 34px!important;
     border-radius: 100%!important;
     width: 38px !important;
 }
 
 textarea#tbox {
     text-align: center!important;
-    width: 271px !important;
-    margin-left: 1px !important;
 }
 a.label.label-primary.fl img.fl, button.btn.fr.btn-success.fa.fa-refresh, div#l2 br, div#l3 br {
     display: none!important;
