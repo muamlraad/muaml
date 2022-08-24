@@ -1,15 +1,81 @@
+a.clerDefs.fa.fa-user {
+    font-family: bein!important;
+}
+
+a.clerDefs.fa.fa-user-plus {
+    font-family: bein!important;
+}
+
+button.btn.btn-primary.login {
+    font-family: bein!important;
+}
+
+input#u1 {
+    font-family: bein!important;
+}
+
+input#u2 {
+    font-family: bein!important;
+}
+
+input#pass1 {
+    font-family: bein!important;
+}
+
+input#u3 {
+    font-family: bein!important;
+}
+
+input#pass2 {
+    font-family: bein!important;
+}
+
+div#tlogins .checkbox label {
+    font-family: bein!important;
+}
+
+label.fl.label.loginstat.label-success {
+    font-family: bein!important;
+}
+
+label.label.tc.border.btn.fl {
+    font-family: bein!important;
+}
+
+.u-topic.ui-corner-all.dots {
+    font-family: bein!important;
+}
+
+button.rmake.btn.btn-primary.fl {
+    font-family: bein!important;
+}
+.uzr.fl.corner.borderg.pmsgc.mm>.uzr.fl>div.fl>span.corner.nosel.u-topic.dots.fl.hand {
+    font-family: bein!important;
+}
+label.nosel.inr.fl.uzr.label.label-primary {
+    font-family: bein!important;
+}
+
+label.nosel.ninr.fl.uzr.label.label-primary {
+    font-family: bein!important;
+}
+.label.border.mini.label-danger.fr.fa.fa-times {
+    text-align: center !important;
+    font-family: bein!important;
+}
 .mkrr.fr.label.label-primary {
-    font-family: rawy-bold;
+    font-family: bein!important;
 }
 
 input.fl {
-    font-family: rawy-bold;
+    font-family: bein!important;
 }
+
 label.btn.btn-info.fr.border.fa.fa-compress {
     background-repeat: no-repeat;
-    color: rgb(114 46 46 / 0%);
+    color: rgba(114, 46, 46, 0);
     width: 4%;
-    background-image: url(https://j.top4top.io/p_2423ak40a1.png);
+    background-image: url("https://j.top4top.io/p_2423ak40a1.png");
     background-size: 24px 719px;
     background-position: 74% -363px;
     padding: 15px 1px 0px 30px !important;
@@ -18,11 +84,12 @@ label.btn.btn-info.fr.border.fa.fa-compress {
     margin-top: -2px !important;
     margin-left: -5px !important;
 }
+
 label.label.fl.hand.fa.border.fa-user {
     background-repeat: no-repeat;
-    color: rgb(114 46 46 / 0%);
+    color: rgba(114, 46, 46, 0);
     width: 4%;
-    background-image: url(https://j.top4top.io/p_2423ak40a1.png);
+    background-image: url("https://j.top4top.io/p_2423ak40a1.png");
     background-size: 24px 719px;
     background-position: 74% -417px;
     padding: 15px 1px 0px 30px !important;
@@ -31,11 +98,12 @@ label.label.fl.hand.fa.border.fa-user {
     margin-top: -2px !important;
     margin-left: -5px !important;
 }
+
 label.btn.btn-info.fr.border.fa.fa-expand {
     background-repeat: no-repeat;
-    color: rgb(114 46 46 / 0%);
+    color: rgba(114, 46, 46, 0);
     width: 4%;
-    background-image: url(https://j.top4top.io/p_2423ak40a1.png);
+    background-image: url("https://j.top4top.io/p_2423ak40a1.png");
     background-size: 24px 719px;
     background-position: 74% -363px;
     padding: 14px 0px 0px 32px !important;
@@ -44,11 +112,12 @@ label.btn.btn-info.fr.border.fa.fa-expand {
     margin-top: -2px !important;
     margin-left: -5px !important;
 }
+
 label.btn.minix.btn-danger.phide.fr.border.fa.fa-minus {
     background-repeat: no-repeat;
-    color: rgb(114 46 46 / 0%);
+    color: rgba(114, 46, 46, 0);
     width: 11%;
-    background-image: url(https://j.top4top.io/p_2423ak40a1.png);
+    background-image: url("https://j.top4top.io/p_2423ak40a1.png");
     background-size: 24px 719px;
     background-position: 74% -298px;
     padding: 16px 4px 0px 13px !important;
@@ -57,12 +126,12 @@ label.btn.minix.btn-danger.phide.fr.border.fa.fa-minus {
     margin-top: -2px !important;
     margin-left: -5px !important;
 }
+
 button.fr.fa.fa-share-alt.sndfilebc.fl.btn.btn-primary {
-    width: 30px;
     background-repeat: no-repeat;
-    color: rgb(114 46 46 / 0%);
+    color: rgba(114, 46, 46, 0);
     width: 0%;
-    background-image: url(https://j.top4top.io/p_2423ak40a1.png);
+    background-image: url("https://j.top4top.io/p_2423ak40a1.png");
     background-size: 27px 813px;
     background-position: 74% -570px;
     padding: 15px 1px 0px 30px !important;
@@ -71,12 +140,12 @@ button.fr.fa.fa-share-alt.sndfilebc.fl.btn.btn-primary {
     margin-top: 0px !important;
     margin-left: 0px !important;
 }
+
 button.fr.fa.fa-share-alt.sndfile.fl.btn.btn-primary {
-    width: 30px;
     background-repeat: no-repeat;
-    color: rgb(114 46 46 / 0%);
+    color: rgba(114, 46, 46, 0);
     width: 0%;
-    background-image: url(https://j.top4top.io/p_2423ak40a1.png);
+    background-image: url("https://j.top4top.io/p_2423ak40a1.png");
     background-size: 27px 813px;
     background-position: 74% -570px;
     padding: 15px 1px 0px 30px !important;
@@ -85,11 +154,13 @@ button.fr.fa.fa-share-alt.sndfile.fl.btn.btn-primary {
     margin-top: 0px !important;
     margin-left: 3px !important;
 }
+
 div.borderg.corner > div > .label.label-primary {
     color: rgb(255, 255, 255);
     background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
-    font-family: rawy-bold;
     background-color: rgb(70, 82, 193) !important;
+    font-family: bein!important;
+    padding: 0px 10px 0px 10px;
 }
 
 .fa-search::before {
@@ -316,28 +387,28 @@ span.corner.fa.fa-user.label.label-primary.fr.uc {
 }
 
 div#room > .tablebox.footer.fl.light > button.fa.fa-send.fl.btn.btn-primary {
-    color: rgb(255, 255, 255)!important;
-    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(255 255 255) 100px, transparent -3px, transparent 39px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(79 53 106) 15px, transparent 27px, rgb(248, 249, 250) 200px)!important;
+    color: rgb(255, 255, 255) !important;
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(255, 255, 255) 100px, transparent -3px, transparent 39px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(79, 53, 106) 15px, transparent 27px, rgb(248, 249, 250) 200px) !important;
     text-align: center !important;
     border-radius: 30px 30px 30px 0px !important;
     width: 37px !important;
-    border-right: 5px ridge rgb(171 157 211 / 51%)!important;
-    border-left: 5px ridge rgb(171 157 211 / 52%)!important;
-    border-top-color: rgb(157 142 199 / 29%)!important;
-    border-bottom-color: rgb(157 142 199 / 29%)!important;
+    border-right: 5px ridge rgba(171, 157, 211, 0.51) !important;
+    border-left: 5px ridge rgba(171, 157, 211, 0.52) !important;
+    border-top-color: rgba(157, 142, 199, 0.29) !important;
+    border-bottom-color: rgba(157, 142, 199, 0.29) !important;
 }
 
 button.fa.fa-send.sndpm.fl.btn.btn-primary {
     margin-top: 0px !important;
-    color: rgb(255, 255, 255)!important;
-    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(255 255 255) 100px, transparent -3px, transparent 39px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(79 53 106) 15px, transparent 27px, rgb(248, 249, 250) 200px)!important;
+    color: rgb(255, 255, 255) !important;
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(255, 255, 255) 100px, transparent -3px, transparent 39px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(79, 53, 106) 15px, transparent 27px, rgb(248, 249, 250) 200px) !important;
     text-align: center !important;
     border-radius: 30px 30px 30px 0px !important;
     width: 37px !important;
-    border-right: 5px ridge rgb(171 157 211 / 51%)!important;
-    border-left: 5px ridge rgb(171 157 211 / 52%)!important;
-    border-top-color: rgb(157 142 199 / 29%)!important;
-    border-bottom-color: rgb(157 142 199 / 29%)!important;
+    border-right: 5px ridge rgba(171, 157, 211, 0.51) !important;
+    border-left: 5px ridge rgba(171, 157, 211, 0.52) !important;
+    border-top-color: rgba(157, 142, 199, 0.29) !important;
+    border-bottom-color: rgba(157, 142, 199, 0.29) !important;
 }
 
 .btn-primary:hover {
@@ -394,10 +465,10 @@ button.fa.fa-phone.call.fl.btn.btn-success {
 }
 
 img.fl.nosel.emobox {
-    float: left!important;
-    margin-top: -3px!important;
-    height: 36px!important;
-    border-radius: 100%!important;
+    float: left !important;
+    margin-top: -3px !important;
+    height: 36px !important;
+    border-radius: 100% !important;
     width: 38px !important;
 }
 
@@ -450,7 +521,7 @@ a.btn.minix.fa.fa-thumbs-up.fr {
     height: 24px;
     margin-right: -10px;
     background-position: 46% -369px;
-    -webkit-text-stroke-width: medium;
+    -webkit-text-stroke-width: inherit;
     text-align: left;
     color: rgb(253, 75, 144) !important;
     margin-left: 1% !important;
@@ -653,13 +724,15 @@ label.addGruMsg.label.tc.border.btn.label-info.fl {
 }
 
 .tbox {
-    padding: 3px!important;
-    border-right: 5px ridge rgb(171 157 211 / 51%)!important;
-    border-left: 5px ridge rgb(171 157 211 / 52%)!important;
-    border-top-color: rgb(157 142 199 / 29%)!important;
-    border-bottom-color: rgb(157 142 199 / 29%)!important;
+    padding: 3px !important;
+    border-right: 5px ridge rgba(171, 157, 211, 0.51) !important;
+    border-left: 5px ridge rgba(171, 157, 211, 0.52) !important;
+    border-top-color: rgba(157, 142, 199, 0.29) !important;
+    border-bottom-color: rgba(157, 142, 199, 0.29) !important;
     min-height: 30px !important;
-    border-radius: 11px 11px 11px 11px !important;
+    border-radius: 11px !important;
+    font-family: bein!important;
+    text-align: center !important;
 }
 
 .ae.fa.label.label-primary.fa-users.btnClAlGr::before {
@@ -706,19 +779,18 @@ a.btn.minix.fa.fa-comment::before {
 }
 
 button.fr.fa.fa-share-alt.sndfile.fl.btn.btn-primary {
-    width: 30px;
     background-repeat: no-repeat;
-    color: rgb(114 46 46 / 0%);
+    color: rgba(114, 46, 46, 0);
     width: 0%;
-    background-image: url(https://j.top4top.io/p_2423ak40a1.png);
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;background-size: 27px 813px;
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;background-position: 74% -570px;
-    ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;; padding: 15px 1px 0px 30px !important;
+    background-image: url("https://j.top4top.io/p_2423ak40a1.png");
+    background-size: 27px 813px;
+    background-position: 74% -570px;
+    padding: 15px 1px 0px 30px !important;
     background-color: rgba(255, 255, 255, 0) !important;
     border: 1px solid rgba(255, 254, 254, 0) !important;
-    ;;;;;;;;;;;;;;;;;;;;;;;;margin-top: 0px !important;
-    ;;;;;;;;;;;;;;;;;;;;;;;; ;;;;;;;;;;;;;;margin-left: 3px !important;
-    ;;;;;;;;;;;;;;; }
+    margin-top: 0px !important;
+    margin-left: 3px !important;
+}
 
 img.emoi {
     background-color: rgba(255, 255, 255, 0) !important;
@@ -1018,8 +1090,8 @@ a.label.label-primary.fr {
     border: 1px solid rgba(189, 154, 154, 0);
     color: rgb(255, 255, 255);
     background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
-    font-family: rawy-bold;
     background-color: rgb(70, 82, 193) !important;
+    font-family: bein!important;
 }
 
 div.borderg.corner {
@@ -1077,6 +1149,7 @@ input.stopic.corner.dots, input.smsg.corner.dots {
     min-height: 28px !important;
     border-radius: 10px !important;
     width: 99% !important;
+    font-family: bein!important;
 }
 
 area {
@@ -1145,7 +1218,7 @@ div#d2bc > div > a.btn.minix.btn-primary.fa.fa-times.fa {
 }
 
 label.fl.nosel.label.pnhead {
-    font-family: rawy-bold;
+    font-family: bein!important;
 }
 
 label.fl.nosel.label.pnhead {
@@ -1170,7 +1243,7 @@ div#wall > label.border.btn.fl {
 }
 
 .border {
-    border: 1px solid rgb(163 191 219) !important;
+    border: 1px solid rgb(163, 191, 219) !important;
 }
 
 label.label.tc.border.btn.label-info.fl {
@@ -1235,217 +1308,202 @@ span.usid.fr {
 }
 
 img.memr {
-    float: left!important;
-    margin-top: -3px!important;
-    height: 38px!important;
-    position: absolute!important;
-    left: 34px!important;
-    border-radius: 100%!important;
+    float: left !important;
+    margin-top: -3px !important;
+    height: 38px !important;
+    position: absolute !important;
+    left: 34px !important;
+    border-radius: 100% !important;
     width: 38px !important;
 }
 
 textarea#tbox {
-    text-align: center!important;
-    padding: 3px!important;
-    border-right: 5px ridge rgb(171 157 211 / 51%)!important;
-    border-left: 5px ridge rgb(171 157 211 / 52%)!important;
-    border-top-color: rgb(157 142 199 / 29%)!important;
-    border-bottom-color: rgb(157 142 199 / 29%)!important;
+    text-align: center !important;
+    padding: 3px !important;
+    border-right: 5px ridge rgba(171, 157, 211, 0.51) !important;
+    border-left: 5px ridge rgba(171, 157, 211, 0.52) !important;
+    border-top-color: rgba(157, 142, 199, 0.29) !important;
+    border-bottom-color: rgba(157, 142, 199, 0.29) !important;
     min-height: 30px !important;
-    border-radius: 11px 11px 11px 11px !important;
+    border-radius: 11px !important;
     margin-left: 34px !important;
 }
+
 a.label.label-primary.fl img.fl, button.btn.fr.btn-success.fa.fa-refresh, div#l2 br, div#l3 br {
-    display: none!important;
+    display: none !important;
 }
 
 button.btn.fr.btn-warning.fa.fa-paint-brush {
-    display: none!important;
+    display: none !important;
 }
 
 button.btn.fr.btn-success.fa.fa-refresh {
-    display: none!important;
+    display: none !important;
 }
 
 a.label.label-primary.fl {
     border-radius: 2px !important;
     padding: 1px !important;
-    background-image: radial-gradient(circle,#816cd3,#977efe,#9884ff) !important;
+    background-image: radial-gradient(circle, rgb(129, 108, 211), rgb(151, 126, 254), rgb(152, 132, 255)) !important;
     text-align: center !important;
-    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 -3px 1px -2px rgb(0 0 0 / 20%) !important;
-    font-family: 'rawy-bold'!important;
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px, rgba(0, 0, 0, 0.2) 0px -3px 1px -2px !important;
+    font-family: bein!important;
 }
 
 .topWall3 {
-    margin-top: 0px!important;
-    width: 100%!important;
-    height: 150px!important;
-    background: url(sico/1661008560172.png) white!important;
-    background-size: 100% auto!important;
-    background-repeat: no-repeat!important;
-    background-position: bottom!important;
+    margin-top: 0px !important;
+    width: 100% !important;
+    height: 150px !important;
+    background: url("sico/1661008560172.png") center bottom / 100% no-repeat white !important;
 }
 
-.topWall3>div>span {
-    color: #e3e3e3!important;
+.topWall3 > div > span {
+    color: rgb(227, 227, 227) !important;
 }
 
 .mony {
-    background-image: url(https://www.arabe.chat/sico/1660658990790.png)!important;;
-    height: 30px!important;
-    padding: 0 3px 0 44px!important;
+    background-image: url("https://www.arabe.chat/sico/1660658990790.png") !important;
+    height: 30px !important;
+    padding: 0px 3px 0px 44px !important;
     font-size: 23px !important;
-    line-height: 27px!important;
-    margin: 7px 0!important;
+    line-height: 27px !important;
     margin: 30px -31px -19px 0px !important;
 }
 
 .modal-header.label-primary {
-    display: block!important;
-    height: 35px!important;
-    background-image: repeating-linear-gradient( 45deg ,rgb(59 86 120 / 64%),#3b5678 100px,transparent 0,transparent 200px),repeating-linear-gradient( -45deg ,rgb(115 133 156),#3b5678 100px,transparent 0,#f8f9fa 200px)!important;
-    background-color: #f0ad4e!important!important;
+    display: block !important;
+    height: 35px !important;
+    background-image: repeating-linear-gradient(45deg, rgba(59, 86, 120, 0.64), rgb(59, 86, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(115, 133, 156), rgb(59, 86, 120) 100px, transparent 0px, rgb(248, 249, 250) 200px) !important;
 }
 
 .light.fl.pro.center.break.primaryborder {
-    top: 4px!important;
-    box-shadow: 3px 4px 100px #000!important;
+    top: 4px !important;
+    box-shadow: rgb(0, 0, 0) 3px 4px 100px !important;
 }
 
 .fl.ustat {
-    border-radius: 3px!important;
-    margin-right: -47px!important;
-    width: 3px!important;
-    height: 50px!important;
-    border-radius: 50%!important;
-    width: 3px!important;
-    height: 36px!important;
-    margin-left: 1px!important;
+    margin-right: -47px !important;
+    border-radius: 50% !important;
+    width: 3px !important;
+    height: 36px !important;
+    margin-left: 1px !important;
 }
 
 img.fitimg.fl.u-pic {
-    border-radius: 50%!important;
-    border: 1px solid #dedbdb!important;
-    padding: 0!important;
-    width: 50px!important;
-    height: 50px!important;
+    border-radius: 50% !important;
+    border: 1px solid rgb(222, 219, 219) !important;
+    padding: 0px !important;
     width: 50px !important;
     height: 49px !important;
     margin-left: 4px !important;
-    animation: asim 6s ease infinite!important;
-    MARGIN-RIGHT: 0 !important;
+    animation: 6s ease 0s infinite normal none running asim !important;
+    margin-right: 0px !important;
     margin-top: 1px !important;
 }
 
 input#usearch {
-    background-color: #fffcfc!important;
+    background-color: rgb(255, 252, 252) !important;
 }
 
 .u-topic.ui-corner-all.dots {
-    text-transform: uppercase!important;
-    background-image: linear-gradient(-225deg,#231557 0%,#c81d2d 29%,#160309 67%,#ce62d3 100%)!important;
-    background-size: auto auto!important;
-    background-clip: border-box!important;
-    background-size: 220% auto!important;
-    color: #fff!important;
-    background-clip: text!important;
-    text-fill-color: transparent!important;
-    -webkit-background-clip: text!important;
-    -webkit-text-fill-color: transparent!important;
-    animation: textclip 2s linear infinite!important;
-    display: inline-block!important;
+    text-transform: uppercase !important;
+    background-image: linear-gradient(-225deg, rgb(35, 21, 87) 0%, rgb(200, 29, 45) 29%, rgb(22, 3, 9) 67%, rgb(206, 98, 211) 100%) !important;
+    background-size: 220% !important;
+    color: rgb(255, 255, 255) !important;
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    animation: 2s linear 0s infinite normal none running textclip !important;
+    display: inline-block !important;
 }
 
-.broadcasters>div>.prod {
-    float: left!important;
-    width: 50px!important;
-    height: 52px!important;
-    color: #566F96!important;
-    border: 2px solid gainsboro!important;
-    margin: 0 1px!important;
-    text-align: center!important;
-    border-radius: 50%!important;
+.broadcasters > div > .prod {
+    float: left !important;
+    width: 50px !important;
+    height: 52px !important;
+    color: rgb(86, 111, 150) !important;
+    border: 2px solid gainsboro !important;
+    margin: 0px 1px !important;
+    text-align: center !important;
+    border-radius: 50% !important;
 }
 
-div#d2bc>.uzr.fl.corner.borderg>img.fl.fitimg.hand.u-pic {
-    border-radius: 50%!important;
+div#d2bc > .uzr.fl.corner.borderg > img.fl.fitimg.hand.u-pic {
+    border-radius: 50% !important;
     width: 42px !important;
     height: 42px !important;
     margin-left: 0px !important;
 }
 
 .fl.top2 {
-    margin: 24px 0px 0px 25px!important;
+    margin: 24px 0px 0px 25px !important;
 }
 
 .fr.top3 {
-    margin: 28px 27px 0px 0px!important;
+    margin: 28px 27px 0px 0px !important;
 }
 
 .topWall10 {
-    height: 455px!important;
-    background: url(sico/1660659536620.jpg) white!important;
-    background-position: bottom!important;
-    margin-top: 0px!important;
+    height: 455px !important;
+    background: url("sico/1660659536620.jpg") center bottom white !important;
+    margin-top: 0px !important;
 }
 
-.hand.nosel.fl.uzr.border.uidgmvp1DF5Is0NeKlvAAAS.inroom.ustop>span.usid.fr {
-    content: "1000"!important;
+.hand.nosel.fl.uzr.border.uidgmvp1DF5Is0NeKlvAAAS.inroom.ustop > span.usid.fr {
+    content: "1000" !important;
 }
 
-.hand.nosel.fl.uzr.border>img.fitimg.fl.u-pic {
+.hand.nosel.fl.uzr.border > img.fitimg.fl.u-pic {
     margin-left: 108px !important;
-    border: 1px solid #f1f1f100!important;
+    border: 1px solid rgba(241, 241, 241, 0) !important;
     width: 51px !important;
-    border-radius: 100%!important;
-    color: rgb(255 255 255)!important;
-    padding: 24px!important;
+    border-radius: 100% !important;
+    color: rgb(255, 255, 255) !important;
+    padding: 24px !important;
     height: 51px !important;
 }
 
-.hand.nosel.fl.uzr.border>img.fl.ustat {
-    margin-right: -47px!important;
-    width: 14px!important;
-    height: 15px!important;
-    border-radius: 50%!important;
+.hand.nosel.fl.uzr.border > img.fl.ustat {
+    margin-right: -47px !important;
+    width: 14px !important;
+    height: 15px !important;
+    border-radius: 50% !important;
 }
 
-.hand.nosel.fl.uzr.border>div.fl {
-    text-align: center!important;
-    width: 95%!important;
-    justify-content: center!important;
+.hand.nosel.fl.uzr.border > div.fl {
+    text-align: center !important;
+    width: 95% !important;
+    justify-content: center !important;
 }
 
-.hand.nosel.fl.uzr.border>div.fl>div.fl {
-    margin-top: -2px!important;
-    display: flex!important;
-    flex-direction: column!important;
-    flex-wrap: nowrap!important;
-    align-content: stretch!important;
-    justify-content: space-evenly!important;
-    align-items: center!important;
+.hand.nosel.fl.uzr.border > div.fl > div.fl {
+    margin-top: -2px !important;
+    display: flex !important;
+    flex-flow: column nowrap !important;
+    place-content: stretch space-evenly !important;
+    align-items: center !important;
 }
 
 label.ae.fa.label.label-primary.fa-users.btnClAlGr {
-    display: none!important;
+    display: none !important;
 }
 
 .bg {
-    background-color: #ffffff!important;
+    background-color: rgb(255, 255, 255) !important;
 }
 
-.head.nosel.bg.fl>.fl.uzr>.fl.filw>.fl {
-    margin-top: -22px!important;
-    margin-left: 35px!important;
+.head.nosel.bg.fl > .fl.uzr > .fl.filw > .fl {
+    margin-top: -22px !important;
+    margin-left: 35px !important;
 }
+
 button.fa.fa-send.sndbc.fl.btn.btn-primary {
-    color: rgb(255, 255, 255)!important;
-    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(255 255 255) 100px, transparent -3px, transparent 39px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(79 53 106) 15px, transparent 27px, rgb(248, 249, 250) 200px)!important;
+    color: rgb(255, 255, 255) !important;
+    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(255, 255, 255) 100px, transparent -3px, transparent 39px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(79, 53, 106) 15px, transparent 27px, rgb(248, 249, 250) 200px) !important;
     text-align: center !important;
     border-radius: 30px 30px 30px 0px !important;
     width: 37px !important;
-    border-right: 5px ridge rgb(171 157 211 / 51%)!important;
-    border-left: 5px ridge rgb(171 157 211 / 52%)!important;
-    border-top-color: rgb(157 142 199 / 29%)!important;
-    border-bottom-color: rgb(157 142 199 / 29%)!important;
+    border-right: 5px ridge rgba(171, 157, 211, 0.51) !important;
+    border-left: 5px ridge rgba(171, 157, 211, 0.52) !important;
+    border-top-color: rgba(157, 142, 199, 0.29) !important;
+    border-bottom-color: rgba(157, 142, 199, 0.29) !important;
 }
