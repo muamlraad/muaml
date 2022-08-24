@@ -1,3 +1,14 @@
+a.fl.fa.fa-diamond.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ugift.borderg ,a.fl.fa.fa-comment.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.upm.borderg 
+,a.fl.fa.fa-envelope-o.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.unot.borderg ,a.fl.fa.fa-search.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.uh.borderg 
+,a.fl.fa.fa-star.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ubnr.borderg ,a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.udelpic.borderg 
+,a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.meiut.borderg ,a.fl.fa.fa-user-times.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.urkick.borderg 
+,a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ukick.borderg ,a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.uban.borderg 
+,a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.umute.borderg ,.fl.btn.btn-primary.dots.roomh.border 
+
+{
+    font-family: bein!important;
+}
+
 a.clerDefs.fa.fa-user {
     font-family: bein!important;
 }
@@ -532,24 +543,6 @@ a.btn.minix.fa.fa-thumbs-up.fr {
     margin-right: 1px;
 }
 
-.fa-save {
-    background-image: linear-gradient(rgb(217, 83, 79) 0px, rgb(193, 46, 42) 100%);
-    color: rgb(255, 255, 255);
-    border-radius: 3px !important;
-    height: 28px !important;
-    width: 12% !important;
-    padding: 7px 2px !important;
-    font-size: 12px !important;
-    background-color: rgb(217, 83, 79) !important;
-}
-
-textarea.form-control {
-    border-radius: 3px !important;
-    height: 28px !important;
-    width: 72% !important;
-    padding: 4px 0px !important;
-    font-size: 13px !important;
-}
 
 div#tlogins.light {
     height: auto !important;
@@ -560,13 +553,7 @@ body.bg.center-block.bg.dad div#tlogins {
     height: auto !important;
 }
 
-label.label.fr.label-primary {
-    border-radius: 3px !important;
-    height: 28px !important;
-    width: 14% !important;
-    padding: 9px 0px !important;
-    font-size: 13px !important;
-}
+label.label.fr.label-primary {font-family: bein!important;}
 
 div#tlogins {
     outline: 0px;
