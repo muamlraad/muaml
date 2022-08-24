@@ -731,7 +731,6 @@ label.addGruMsg.label.tc.border.btn.label-info.fl {
     border-bottom-color: rgba(157, 142, 199, 0.29) !important;
     min-height: 30px !important;
     border-radius: 11px !important;
-    font-family: bein!important;
     text-align: center !important;
 }
 
@@ -1350,13 +1349,6 @@ a.label.label-primary.fl {
     font-family: bein!important;
 }
 
-.topWall3 {
-    margin-top: 0px !important;
-    width: 100% !important;
-    height: 150px !important;
-    background: url("sico/1661008560172.png") center bottom / 100% no-repeat white !important;
-}
-
 .topWall3 > div > span {
     color: rgb(227, 227, 227) !important;
 }
@@ -1421,18 +1413,9 @@ div#d2bc > .uzr.fl.corner.borderg > img.fl.fitimg.hand.u-pic {
     height: 42px !important;
     margin-left: 0px !important;
 }
-
-.fl.top2 {
-    margin: 24px 0px 0px 25px !important;
-}
-
-.fr.top3 {
-    margin: 28px 27px 0px 0px !important;
-}
-
 .topWall10 {
     height: 455px !important;
-    background: url("sico/1660659536620.jpg") center bottom white !important;
+    background: url("https://www.arabe.chat/sico/1660659536620.jpg") center bottom white !important;
     margin-top: 0px !important;
 }
 
