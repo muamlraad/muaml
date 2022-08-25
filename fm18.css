@@ -1,85 +1,85 @@
-a.fl.fa.fa-diamond.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ugift.borderg ,a.fl.fa.fa-comment.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.upm.borderg 
-,a.fl.fa.fa-envelope-o.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.unot.borderg ,a.fl.fa.fa-search.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.uh.borderg 
-,a.fl.fa.fa-star.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ubnr.borderg ,a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.udelpic.borderg 
-,a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.meiut.borderg ,a.fl.fa.fa-user-times.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.urkick.borderg 
-,a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ukick.borderg ,a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.uban.borderg 
-,a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.umute.borderg ,.fl.btn.btn-primary.dots.roomh.border 
-
-{
-    font-family: bein!important;
+a.fl.fa.fa-diamond.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ugift.borderg, a.fl.fa.fa-comment.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.upm.borderg, a.fl.fa.fa-envelope-o.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.unot.borderg, a.fl.fa.fa-search.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.uh.borderg, a.fl.fa.fa-star.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ubnr.borderg, a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.udelpic.borderg, a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.meiut.borderg, a.fl.fa.fa-user-times.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.urkick.borderg, a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ukick.borderg, a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.uban.borderg, a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.umute.borderg, .fl.btn.btn-primary.dots.roomh.border {
+    font-family: bein !important;
 }
-
+.fa-star:before {
+    content: "\f005";
+    display: none;
+}
 a.clerDefs.fa.fa-user {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 a.clerDefs.fa.fa-user-plus {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 button.btn.btn-primary.login {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 input#u1 {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 input#u2 {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 input#pass1 {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 input#u3 {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 input#pass2 {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 div#tlogins .checkbox label {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 label.fl.label.loginstat.label-success {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 label.label.tc.border.btn.fl {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 .u-topic.ui-corner-all.dots {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 button.rmake.btn.btn-primary.fl {
-    font-family: bein!important;
+    font-family: bein !important;
 }
-.uzr.fl.corner.borderg.pmsgc.mm>.uzr.fl>div.fl>span.corner.nosel.u-topic.dots.fl.hand {
-    font-family: bein!important;
+
+.uzr.fl.corner.borderg.pmsgc.mm > .uzr.fl > div.fl > span.corner.nosel.u-topic.dots.fl.hand {
+    font-family: bein !important;
 }
+
 label.nosel.inr.fl.uzr.label.label-primary {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 label.nosel.ninr.fl.uzr.label.label-primary {
-    font-family: bein!important;
+    font-family: bein !important;
 }
+
 .label.border.mini.label-danger.fr.fa.fa-times {
     text-align: center !important;
-    font-family: bein!important;
+    font-family: bein !important;
 }
+
 .mkrr.fr.label.label-primary {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 input.fl {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 label.btn.btn-info.fr.border.fa.fa-compress {
@@ -169,15 +169,25 @@ button.fr.fa.fa-share-alt.sndfile.fl.btn.btn-primary {
 div.borderg.corner > div > .label.label-primary {
     color: rgb(255, 255, 255);
     background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    padding: 0px 10px;
     background-color: rgb(70, 82, 193) !important;
-    font-family: bein!important;
-    padding: 0px 10px 0px 10px;
+    font-family: bein !important;
 }
 
+div#tlogins label.label.mini.fl .lusd>.fa-user::before {
+ 
+   display: initial;
+}
+.fa-sign-in:before {
+    display: none;
+}
 .fa-search::before {
     color: rgb(194, 75, 75);
 }
-
+.fa-search:before {
+    content: "\f002";
+    display: none;
+}
 .room.borderg.hand.nosel.fl > .fa-microphone::before {
     display: none;
 }
@@ -543,7 +553,6 @@ a.btn.minix.fa.fa-thumbs-up.fr {
     margin-right: 1px;
 }
 
-
 div#tlogins.light {
     height: auto !important;
     border-radius: 6px 8px 7px 0px !important;
@@ -553,7 +562,9 @@ body.bg.center-block.bg.dad div#tlogins {
     height: auto !important;
 }
 
-label.label.fr.label-primary {font-family: bein!important;}
+label.label.fr.label-primary {
+    font-family: bein !important;
+}
 
 div#tlogins {
     outline: 0px;
@@ -1001,7 +1012,7 @@ span.s1.fa.fa-user.label.badgex.label-as-badge.label-success, a#asim27 {
 }
 
 .fa-times::before {
-    display: initial;
+    /* display: initial; */
 }
 
 span.s1.fa.fa-user.label.badgex.label-as-badge.label-success {
@@ -1077,7 +1088,7 @@ a.label.label-primary.fr {
     color: rgb(255, 255, 255);
     background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
     background-color: rgb(70, 82, 193) !important;
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 div.borderg.corner {
@@ -1135,7 +1146,7 @@ input.stopic.corner.dots, input.smsg.corner.dots {
     min-height: 28px !important;
     border-radius: 10px !important;
     width: 99% !important;
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 area {
@@ -1198,13 +1209,8 @@ div#d2bc > div > a.btn.minix.btn-primary.fa.fa-times.fa {
     margin-left: 268px !important;
 }
 
-#tlogins .fa::before {
-    display: initial;
-    font-weight: 400 !important;
-}
-
 label.fl.nosel.label.pnhead {
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 label.fl.nosel.label.pnhead {
@@ -1333,7 +1339,7 @@ a.label.label-primary.fl {
     background-image: radial-gradient(circle, rgb(129, 108, 211), rgb(151, 126, 254), rgb(152, 132, 255)) !important;
     text-align: center !important;
     box-shadow: rgba(0, 0, 0, 0.14) 0px 2px 2px 0px, rgba(0, 0, 0, 0.12) 0px 1px 5px 0px, rgba(0, 0, 0, 0.2) 0px -3px 1px -2px !important;
-    font-family: bein!important;
+    font-family: bein !important;
 }
 
 .topWall3 > div > span {
@@ -1383,6 +1389,7 @@ img.fitimg.fl.u-pic {
 input#usearch {
     background-color: rgb(255, 252, 252) !important;
 }
+
 .broadcasters > div > .prod {
     float: left !important;
     width: 50px !important;
@@ -1400,6 +1407,7 @@ div#d2bc > .uzr.fl.corner.borderg > img.fl.fitimg.hand.u-pic {
     height: 42px !important;
     margin-left: 0px !important;
 }
+
 .topWall10 {
     height: 455px !important;
     background: url("https://www.arabe.chat/sico/1660659536620.jpg") center bottom white !important;
