@@ -1590,10 +1590,51 @@ img.corner.borderg.fl {
     width: 42px!important;
     height: 42px!important;
 }
+img.muaml.borderg.fl {
+    width: 42px!important;
+    height: 42px!important;
+}
 .hand.nosel.fl.uzr.border > div.fl > div.fl>img.fl.u-ico {
     margin-top: -68px !important;
     width: 86px!important;
     height: 86px !important;
     max-height: 86px!important;
     padding-right: 0px!important;
+}
+.fl.borderg.corner.uzr>img.fl.fitimg.hand.u-pic {
+    margin-top: 10px !important;
+    margin-right: 0px !important;
+    margin-left: 16px !important;
+}
+
+div.uzr.fl>div.fl>img.fl.u-ico {
+    width: 70px!important;
+    height: 85px !important;
+    max-height: 70px!important;
+    padding-right: 0px!important;
+    margin-left: -63px !important;
+    margin-top: -1px !important;
+}
+
+div.uzr.fl>div.fl>.u-msg.break.fl {
+    margin-left: 4px !important;
+    margin-left: 12px !important;
+    margin-top: -31px !important;
+}
+
+.uzr.fl.corner.borderg.pmsgc.mm>.uzr.fl>.u-msg.break.fl {
+    margin-top: 0px !important;
+}
+
+.uzr.fl.corner.borderg.pmsgc.mm>img.fl.fitimg.hand.u-pic {
+    margin-top: 3px !important;
+    margin-right: 0px !important;
+    margin-left: 4px !important;
+}
+
+div#upro>.modal-dialog>.modal-content>.modal-header.label-primary>label.mini.dots.nosel.modal-title>img.fl.u-ico {display: none;}
+
+img.muaml.borderg.fl {
+    width: 42px!important;
+    height: 42px!important;
 }
