@@ -1463,7 +1463,7 @@ input#usearch {
     height: 52px !important;
     color: rgb(86, 111, 150) !important;
     border: 2px solid gainsboro !important;
-    margin: 16px 11px !important;
+    margin: 16px 14px !important;
     text-align: center !important;
     border-radius: 50% !important;
 }
@@ -1833,7 +1833,6 @@ div#tlogins ul.nav.nav-tabs a {
 }
 
 .broadcasters > div {
-    max-width: 426px !important;
     position: absolute;
     top: 0px;
     right: 0px;
@@ -1843,6 +1842,7 @@ div#tlogins ul.nav.nav-tabs a {
     border: none;
     padding: 0px;
     height: 106px;
+    max-width: 426px !important;
 }
 
 .broadcasters {
