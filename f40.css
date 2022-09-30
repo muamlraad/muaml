@@ -1,11 +1,13 @@
 img.fr.co {
-    width: 0px!important;
-    height: 0px!important;
+    width: 0px !important;
+    height: 0px !important;
 }
+
 img.fr {
-    width: 33px!important;
-    height: 33px!important;
+    width: 33px !important;
+    height: 33px !important;
 }
+
 a.border.label.mini.label-success.hand.fa.fa-edit.fr {
     margin: 3px 2px -5px 13px !important;
     padding: 9px !important;
@@ -271,14 +273,14 @@ div#tlogins label.label.mini.fl .lusd > .fa-user::before {
 .broadcasters > div > .prod > .fa-microphone {
     text-align: center;
     margin-top: 0px;
-    background-image: url("https://www.arabe.chat/sico/1661011044977.png");
-    background-size: 42px 40.89px;
-    width: 43px;
-    height: 44px;
-    margin-right: 0px;
-    background-position: 26% -243px;
+    background-image: url(https://www.arabe.chat/sico/1664561668413.png);
+    width: 52px;
+    height: 52px;
+    margin-right: auto;
+    background-position: 185% 204px;
     font-size: 11px !important;
     margin-left: 0% !important;
+    background-size: 53px 51px;
 }
 
 .topWall3 > div > span {
@@ -1354,7 +1356,6 @@ span.usid.fr {
 
 .head.nosel.bg.fl > .fl.uzr > img.fitimg.fl.hand.u-pic {
     border: 1px solid rgba(179, 100, 100, 0);
-    padding: 0px;
     animation: 6s ease 0s infinite normal none running asim;
     border-radius: 50% !important;
     width: 26px !important;
@@ -1443,7 +1444,6 @@ a.label.label-primary.fl {
 img.fitimg.fl.u-pic {
     border-radius: 116% !important;
     border: 0px solid rgba(255, 255, 255, 0) !important;
-    padding: 0px !important;
     width: 50px !important;
     height: 50px !important;
     margin-left: 4px !important;
@@ -1458,12 +1458,12 @@ input#usearch {
 }
 
 .broadcasters > div > .prod {
-    float: left !important;
-    width: 50px !important;
+float: left !important;
+    width: 52px !important;
     height: 52px !important;
     color: rgb(86, 111, 150) !important;
     border: 2px solid gainsboro !important;
-    margin: 0px 1px !important;
+    margin: 16px 11px !important;
     text-align: center !important;
     border-radius: 50% !important;
 }
@@ -1752,15 +1752,19 @@ label.label.border.btn.label-danger.tc.fl {
 label.label.tc.border.cp.btn.label-danger.fl {
     display: block;
 }
+
 div#tlogins .fr.borderg {
-    color: #cbcbce;
+    color: rgb(203, 203, 206);
 }
-div#tlogins .fr.borderg>a {
-    color: #cbcbcb!important;
+
+div#tlogins .fr.borderg > a {
+    color: rgb(203, 203, 203) !important;
 }
+
 .checkbox.fr {
     mix-blend-mode: overlay;
 }
+
 label.fl.label.loginstat.label-success {
     display: none;
 }
@@ -1770,51 +1774,75 @@ div#tlogins span.fa.fa-user.label.badgex {
 }
 
 div#tlogins label.label.mini.fl {
-    height: 29px!important;
-    background-color: #ffffff!important;
+    height: 29px !important;
+    background-color: rgb(255, 255, 255) !important;
 }
+
 button.btn.fr.btn-success.fa.fa-th-list {
-    display: none;}
+    display: none;
+}
+
 div#tlogins label.fl.label.loginstat.label-info {
-position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    position: absolute;
+    inset: 0px;
     margin: auto;
     width: 6vw;
     height: 8vw;
-    border: 0.78vw solid rgba(255,255,255,.7);
+    border: 0.78vw solid rgba(255, 255, 255, 0.7);
     border-radius: 50%;
-    animation: 1.15s small infinite;
+    animation: 1.15s ease 0s infinite normal none running small;
     transform: scale(1);
-}label.fl.label.loginstat.label-success {
-    display: none;
-}div#tlogins .usero {
+}
+
+label.fl.label.loginstat.label-success {
     display: none;
 }
+
+div#tlogins .usero {
+    display: none;
+}
+
 div#tlogins input.border {
-    height: 42px!important;
-    text-align: center!important;
+    height: 42px !important;
+    text-align: center !important;
 }
-.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
-    background: #18baf4!important;
-    color: #ffffff!important;
+
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background: rgb(24, 186, 244) !important;
+    color: rgb(255, 255, 255) !important;
 }
+
 div#tlogins .lonline {
-    background-image: url(https://www.arabe.chat/sico/1664545305916.png);
+    background-image: url("https://www.arabe.chat/sico/1664545305916.png");
     background-position: 57% 5px;
     background-size: 361px 381px;
-    outline: #efefef solid 1px;}
+    outline: rgb(239, 239, 239) solid 1px;
+}
+
 div#tlogins ul.nav.nav-tabs a {
     height: 33px;
     text-align: center;
     line-height: 34px;
-    padding: 0!important;
     border-radius: 11px;
-    font-size: 15px!important;
     min-width: 8px;
     margin-top: 5px;
-    background: #74b20e;
-    color: #fff;
+    background: rgb(116, 178, 14);
+    color: rgb(255, 255, 255);
+    padding: 0px !important;
+    font-size: 15px !important;
+}
+.broadcasters>div {
+    max-width: 399px!important;
+}
+.broadcasters {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 0;
+    background-color: #ffffff;
+    width: 100%;
+    border: none;
+    padding: 0px;
+    height: 106px;
 }
