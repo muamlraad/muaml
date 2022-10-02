@@ -1,3 +1,6 @@
+label.label.tc.border.btn.fl>.fa-check::before {
+    display: none;
+}
 img.fr.co {
     width: 0px !important;
     height: 0px !important;
