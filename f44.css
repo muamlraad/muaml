@@ -1899,3 +1899,14 @@ img.mjklo {
     float: left;
     border: 1px solid rgb(255 255 255 / 0%) !important;
 }
+img.mjklo2 {
+    background-image: url(https://www.arabe.chat/sico/1664736296599.png);
+    background-size: 32px 917px;
+    padding: 0px 0px 29px;
+    background-position: 63% -73px;
+    float: left;
+    margin: -8px -18px -8px -8px !important;
+    height: 17px !important;
+    width: 35px !important;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
+}
