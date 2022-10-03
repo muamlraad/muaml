@@ -1,3 +1,56 @@
+div#tlogins .lonline {
+    background-image: url("https://e.top4top.io/p_24676ayvv3.png");
+    background-position: 57% 5px;
+    background-size: 361px 381px;
+    outline: rgb(239, 239, 239) solid 1px;
+}
+label.label.tc.border.btn.fl>span.fa.fl {
+    margin: -8px!important;
+    background-image: url(https://c.top4top.io/p_2467j1oa65.png);
+    background-size: 60px 1203px;
+    padding: 0px 32px 27px;
+    height: 16px!important;
+    margin-right: -18px;
+    background-position: 63% -341px;
+    width: 35px;
+    float: left;
+    border: 1px solid rgb(255 255 255 / 0%);
+}
+span.fa.fl.fa-check {
+    margin: -8px!important;
+    background-image: url(https://c.top4top.io/p_2467j1oa65.png);
+    background-size: 60px 1203px;
+    padding: 0px 32px 27px;
+    height: 16px!important;
+    margin-right: -18px!important;
+    background-position: 63% -366px!important;
+    width: 35px !important;
+    float: left;
+    border: 1px solid rgb(255 255 255 / 0%) !important;
+}
+img.mjklo {
+    margin: -8px!important;
+    background-image: url(https://c.top4top.io/p_2467j1oa65.png);
+    background-size: 32px 917px;
+    padding: 0px 0px 29px;
+    height: 17px!important;
+    margin-right: -18px!important;
+    background-position: 63% -6px;
+    width: 35px !important;
+    float: left;
+    border: 1px solid rgb(255 255 255 / 0%) !important;
+}
+img.mjklo2 {
+    background-image: url(https://c.top4top.io/p_2467j1oa65.png);
+    background-size: 32px 917px;
+    padding: 0px 0px 29px;
+    background-position: 63% -73px;
+    float: left;
+    margin: -8px -18px -8px -8px !important;
+    height: 17px !important;
+    width: 35px !important;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
+}
 label.label.tc.border.btn.fl>.fa-check::before {
     display: none;
 }
@@ -254,7 +307,7 @@ div#tlogins label.label.mini.fl .lusd > .fa-user::before {
 .room.borderg.hand.nosel.fl > span.fa.fa-microphone {
     text-align: center;
     margin-top: 0px;
-    background-image: url("https://www.arabe.chat/sico/1661015202767.gif");
+    background-image: url("https://d.top4top.io/p_2467zg0pi2.gif");
     background-size: 23px 15.89px;
     width: 23px;
     height: 19px;
@@ -276,7 +329,7 @@ div#tlogins label.label.mini.fl .lusd > .fa-user::before {
 .broadcasters > div > .prod > .fa-microphone {
     text-align: center;
     margin-top: 0px;
-    background-image: url("https://www.arabe.chat/sico/1664561668413.png");
+    background-image: url("https://c.top4top.io/p_2467yyzbe1.png");
     width: 52px;
     height: 52px;
     margin-right: auto;
@@ -292,28 +345,28 @@ div#tlogins label.label.mini.fl .lusd > .fa-user::before {
 }
 
 .fr.top3 {
-    width: 95px;
-    height: 95px;
-    margin: 98px 28px 0px 0px !important;
+    width: 74px;
+    height: 74px;
+    margin: 162px 42px 0px 0px !important;
 }
 
 .fl.top1 {
-    width: 110px;
-    height: 110px;
-    margin: 54px 0px 0px 19px !important;
+    width: 80px;
+    height: 80px;
+    margin: 120px 0px 0px 37px !important;
 }
 
 .fl.top2 {
-    width: 95px;
-    height: 95px;
-    margin: 98px 0px 0px 28px !important;
+    width: 74px;
+    height: 74px;
+    margin: 157px 0px 0px 53px !important;
 }
 
 .topWall3 {
     margin-top: 0px;
     width: 100%;
-    background: url("https://www.arabe.chat/sico/1661008560172.png") center bottom / 100% no-repeat white;
-    height: 334px !important;
+    background: url("https://d.top4top.io/p_2467v05zs6.png") center bottom / 100% no-repeat white;
+    height: 327px !important;
 }
 
 div#chats > div > div.hand.nosel.fl.uzr.border > img.fitimg.fl.u-pic {
@@ -1333,7 +1386,7 @@ span.usid.fr {
     background-repeat: no-repeat;
     width: max-content;
     border-radius: 0px 3px 3px 0px;
-    background-image: url("https://www.arabe.chat/sico/1660663682593.png");
+    background-image: url("https://b.top4top.io/p_24672omtv4.png");
     height: 25px;
     background-position: 11% center;
     text-align: left;
@@ -1348,7 +1401,7 @@ span.usid.fr {
     background-repeat: no-repeat;
     width: max-content;
     border-radius: 0px 3px 3px 0px;
-    background-image: url("https://www.arabe.chat/sico/1660663682593.png");
+    background-image: url("https://b.top4top.io/p_24672omtv4.png");
     height: 25px;
     background-position: 24% center;
     text-align: left;
@@ -1413,11 +1466,12 @@ a.label.label-primary.fl {
 }
 
 .topWall3 > div > span {
-    color: rgb(227, 227, 227) !important;
+    color: rgb(213 212 212) !important;
+    font-family: bein !important;
 }
 
 .mony {
-    background-image: url("https://www.arabe.chat/sico/1660658990790.png") !important;
+    background-image: url("https://k.top4top.io/p_2467ax54e2.png") !important;
     height: 30px !important;
     padding: 0px 3px 0px 44px !important;
     font-size: 23px !important;
@@ -1480,8 +1534,9 @@ div#d2bc > .uzr.fl.corner.borderg > img.fl.fitimg.hand.u-pic {
 
 .topWall10 {
     height: 408px !important;
-    background: url("https://www.arabe.chat/sico/1660659536620.jpg") center bottom white !important;
+    background: url("https://web.falla.live/falla-web/act-fruit-rank/prod/0.3.0/assets/a303e8eed7f63b3d4913.png") center bottom white !important;
     margin-top: 0px !important;
+    color: #ffffff00;
 }
 
 .hand.nosel.fl.uzr.border.uidgmvp1DF5Is0NeKlvAAAS.inroom.ustop > span.usid.fr {
@@ -1550,15 +1605,15 @@ button.fa.fa-send.sndbc.fl.btn.btn-primary {
 }
 
 .fl.top2 > span.corner.dots {
-    margin: 150px 0px 0px -14px !important;
+    margin: 77px 0px 0px -11px !important;
 }
 
 .fr.top3 > span.corner.dots {
-    margin: 165px 0px 0px -14px !important;
+    margin: 77px 0px 0px -9px !important;
 }
 
 .fl.top1 > span.corner.dots {
-    margin: 150px 0px 0px -14px !important;
+    margin: 103px 0px 0px -10px !important;
 }
 
 .youtubeSearch > div > .fa-search::before {
@@ -1635,7 +1690,7 @@ label.label.tc.border.btn.fl {
     background-origin: initial;
     background-clip: initial;
     background-color: rgb(26, 163, 186);
-    border: 71px none rgb(255, 255, 255);
+    border: 71px none rgb(255 255 255);
     border-radius: 31px;
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent) !important;
 }
@@ -1643,7 +1698,7 @@ label.label.tc.border.btn.fl {
 ::-webkit-scrollbar {
     width: 5px;
     height: 5px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(255 255 255);
 }
 
 .dpnl.bg.tab-content {
@@ -1815,13 +1870,6 @@ div#tlogins input.border {
     color: rgb(255, 255, 255) !important;
 }
 
-div#tlogins .lonline {
-    background-image: url("https://www.arabe.chat/sico/1664545305916.png");
-    background-position: 57% 5px;
-    background-size: 361px 381px;
-    outline: rgb(239, 239, 239) solid 1px;
-}
-
 div#tlogins ul.nav.nav-tabs a {
     height: 33px;
     text-align: center;
@@ -1857,30 +1905,7 @@ div#tlogins ul.nav.nav-tabs a {
     border: none;
     padding: 0px;
 }
-label.label.tc.border.btn.fl>span.fa.fl {
-    margin: -8px!important;
-    background-image: url(https://www.arabe.chat/sico/1664736296599.png);
-    background-size: 60px 1203px;
-    padding: 0px 32px 27px;
-    height: 16px!important;
-    margin-right: -18px;
-    background-position: 63% -341px;
-    width: 35px;
-    float: left;
-    border: 1px solid rgb(255 255 255 / 0%);
-}
-span.fa.fl.fa-check {
-    margin: -8px!important;
-    background-image: url(https://www.arabe.chat/sico/1664736296599.png);
-    background-size: 60px 1203px;
-    padding: 0px 32px 27px;
-    height: 16px!important;
-    margin-right: -18px!important;
-    background-position: 63% -366px!important;
-    width: 35px !important;
-    float: left;
-    border: 1px solid rgb(255 255 255 / 0%) !important;
-}
+
 label.label.tc.border.pmsg.btn.label-info.fl>span.fl.fa.fa-send {
     display: none;
 }
@@ -1890,26 +1915,36 @@ label.label.tc.border.redit.btn.label-info.fl>span.fl.fa.fa-home {
 label.label.tc.border.cp.btn.label-danger.fl>span.fl.fa.fa-star {
     display: none;
 }
-img.mjklo {
-    margin: -8px!important;
-    background-image: url(https://www.arabe.chat/sico/1664736296599.png);
-    background-size: 32px 917px;
-    padding: 0px 0px 29px;
-    height: 17px!important;
-    margin-right: -18px!important;
-    background-position: 63% -6px;
-    width: 35px !important;
-    float: left;
-    border: 1px solid rgb(255 255 255 / 0%) !important;
+
+#topWall div span:before {
+    display: none;
 }
-img.mjklo2 {
-    background-image: url(https://www.arabe.chat/sico/1664736296599.png);
-    background-size: 32px 917px;
-    padding: 0px 0px 29px;
-    background-position: 63% -73px;
-    float: left;
-    margin: -8px -18px -8px -8px !important;
-    height: 17px !important;
-    width: 35px !important;
-    border: 1px solid rgba(255, 255, 255, 0) !important;
+
+.topWall10>div.toptop>div>div>span {
+    color: rgb(106 81 83);
+    background-color: rgb(0 0 0 / 0%);
+}
+
+.topWall10>div.toptop>div>div>span {
+    background-color: rgb(0 0 0 / 0%);
+    color: rgb(106 81 83);
+}
+
+.topWall10>div.toptop>span.dots {
+    border-color: #686868!important;
+    color: #686868!important;
+}
+.topWall10>div.top>div>span.dots {
+    color: #c1c1c17d;
+    padding: 0px 7px;
+}
+
+.topWall10>div.top>div>div>span {
+    color: #6c6c6c6b;
+}
+
+.topWall10>div.top>span.dots {
+    color: #8f8f8f69;
+    border-top: 0px solid;
+    border-bottom: 0px solid;
 }
