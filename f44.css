@@ -295,7 +295,7 @@ div#tlogins label.label.mini.fl .lusd > .fa-user::before {
 }
 
 .fa-search::before {
-    color: rgb(194, 75, 75);
+    color: rgb(147 147 147 / 65%);
 }
 
 .fa-search::before {
@@ -919,7 +919,7 @@ img.emoi {
 }
 
 .fa-youtube::before {
-    color: rgb(234, 14, 14) !important;
+    color: rgb(234 14 14 / 61%) !important;
 }
 
 button.btn.fa.fa-image {
@@ -1003,7 +1003,7 @@ label.label.label-danger.border.nosel.fa.fa-close.fr {
     width: 11%;
     background-image: url("https://j.top4top.io/p_2421hdr851.png");
     background-size: 37px 1266px;
-    background-position: 83% -265px;
+    background-position: 83% -262px;
     padding: 10px 1px 6px 43px !important;
     background-color: rgba(255, 255, 255, 0) !important;
     border: 1px solid rgba(255, 254, 254, 0) !important;
@@ -1021,7 +1021,7 @@ label.label.label-danger.border.nosel.fa.fa-close.fr {
 
 .dpnl.bg.tab-content {
     background-color: rgb(255, 255, 255) !important;
-    border: 1px solid rgb(111, 202, 218) !important;
+    border: 1px solid rgb(253 255 255) !important;
 }
 
 label.fl.nosel.label.pnhead {
@@ -1162,11 +1162,6 @@ div#users ::-webkit-scrollbar-thumb {
 }
 
 div#wall > label.border.btn.fl {
-    color: rgb(255, 255, 255);
-    height: 37px;
-    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
-    font-family: rawy-bold;
-    background-color: rgb(70, 82, 193) !important;
 }
 
 button.btn.fa.fa-youtube-play {
@@ -1183,7 +1178,7 @@ button.btn.fa.fa-youtube {
 }
 
 .btn:hover {
-    color: rgb(255, 255, 255);
+    color: rgb(255 255 255);
     text-decoration: none;
 }
 
@@ -1340,23 +1335,26 @@ label.fl.nosel.label.pnhead {
 
 label.fl.nosel.label.pnhead {
     color: rgb(255, 255, 255);
-    padding: 10px;
-    width: 88.5%;
+    padding: 10px 18px 8px 0px;
+    width: 77.5%;
     display: block;
     height: 37px;
-    background-image: repeating-linear-gradient(45deg, rgba(59, 86, 120, 0.64), rgb(59, 86, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(115, 133, 156), rgb(59, 86, 120) 100px, transparent 0px, rgb(248, 249, 250) 200px);
-    border: 1px solid rgb(143, 133, 133);
-    margin-bottom: 4px;
-    background-color: rgb(240, 173, 78) !important;
-    margin-top: -20px !important;
+    margin-left: 10% !important;
 }
 
 div#wall > label.border.btn.fl {
-    color: rgb(255, 255, 255);
-    height: 31px;
-    background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
+    color: rgb(253 253 253 / 0%);
+    height: 48px;
     font-family: rawy-bold;
-    background-color: rgb(70, 82, 193) !important;
+    background-color: rgb(229 229 229 / 0%) !important;
+    background-image: url(https://j.top4top.io/p_2467guj0z0.jpg);
+    background-size: 360px 45.3px;
+    background-position: 49% -223px;
+    width: 97.1%!important;
+    border: 1px solid rgb(221 221 221 / 0%) !important;
+    margin: -1px 25px 2px 0px!important;
+    background-repeat: no-repeat;
+    background-position: center center;
 }
 
 .border {
