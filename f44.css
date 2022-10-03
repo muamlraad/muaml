@@ -4,44 +4,45 @@ div#tlogins .lonline {
     background-size: 361px 381px;
     outline: rgb(239, 239, 239) solid 1px;
 }
-label.label.tc.border.btn.fl>span.fa.fl {
-    margin: -8px!important;
-    background-image: url(https://c.top4top.io/p_2467j1oa65.png);
+
+label.label.tc.border.btn.fl > span.fa.fl {
+    background-image: url("https://c.top4top.io/p_2467j1oa65.png");
     background-size: 60px 1203px;
     padding: 0px 32px 27px;
-    height: 16px!important;
-    margin-right: -18px;
     background-position: 63% -341px;
     width: 35px;
     float: left;
-    border: 1px solid rgb(255 255 255 / 0%);
+    border: 1px solid rgba(255, 255, 255, 0);
+    margin: -8px !important;
+    height: 16px !important;
 }
+
 span.fa.fl.fa-check {
-    margin: -8px!important;
-    background-image: url(https://c.top4top.io/p_2467j1oa65.png);
+    background-image: url("https://c.top4top.io/p_2467j1oa65.png");
     background-size: 60px 1203px;
     padding: 0px 32px 27px;
-    height: 16px!important;
-    margin-right: -18px!important;
-    background-position: 63% -366px!important;
-    width: 35px !important;
     float: left;
-    border: 1px solid rgb(255 255 255 / 0%) !important;
+    margin: -8px -18px -8px -8px !important;
+    height: 16px !important;
+    background-position: 63% -366px !important;
+    width: 35px !important;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
 }
+
 img.mjklo {
-    margin: -8px!important;
-    background-image: url(https://c.top4top.io/p_2467j1oa65.png);
+    background-image: url("https://c.top4top.io/p_2467j1oa65.png");
     background-size: 32px 917px;
     padding: 0px 0px 29px;
-    height: 17px!important;
-    margin-right: -18px!important;
     background-position: 63% -6px;
-    width: 35px !important;
     float: left;
-    border: 1px solid rgb(255 255 255 / 0%) !important;
+    margin: -8px -18px -8px -8px !important;
+    height: 17px !important;
+    width: 35px !important;
+    border: 1px solid rgba(255, 255, 255, 0) !important;
 }
+
 img.mjklo2 {
-    background-image: url(https://c.top4top.io/p_2467j1oa65.png);
+    background-image: url("https://c.top4top.io/p_2467j1oa65.png");
     background-size: 32px 917px;
     padding: 0px 0px 29px;
     background-position: 63% -73px;
@@ -51,9 +52,11 @@ img.mjklo2 {
     width: 35px !important;
     border: 1px solid rgba(255, 255, 255, 0) !important;
 }
-label.label.tc.border.btn.fl>.fa-check::before {
+
+label.label.tc.border.btn.fl > .fa-check::before {
     display: none;
 }
+
 img.fr.co {
     width: 0px !important;
     height: 0px !important;
@@ -1466,7 +1469,7 @@ a.label.label-primary.fl {
 }
 
 .topWall3 > div > span {
-    color: rgb(213 212 212) !important;
+    color: rgb(213, 212, 212) !important;
     font-family: bein !important;
 }
 
@@ -1533,10 +1536,10 @@ div#d2bc > .uzr.fl.corner.borderg > img.fl.fitimg.hand.u-pic {
 }
 
 .topWall10 {
+    color: rgba(255, 255, 255, 0);
     height: 408px !important;
-    background: url("https://web.falla.live/falla-web/act-fruit-rank/prod/0.3.0/assets/a303e8eed7f63b3d4913.png") center bottom white !important;
+    background: url("https://b.top4top.io/p_24677z3nz1.png") center bottom white !important;
     margin-top: 0px !important;
-    color: #ffffff00;
 }
 
 .hand.nosel.fl.uzr.border.uidgmvp1DF5Is0NeKlvAAAS.inroom.ustop > span.usid.fr {
@@ -1690,7 +1693,7 @@ label.label.tc.border.btn.fl {
     background-origin: initial;
     background-clip: initial;
     background-color: rgb(26, 163, 186);
-    border: 71px none rgb(255 255 255);
+    border: 71px none rgb(255, 255, 255);
     border-radius: 31px;
     background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.2) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.2) 50%, rgba(255, 255, 255, 0.2) 75%, transparent 75%, transparent) !important;
 }
@@ -1698,7 +1701,7 @@ label.label.tc.border.btn.fl {
 ::-webkit-scrollbar {
     width: 5px;
     height: 5px;
-    background-color: rgb(255 255 255);
+    background-color: rgb(255, 255, 255);
 }
 
 .dpnl.bg.tab-content {
@@ -1906,45 +1909,48 @@ div#tlogins ul.nav.nav-tabs a {
     padding: 0px;
 }
 
-label.label.tc.border.pmsg.btn.label-info.fl>span.fl.fa.fa-send {
-    display: none;
-}
-label.label.tc.border.redit.btn.label-info.fl>span.fl.fa.fa-home {
-    display: none;
-}
-label.label.tc.border.cp.btn.label-danger.fl>span.fl.fa.fa-star {
+label.label.tc.border.pmsg.btn.label-info.fl > span.fl.fa.fa-send {
     display: none;
 }
 
-#topWall div span:before {
+label.label.tc.border.redit.btn.label-info.fl > span.fl.fa.fa-home {
     display: none;
 }
 
-.topWall10>div.toptop>div>div>span {
-    color: rgb(106 81 83);
-    background-color: rgb(0 0 0 / 0%);
+label.label.tc.border.cp.btn.label-danger.fl > span.fl.fa.fa-star {
+    display: none;
 }
 
-.topWall10>div.toptop>div>div>span {
-    background-color: rgb(0 0 0 / 0%);
-    color: rgb(106 81 83);
+#topWall div span::before {
+    display: none;
 }
 
-.topWall10>div.toptop>span.dots {
-    border-color: #686868!important;
-    color: #686868!important;
+.topWall10 > div.toptop > div > div > span {
+    color: rgb(106, 81, 83);
+    background-color: rgba(0, 0, 0, 0);
 }
-.topWall10>div.top>div>span.dots {
-    color: #c1c1c17d;
+
+.topWall10 > div.toptop > div > div > span {
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(106, 81, 83);
+}
+
+.topWall10 > div.toptop > span.dots {
+    border-color: rgb(104, 104, 104) !important;
+    color: rgb(104, 104, 104) !important;
+}
+
+.topWall10 > div.top > div > span.dots {
+    color: rgba(193, 193, 193, 0.49);
     padding: 0px 7px;
 }
 
-.topWall10>div.top>div>div>span {
-    color: #6c6c6c6b;
+.topWall10 > div.top > div > div > span {
+    color: rgba(108, 108, 108, 0.42);
 }
 
-.topWall10>div.top>span.dots {
-    color: #8f8f8f69;
+.topWall10 > div.top > span.dots {
+    color: rgba(143, 143, 143, 0.41);
     border-top: 0px solid;
     border-bottom: 0px solid;
 }
