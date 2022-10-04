@@ -1,5 +1,5 @@
 div#tlogins .lonline {
-    background-image: url("https://e.top4top.io/p_24676ayvv3.png");
+    background-image: url("https://i.top4top.io/p_2468j7n6d2.png");
     background-position: 57% 5px;
     background-size: 361px 381px;
     outline: rgb(239, 239, 239) solid 1px;
@@ -1390,25 +1390,24 @@ span.usid.fr {
     padding: 1px 4px 0px 24px;
     font-family: monospace, serif;
     border: 1px solid rgb(255, 190, 190);
-    background-image: url(https://g.top4top.io/p_2468ms4vj1.png);
+    background-image: url("https://g.top4top.io/p_2468ms4vj1.png");
     background-size: 29px 822px;
     background-position: -11% -246px;
     background-repeat: no-repeat;
 }
 
 .dots.corner.u-topic.fl > span.fr {
-    background-size: 27%;
-    background-repeat: no-repeat;
-    width: max-content;
+width: max-content;
     border-radius: 0px 3px 3px 0px;
-    background-image: url("https://b.top4top.io/p_24672omtv4.png");
     height: 25px;
-    background-position: 24% center;
     text-align: left;
     line-height: 25px;
     padding: 0px 4px 0px 24px;
     font-family: monospace, serif;
-}
+    background-image: url(https://g.top4top.io/p_2468ms4vj1.png);
+    background-size: 26px 699px;
+    background-position: 2% -207px;
+    background-repeat: no-repeat; }
 
 .head.nosel.bg.fl > .fl.uzr > img.fitimg.fl.hand.u-pic {
     border: 1px solid rgba(179, 100, 100, 0);
@@ -1423,6 +1422,9 @@ span.usid.fr {
 }
 
 img.memr {
+    background-image: url("https://g.top4top.io/p_2468ms4vj1.png");
+    background-size: 133px 12154px;
+    background-position: -11% -246px;
     float: left !important;
     margin-top: -3px !important;
     height: 38px !important;
@@ -1430,9 +1432,6 @@ img.memr {
     left: 34px !important;
     border-radius: 100% !important;
     width: 38px !important;
-    background-image: url(https://g.top4top.io/p_2468ms4vj1.png);;
-    background-size: 133px 12154px;
-    background-position: -11% -246px;
 }
 
 textarea#tbox {
@@ -1474,17 +1473,16 @@ a.label.label-primary.fl {
 }
 
 .mony {
+    background-image: url("https://g.top4top.io/p_2468ms4vj1.png");
+    background-size: 54px 1916px;
+    background-position: -2% -759px;
+    background-repeat: no-repeat;
     height: 30px !important;
     padding: 0px 3px 0px 44px !important;
     font-size: 23px !important;
     line-height: 27px !important;
     margin: 30px -31px -19px 0px !important;
-    background-image: url(https://g.top4top.io/p_2468ms4vj1.png);
-    background-size: 54px 1916px;
-    padding: 0px 0px 29px;
-    background-position: -2% -759px;
-    background-repeat: no-repeat;
-    }
+}
 
 .modal-header.label-primary {
     display: block !important;
@@ -1972,7 +1970,11 @@ label.label.tc.border.cp.btn.label-danger.fl > span.fl.fa.fa-star {
 .bord {
     border: 3px solid rgb(110, 169, 227) !important;
 }
+
 label.memr {
+    background-image: url("https://g.top4top.io/p_2468ms4vj1.png");
+    background-size: 38px 1121px;
+    background-position: -11% -199px;
     float: left !important;
     margin-top: -3px !important;
     height: 32px !important;
@@ -1980,7 +1982,4 @@ label.memr {
     left: 34px !important;
     border-radius: 100% !important;
     width: 36px !important;
-    background-image: url(https://g.top4top.io/p_2468ms4vj1.png);
-    background-size: 38px 1121px;
-    background-position: -11% -199px;
 }
