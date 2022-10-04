@@ -2025,3 +2025,15 @@ div#d0>label>span {display: none;}
     font-family: bein !important;
     padding: 10px 6px!important;
 }
+img.fl.u-ico {
+    padding-right: 1px;
+    margin-top: 4px;
+    max-height: 17px;
+}
+
+.hand.nosel.fl.uzr.border > div.fl.fl.mini.u-msg {}
+
+.hand.nosel.fl.uzr.border > div.fl>.fl.mini.u-msg {
+    line-height: 0px;
+    margin: -6px 0px 27px!important;
+}
