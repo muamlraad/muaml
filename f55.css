@@ -1211,7 +1211,9 @@ a.label.label-primary.fr {
 }
 
 div.borderg.corner {
-    margin-top: 139px !important;
+    margin-top: 13px !important;
+    border: 4px solid rgba(114, 114, 114, 0.13) !important;
+    border-radius: 7px!important;
 }
 
 label.label.tc.border.pmsg.btn.label-info.fl {
@@ -1386,8 +1388,8 @@ span.usid.fr {
     border-radius: 0px 3px 3px 0px;
     height: 25px;
     text-align: left;
-    line-height: 21px;
-    padding: 1px 4px 0px 24px;
+    line-height: 22px;
+    padding: 1px 4px 0px 25px;
     font-family: monospace, serif;
     border: 1px solid rgb(255, 190, 190);
     background-image: url("https://g.top4top.io/p_2468ms4vj1.png");
@@ -1646,9 +1648,9 @@ span.fr.minix.tago {
 }
 
 .hand.corner > center > .corner.border.label.label-primary {
-    border-radius: 32px;
+    border-radius: 52px!important;
     background-color: rgb(129, 129, 129) !important;
-    border: 2px solid rgb(214, 214, 215) !important;
+    border: 0px solid rgb(214, 214, 215) !important;
     font-family: bein !important;
     padding: 0px 8px !important;
     font-size: 15px !important;
@@ -1997,6 +1999,7 @@ div#tlogins .usero .u-pic, #d2 .u-pic, #d2bc .u-pic, .d2.filh.break.light .u-pic
     width: 46px!important;
     height: 46px!important;
     margin-left: 1px;
+    margin-top: 4px;
 }
 .fitimg.fl.u-pic {
     -moz-border-radius: 50%;
@@ -2018,7 +2021,7 @@ div#d0>label>span {display: none;}
 .hand.nosel.fl.uzr.border > div.fl > div.fl>.fl.mini.u-msg {}
 
 .fl.mini.u-msg {
-    line-height: 44px;
+    line-height: 30px;
 }
 
 .u-topic.ui-corner-all {
@@ -2030,10 +2033,84 @@ img.fl.u-ico {
     margin-top: 4px;
     max-height: 17px;
 }
-
-.hand.nosel.fl.uzr.border > div.fl.fl.mini.u-msg {}
-
 .hand.nosel.fl.uzr.border > div.fl>.fl.mini.u-msg {
     line-height: 0px;
     margin: -6px 0px 27px!important;
+    text-align: center;
+}
+
+.hand.corner.label-primary {
+    background-color: #ffffff!important;
+    border: 1px solid #e3e3e3!important;
+}
+
+.hand.corner.label-primary>.fl.borderg.corner>.fitimg.fl.u-pic {
+    width: 45px!important;
+    height: 45px!important;
+}
+.hand.corner.label-primary>.fl.borderg.corner>.dots.fl {
+    margin-top: 1px!important;
+    margin-left: 4px!important;
+    width: calc(100% - 60px)!important;
+}
+
+.hand.corner.label-primary>.fl.borderg.corner>.dots.fl>span.fr {
+    width: max-content;
+    border-radius: 0px 3px 3px 0px;
+    height: 23px;
+    text-align: left;
+    line-height: 22px;
+    padding: 1px 4px 0px 22px;
+    font-family: monospace, serif;
+    border: 1px solid rgb(255, 190, 190);
+    background-image: url(https://g.top4top.io/p_2468ms4vj1.png);
+    background-size: 23px 680px;
+    background-position: -1% -202px;
+    background-repeat: no-repeat;}
+
+div#settings>.borderg.corner {
+    margin-top: 139px !important;
+}
+img.fl.u-ico {
+    padding-right: 1px;
+    margin-top: 4px;
+    max-height: 17px;
+}
+.hand.nosel.fl.uzr.border > div.fl>.fl.mini.u-msg {
+    line-height: 0px;
+    margin: -6px 0px 27px!important;
+    text-align: center;
+}
+
+.hand.corner.label-primary {
+    background-color: #ffffff!important;
+    border: 1px solid #e3e3e3!important;
+}
+
+.hand.corner.label-primary>.fl.borderg.corner>.fitimg.fl.u-pic {
+    width: 43px!important;
+    height: 43px!important;
+}
+.hand.corner.label-primary>.fl.borderg.corner>.dots.fl {
+    margin-top: 1px!important;
+    margin-left: 4px!important;
+    width: calc(100% - 60px)!important;
+}
+
+.hand.corner.label-primary>.fl.borderg.corner>.dots.fl>span.fr {
+    width: max-content;
+    border-radius: 0px 3px 3px 0px;
+    height: 23px;
+    text-align: left;
+    line-height: 22px;
+    padding: 1px 4px 0px 22px;
+    font-family: monospace, serif;
+    border: 1px solid rgb(255, 190, 190);
+    background-image: url(https://g.top4top.io/p_2468ms4vj1.png);
+    background-size: 23px 680px;
+    background-position: -1% -202px;
+    background-repeat: no-repeat;}
+
+div#settings>.borderg.corner {
+    margin-top: 139px !important;
 }
