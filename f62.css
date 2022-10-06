@@ -2239,3 +2239,7 @@ a.fl.fa.fa-heart.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ulike.borderg 
     max-width: 190px!important;
     min-width: 190px!important;
 }
+a.fl.fa.fa-warning.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ureport.borderg , a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.uban.borderg, a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ukick.borderg, a.fl.fa.fa-user-times.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.urkick.borderg, a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.meiut.borderg, a.fl.fa.fa-ban.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.udelpic.borderg, a.fl.fa.fa-star.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ubnr.borderg, a.fl.fa.fa-diamond.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ugift.borderg, a.fl.fa.fa-search.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.uh.borderg {
+    height: 31px;
+    width: 190px !important;
+}
