@@ -1444,7 +1444,7 @@ img.memr {
 }
 
 textarea#tbox {
-    background-color: rgb(0 0 0 / 46%);
+    background-color: rgba(0, 0, 0, 0.46);
     text-align: center !important;
     padding: 3px !important;
     border-right: 5px ridge rgba(171, 157, 211, 0) !important;
@@ -1834,10 +1834,10 @@ label.label.border.btn.label-danger.tc.fl {
 
 .uzr.fl.corner.borderg.hmsg.mm > .uzr.fl > .u-msg.break.fl {
     height: 29px;
+    background-color: rgba(0, 0, 0, 0.36);
     font-family: bein !important;
     font-size: 12px !important;
-    color: rgb(201 201 201) !important;
-    background-color: rgba(0, 0, 0, 0.36);
+    color: rgb(201, 201, 201) !important;
 }
 
 label.label.tc.border.cp.btn.label-danger.fl {
@@ -2287,14 +2287,11 @@ div#d2 > .fl.borderg.corner.uzr > .uzr.fl > .u-msg.break.fl {
     background-color: rgba(0, 0, 0, 0.36);
     border-radius: 0px 102px 102px 96px;
     text-align: center;
-    line-height: 20px;
+    line-height: 19px;
     color: rgb(229, 229, 229) !important;
-    padding: 5px !important;
     width: auto !important;
-    padding-top: 4px !important;
-    padding-right: 2px !important;
-    padding-bottom: 3px !important;
-    padding-left: 7px !important;
+    padding: 4px 2px 3px 7px !important;
+    margin-top: 14px!important;
 }
 
 div#d2 > .fl.borderg.corner.uzr > .uzr.fl > .fl.dots > span.corner.nosel.u-topic.hand {
@@ -2316,4 +2313,9 @@ div#d2 > .fl.borderg.corner.uzr > .uzr.fl > .fl.dots > span.corner.nosel.u-topic
 
 span.number {
     color: rgba(255, 255, 255, 0.21);
+}
+div#d2 > .fl.borderg.corner.uzr>.uzr.fl>.fl.dots {
+    float: right;
+    margin-right: 17px!important;
+    padding-right: 0px!important;
 }
