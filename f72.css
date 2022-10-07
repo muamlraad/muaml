@@ -2331,10 +2331,10 @@ span.number {
 }
 
 div#d2 > .fl.borderg.corner.uzr > .uzr.fl > .fl.dots {
-    float: right;
+    float: inline-end!important;
     flex-direction: row-reverse;
-    margin-right: 2px !important;
-    padding-right: 0px !important;
+    margin-left: 19px !important;
+    padding-right: 4px !important;
     display: flex !important;
 }
 
