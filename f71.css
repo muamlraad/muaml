@@ -2361,3 +2361,18 @@ div#d2 > .fl.borderg.corner.uzr > .fitimg.fl.u-pic {
 div#d2 > .fl.borderg.corner.uzr > .uzr.fl > .fl.dots > img.fl.u-ico {
     float: right;
 }
+.room.borderg.hand.nosel.fl>.fitimg.fl.u-pic {
+    float: right;
+}
+
+.room.borderg.hand.nosel.fl>.fl {
+    float: right;
+}
+
+.room.borderg.hand.nosel.fl>.fl>.fl.dots {
+    float: right;
+}
+
+.fl.mini.u-msg {
+    float: right;
+}
