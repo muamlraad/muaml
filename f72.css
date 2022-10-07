@@ -310,16 +310,15 @@ div#tlogins label.label.mini.fl .lusd > .fa-user::before {
 
 .room.borderg.hand.nosel.fl > span.fa.fa-microphone {
     text-align: center;
-    margin-top: 0px!important;
     background-image: url("https://d.top4top.io/p_2467zg0pi2.gif");
     background-size: 23px 15.89px;
     width: 23px;
     height: 19px;
-    margin-right: 4px!important;
     background-position: -383% -570px;
-    margin-left: 9%!important;
     float: left;
-    margin-top: -19%!important;
+    margin-right: 4px !important;
+    margin-left: 9% !important;
+    margin-top: -19% !important;
 }
 
 .broadcasters > div > .prod > .fa-microphone::before {
@@ -527,13 +526,12 @@ button.fa.fa-sign-out.fl.btn.btn-primary {
 
 span.corner.fa.fa-user.label.label-primary.fr.uc {
     color: rgb(124, 124, 124);
+    float: left;
     display: inline !important;
-    background-color: rgb(255 255 255 / 0%) !important;
+    background-color: rgba(255, 255, 255, 0) !important;
     font-family: bein !important;
     font-size: 13px !important;
-    margin-left: -4%!important;
-    float: left;
-    margin-top: -24%!important;
+    margin-left: -4% !important;
 }
 
 div#room > .tablebox.footer.fl.light > button.fa.fa-send.fl.btn.btn-primary {
@@ -628,14 +626,13 @@ img.fl.nosel.emobox {
 }
 
 img.fl.nosel.emo {
-    margin-top: -1px;
-content: url(https://www.arabe.chat/sico/1665091913117.png);
+    content: url("https://www.arabe.chat/sico/1665091913117.png");
     float: left !important;
-    ;;;;;;;;;;;;;;;;;;;;;;;margin-top: -1px !important;;;;;;;;;;;;;;;;;;;;;;;;
-    ;;;;;;;;;;;;;;;;;;height: 30px !important;;;;;;;;;;;;;;;;;;;
+    margin-top: -1px !important;
+    height: 30px !important;
     border-radius: 100% !important;
-    ;;;;;;;;;;;;;;width: 30px !important;;;;;;;;;;;;;;;;
-;;padding: 0px!important;;;
+    width: 30px !important;
+    padding: 0px !important;
 }
 
 a.fl.emobc:focus, i.fa.fa-smile-o:focus, .primaryborder:focus, .btn.btn-success:focus, .btn.btn-primary:focus, .dots:focus, .bg:focus, textarea.fl.filw.corner.tbox:focus, area:focus, input#pass1:focus, input#u1:focus, input#u3:focus, input#pass2:focus, input#u2:focus {
@@ -1804,7 +1801,6 @@ label.label.tc.border.cp.btn.label-danger.fl {
 }
 
 .room.borderg.hand.nosel.fl > span.fa.fa-microphone {
-    /* margin-left: -18% !important; */
 }
 
 div#tlogins .usero .u-pic {
@@ -2065,9 +2061,9 @@ div#d0 > label > span {
 }
 
 .u-topic.ui-corner-all {
+    float: right;
     font-family: bein !important;
     padding: 10px 6px !important;
-    float: right;
 }
 
 img.fl.u-ico {
@@ -2367,15 +2363,16 @@ div#d2 > .fl.borderg.corner.uzr > .fitimg.fl.u-pic {
 div#d2 > .fl.borderg.corner.uzr > .uzr.fl > .fl.dots > img.fl.u-ico {
     float: right;
 }
-.room.borderg.hand.nosel.fl>.fitimg.fl.u-pic {
+
+.room.borderg.hand.nosel.fl > .fitimg.fl.u-pic {
     float: right;
 }
 
-.room.borderg.hand.nosel.fl>.fl {
+.room.borderg.hand.nosel.fl > .fl {
     float: right;
 }
 
-.room.borderg.hand.nosel.fl>.fl>.fl.dots {
+.room.borderg.hand.nosel.fl > .fl > .fl.dots {
     float: right;
 }
 
