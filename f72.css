@@ -387,10 +387,12 @@ button.fa.fa-send.sndpm.fl.btn.btn-primary {
 .bgg.border.corner {
     right: 1px;
     width: auto!important;
-    height: 778px!important;
+    height: auto!important;
     max-height: inherit!important;
     min-height: auto!important;
     max-width: inherit!important;
+    background-color: #77889900;
+    border: 2px solid rgb(221 221 221 / 0%) !important;
 }
 
 img.fl.emobc {
@@ -951,7 +953,7 @@ label.fl.nosel.label.pnhead {
 
 
 .border {
-    border: 1px solid rgb(221, 221, 221) !important;
+    border: 2px solid rgb(221 221 221 / 20%) !important;
 }
 
 label.label.tc.border.btn.label-info.fl {
@@ -1358,7 +1360,7 @@ label.label.border.btn.label-danger.tc.fl {
 }
 
 .uzr.fl.corner.borderg.hmsg.mm > .uzr.fl > .u-msg.break.fl {
-    height: 29px;
+    height: 40px;
     background-color: rgba(0, 0, 0, 0.36);
     font-family: bein !important;
     font-size: 12px !important;
