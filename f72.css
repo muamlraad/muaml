@@ -5,6 +5,7 @@ label.label.tc.border.btn.fl > .fa-check::before {
 img.fr.co {
     width: 0px !important;
     height: 0px !important;
+    float: left;
 }
 
 img.fr {
@@ -385,7 +386,11 @@ button.fa.fa-send.sndpm.fl.btn.btn-primary {
 
 .bgg.border.corner {
     right: 1px;
-    width: 99% !important;
+    width: auto!important;
+    height: 778px!important;
+    max-height: inherit!important;
+    min-height: auto!important;
+    max-width: inherit!important;
 }
 
 img.fl.emobc {
@@ -1112,16 +1117,15 @@ div#d2bc > .uzr.fl.corner.borderg > img.fl.fitimg.hand.u-pic {
 .hand.nosel.fl.uzr.border > div.fl {
     border-radius: 146%;
     text-align: center !important;
-    width: 100% !important;
+    width: 85% !important;
     justify-content: center !important;
+    float: right;
+    line-height: 48px;
 }
 
 .hand.nosel.fl.uzr.border > div.fl > div.fl {
-    margin-top: -2px !important;
-    display: flex !important;
-    flex-flow: column nowrap !important;
-    place-content: stretch space-evenly !important;
-    align-items: center !important;
+    float: right;
+    line-height: 48px;
 }
 
 label.ae.fa.label.label-primary.fa-users.btnClAlGr {
@@ -1488,10 +1492,12 @@ label.label.tc.border.cp.btn.label-danger.fl > span.fl.fa.fa-star {
 }
 
 .hand.nosel.fl.uzr.border > .fitimg.fl.u-pic {
-    margin-left: 43.9% !important;
+    float: right;
+    width: 50px !important;
+    height: 50px !important;
 }
 
-div#tlogins .usero .u-pic, #d2 .u-pic, #d2bc .u-pic, .d2.filh.break.light .u-pic, #rooms .room .u-pic, #users .u-pic {
+div#tlogins .usero .u-pic, #d2 .u-pic, #d2bc .u-pic, .d2.filh.break.light .u-pic, #rooms .room .u-pic {
     margin-left: 1px;
     margin-top: 4px;
     width: 44px !important;
@@ -1507,11 +1513,11 @@ div#d0 > label > span {
 }
 
 .hand.nosel.fl.uzr.border > div.fl > div.fl > div > span.corner.u-topic.fl {
-    margin: -4px 0px 30px !important;
 }
 
 .hand.nosel.fl.uzr.border > div.fl > div.fl > div {
     overflow: unset !important;
+    float: right;
 }
 
 .hand.nosel.fl.uzr.border > div.fl > div.fl > .fl.mini.u-msg {
@@ -1532,13 +1538,6 @@ img.fl.u-ico {
     margin-top: 4px;
     max-height: 17px;
 }
-
-.hand.nosel.fl.uzr.border > div.fl > .fl.mini.u-msg {
-    line-height: 0px;
-    text-align: center;
-    margin: -6px 0px 27px !important;
-}
-
 .hand.corner.label-primary {
     background-color: rgb(255, 255, 255) !important;
     border: 1px solid rgb(227, 227, 227) !important;
@@ -1567,9 +1566,9 @@ img.fl.u-ico {
 }
 
 .hand.nosel.fl.uzr.border > div.fl > .fl.mini.u-msg {
-    line-height: 0px;
+    line-height: 48px;
     text-align: center;
-    margin: -6px 0px 27px !important;
+    display: none;
 }
 
 .hand.corner.label-primary {
@@ -1591,13 +1590,6 @@ img.fl.u-ico {
 div#settings > .borderg.corner {
     margin-top: 139px !important;
 }
-
-div#chats > div > .hand.nosel.fl.uzr.border > .fitimg.fl.u-pic {
-    border-radius: 146%;
-    margin-left: 41.4% !important;
-    width: 16% !important;
-}
-
 .modal {
     position: fixed;
     inset: auto auto 0px;
@@ -1719,15 +1711,16 @@ a.fl.fa.fa-warning.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ureport.bord
 
 
 div#d2 > .fl.borderg.corner.uzr > .uzr.fl > .u-msg.break.fl {
-    background-color: rgba(0, 0, 0, 0.36);
-    border-radius: 102px 0px 102px 102px;
+    background-color: rgb(0 0 0 / 40%);
+    border-radius: 10px 10px 10px 10px;
     text-align: center;
     line-height: 20px;
     float: right;
     color: rgb(229, 229, 229) !important;
     width: auto !important;
-    padding: 4px !important;
+    padding: 10px !important;
     margin-top: 7px !important;
+    padding-right: 4px !important;
 }
 
 div#d2 > .fl.borderg.corner.uzr > .uzr.fl > .fl.dots > span.corner.nosel.u-topic.hand {
