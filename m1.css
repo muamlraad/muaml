@@ -589,6 +589,7 @@ div#d2 {
 .hand.nosel.fl.uzr.border {
     float: right;
     margin-top: 0px !important;
+    border: 7px solid rgb(221 221 221 / 20%) !important;
 }
 img.fl.u-ico {
     float: right;
