@@ -150,6 +150,7 @@ label.btn.btn-info.fr.border.fa.fa-compress {
     border: 1px solid rgba(255, 254, 254, 0) !important;
     margin-top: -2px !important;
     margin-left: -5px !important;
+    display: none;
 }
 
 label.label.fl.hand.fa.border.fa-user {
@@ -204,7 +205,7 @@ img.fl.nosel.emobox {
     margin-top: -8px !important;
     height: 41px !important;
     border-radius: 100% !important;
-    width: 42px !important;
+    width: 41px !important;
 }
 
 img.fl.nosel.emo {
@@ -441,8 +442,9 @@ span.usid.fr {
     background-size: 29px 822px;
     background-position: -11% -246px;
     background-repeat: no-repeat;
-    margin-right: -85% !important;
-    margin-top: -26px !important;
+    margin-left: 0% !important;
+    margin-top: 5px !important;
+    float: left;
 }
 
 .dots.corner.u-topic.fl > span.fr {
@@ -583,4 +585,37 @@ div#d2 {
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-between;
+}
+.hand.nosel.fl.uzr.border {
+    float: right;
+    margin-top: 0px !important;
+}
+img.fl.u-ico {
+    float: right;
+}
+div#chats>div>.hand.nosel.fl.uzr.border {
+    width: 87%!important;
+    border: 1px solid rgb(231 230 230 / 37%) !important;
+}
+div#chats>div>.hand.nosel.fl.uzr.border>.hand.nosel.fl.uzr.border > div.fl {
+    width: calc(100% - 59px)!important;
+}
+div#chats>div>.hand.nosel.fl.uzr.border>.fl>.fl.dots {
+    width: 92%!important;
+}
+.cont.fr.filh {
+    height: 750px!important;
+}
+.fl.filw>.fl>img.fl.u-ico {
+    display: none;
+}
+.fl.filw>.fl>.fl {
+    margin-top: 0px !important;
+    font-size: 117% !important;
+}
+
+.fl.filw>.fl>.fl>span.corner.nosel.u-topic.dots {
+    margin-top: 0px !important;
+    font-size: 110% !important;
+    margin-left: 77px !important;
 }
