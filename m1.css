@@ -615,7 +615,17 @@ div#chats>div>.hand.nosel.fl.uzr.border>.fl>.fl.dots {
 }
 
 .fl.filw>.fl>.fl>span.corner.nosel.u-topic.dots {
-    margin-top: 0px !important;
+    margin-top: 22px !important;
     font-size: 110% !important;
     margin-left: 77px !important;
+}
+.head.nosel.bg.fl {
+    border: 1px solid rgba(114, 114, 114, 0.13) !important;
+}
+.bgg.border.corner>.head.nosel.bg.fl>.fl.uzr>img.fitimg.fl.hand.u-pic {
+    display: none;
+}
+.cont.fr.filh>div>.uzr.fl.corner.borderg.mm {
+    border: 1px solid rgba(114, 114, 114, 0.13);
+    margin-top: 4px !important;
 }
