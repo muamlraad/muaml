@@ -3,9 +3,9 @@ label.label.tc.border.btn.fl > .fa-check::before {
 }
 
 img.fr.co {
+    float: left;
     width: 0px !important;
     height: 0px !important;
-    float: left;
 }
 
 img.fr {
@@ -107,7 +107,6 @@ input.fl {
     font-family: bein !important;
 }
 
-
 div.borderg.corner > div > .label.label-primary {
     color: rgb(255, 255, 255);
     background-image: repeating-linear-gradient(45deg, rgba(119, 92, 229, 0.64), rgb(90, 42, 120) 100px, transparent 0px, transparent 200px), repeating-linear-gradient(-45deg, rgb(135, 134, 187), rgb(95, 50, 143) 100px, transparent 0px, rgb(248, 249, 250) 200px);
@@ -172,7 +171,6 @@ div#tlogins label.label.mini.fl .lusd > .fa-user::before {
     height: 74px;
     margin: 157px 0px 0px 53px !important;
 }
-
 
 div#chats > div > div.hand.nosel.fl.uzr.border > img.fitimg.fl.u-pic {
     margin-left: 116px !important;
@@ -386,13 +384,13 @@ button.fa.fa-send.sndpm.fl.btn.btn-primary {
 
 .bgg.border.corner {
     right: 1px;
-    width: auto!important;
-    height: auto!important;
-    max-height: inherit!important;
-    min-height: auto!important;
-    max-width: inherit!important;
-    background-color: #77889900;
-    border: 2px solid rgb(221 221 221 / 0%) !important;
+    background-color: rgba(119, 136, 153, 0);
+    width: auto !important;
+    height: auto !important;
+    max-height: inherit !important;
+    min-height: auto !important;
+    max-width: inherit !important;
+    border: 2px solid rgba(221, 221, 221, 0) !important;
 }
 
 img.fl.emobc {
@@ -441,7 +439,6 @@ button.btn.btn-primary.hand.borderg.corner.fa.fa-ban {
 .fa-user::before {
     margin-right: 4px;
 }
-
 
 .fa-save::before, .fa-floppy-o::before {
     margin-right: 1px;
@@ -669,8 +666,6 @@ a.btn.minix.fa.fa-comment::before {
     content: "";
 }
 
-
-
 img.emoi {
     background-color: rgba(255, 255, 255, 0) !important;
 }
@@ -744,7 +739,6 @@ div#d0 {
     content: none;
 }
 
-
 .fa-group::before, .fa-users::before {
     content: none;
 }
@@ -752,7 +746,6 @@ div#d0 {
 .fa-commenting-o::before {
     content: none;
 }
-
 
 .label.ae.fa.chats.label.fa-comment.label-warning::before {
     content: none;
@@ -951,9 +944,8 @@ label.fl.nosel.label.pnhead {
     margin-left: 10% !important;
 }
 
-
 .border {
-    border: 2px solid rgb(221 221 221 / 20%) !important;
+    border: 2px solid rgba(221, 221, 221, 0.2) !important;
 }
 
 label.label.tc.border.btn.label-info.fl {
@@ -988,7 +980,6 @@ button.border.btn.label.label-success.fl.fa.fa-plus {
     margin-top: 1px !important;
     padding: 0px !important;
 }
-
 
 textarea#tbox {
     background-color: rgba(0, 0, 0, 0.46);
@@ -1030,7 +1021,6 @@ a.label.label-primary.fl {
     color: rgb(213, 212, 212) !important;
     font-family: bein !important;
 }
-
 
 .modal-header.label-primary {
     border-bottom: 1px solid rgb(253, 253, 253);
@@ -1094,7 +1084,6 @@ div#d2bc > .uzr.fl.corner.borderg > img.fl.fitimg.hand.u-pic {
     margin-left: 0px !important;
 }
 
-
 .hand.nosel.fl.uzr.border.uidgmvp1DF5Is0NeKlvAAAS.inroom.ustop > span.usid.fr {
     content: "1000" !important;
 }
@@ -1118,11 +1107,11 @@ div#d2bc > .uzr.fl.corner.borderg > img.fl.fitimg.hand.u-pic {
 
 .hand.nosel.fl.uzr.border > div.fl {
     border-radius: 146%;
+    float: right;
+    line-height: 48px;
     text-align: center !important;
     width: 85% !important;
     justify-content: center !important;
-    float: right;
-    line-height: 48px;
 }
 
 .hand.nosel.fl.uzr.border > div.fl > div.fl {
@@ -1432,7 +1421,6 @@ div#tlogins ul.nav.nav-tabs a {
     font-size: 15px !important;
 }
 
-
 .broadcasters {
     position: absolute;
     top: 0px;
@@ -1518,8 +1506,8 @@ div#d0 > label > span {
 }
 
 .hand.nosel.fl.uzr.border > div.fl > div.fl > div {
-    overflow: unset !important;
     float: right;
+    overflow: unset !important;
 }
 
 .hand.nosel.fl.uzr.border > div.fl > div.fl > .fl.mini.u-msg {
@@ -1540,6 +1528,7 @@ img.fl.u-ico {
     margin-top: 4px;
     max-height: 17px;
 }
+
 .hand.corner.label-primary {
     background-color: rgb(255, 255, 255) !important;
     border: 1px solid rgb(227, 227, 227) !important;
@@ -1555,7 +1544,6 @@ img.fl.u-ico {
     margin-left: 4px !important;
     width: calc(100% - 60px) !important;
 }
-
 
 div#settings > .borderg.corner {
     margin-top: 139px !important;
@@ -1592,6 +1580,7 @@ img.fl.u-ico {
 div#settings > .borderg.corner {
     margin-top: 139px !important;
 }
+
 .modal {
     position: fixed;
     inset: auto auto 0px;
@@ -1711,18 +1700,16 @@ a.fl.fa.fa-warning.btn.ui-corner-all.ui-shadow.ui-btn.ui-btn-inline.ureport.bord
     width: 190px !important;
 }
 
-
 div#d2 > .fl.borderg.corner.uzr > .uzr.fl > .u-msg.break.fl {
-    background-color: rgb(0 0 0 / 40%);
-    border-radius: 10px 10px 10px 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 10px;
     text-align: center;
     line-height: 20px;
     float: right;
     color: rgb(229, 229, 229) !important;
     width: auto !important;
-    padding: 10px !important;
+    padding: 10px 4px 10px 10px !important;
     margin-top: 7px !important;
-    padding-right: 4px !important;
 }
 
 div#d2 > .fl.borderg.corner.uzr > .uzr.fl > .fl.dots > span.corner.nosel.u-topic.hand {
@@ -1730,7 +1717,6 @@ div#d2 > .fl.borderg.corner.uzr > .uzr.fl > .fl.dots > span.corner.nosel.u-topic
     color: white !important;
     background-color: rgba(255, 255, 255, 0) !important;
 }
-
 
 .cont.fr.filh > .tablebox.footer.light.fl {
     background-image: none;
@@ -1741,7 +1727,6 @@ span.number {
 }
 
 div#d2 > .fl.borderg.corner.uzr > .uzr.fl > .fl.dots {
-    float: inline-end!important;
     flex-direction: row-reverse;
     margin-left: 19px !important;
     padding-right: 4px !important;
