@@ -121,6 +121,7 @@ label.btn.btn-info.fr.border.fa.fa-expand {
     border: 1px solid rgba(255, 254, 254, 0) !important;
     margin-top: -2px !important;
     margin-left: -5px !important;
+    display: none;
 }
 
 
@@ -619,7 +620,7 @@ div#chats>div>.hand.nosel.fl.uzr.border>.fl>.fl.dots {
 .fl.filw>.fl>.fl>span.corner.nosel.u-topic.dots {
     margin-top: 22px !important;
     font-size: 110% !important;
-    margin-left: 77px !important;
+    margin-left: 73px !important;
 }
 .head.nosel.bg.fl {
     border: 1px solid rgba(114, 114, 114, 0.13) !important;
